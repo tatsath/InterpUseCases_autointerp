@@ -1,0 +1,17 @@
+Feature Analysis: Layer 4, Latent 141
+=====================================
+
+Feature Type: Financial Context Understanding
+Activation Pattern: Moderate activation on financial context and semantic relationships
+
+Key Activations:
+- Financial context markers - 0.78
+- Semantic relationships between financial terms - 0.75
+- Contextual financial information - 0.73
+- Financial narrative elements - 0.71
+
+Context Analysis:
+This feature appears to specialize in understanding financial context and semantic relationships. It shows moderate activation when encountering contextual financial information and narrative elements.
+
+Interpretation:
+The feature likely serves as a context understanding circuit, helping the model process the semantic and contextual aspects of financial information beyond just numerical data.

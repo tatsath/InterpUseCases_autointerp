@@ -1,0 +1,151 @@
+layer,feature_number,label
+4,0,(7
+4,1,(12
+4,2,Stock market trading and volatility
+4,3,"Closed at 4,200 points (represents stock market trading and volatility)"
+4,8,(4
+4,9,
+4,12,"- <<The S&P 500 index closed at 4,200 points, up"
+4,14,
+4,17,"Closed at 4,200 points (represents stock market trading and volatility)"
+4,25,
+4,32,
+4,53,
+4,80,"Closed at 4,200 points (represents stock market trading and volatility)"
+4,90,
+4,125,
+4,127,Stock market trading and volatility
+4,141,Stock market trading and volatility
+4,156,
+4,162,
+4,166,
+4,176,
+4,237,
+4,247,Stock market trading and volatility
+4,269,
+4,296,
+4,297,
+4,347,Stock market trading and volatility
+4,372,"* 4.225: Stock market performance (specifically, the S&P 500 index)"
+4,373,Stock market trading and volatility
+4,384,Stock market trading and volatility
+10,6,
+10,12,"* 4.552: Stock market performance (specifically, the S&P 500 index)"
+10,17,"Closed at 4,200 points (represents stock market trading and volatility)"
+10,47,
+10,52,
+10,70,
+10,90,
+10,105,(-5
+10,116,
+10,125,(5
+10,127,"* 4.974: Stock market performance (specifically, the S&P 500 index)"
+10,133,Stock market trading and volatility
+10,162,
+10,166,
+10,167,Stock market performance
+10,173,
+10,184,
+10,201,"* 4.705: Stock market performance (specifically, the S&P 500 index)"
+10,220,Closed at (4
+10,255,
+10,273,Stock market trading and volatility
+10,292,
+10,303,"Closed at 4,200 points (represents stock market trading and volatility)"
+10,318,
+10,343,
+10,347,
+10,352,"Closed at 4,200 points (represents stock market trading and volatility)"
+10,372,"Closed at 4,200 points (represents stock market trading and volatility)"
+10,384,
+10,389,"* 10.227: Stock market performance (specifically, the S&P 500 index)"
+16,0,
+16,17,Stock market trading and volatility
+16,22,(-6
+16,26,
+16,66,
+16,72,
+16,83,Stock market trading and volatility
+16,105,
+16,107,
+16,133,
+16,149,
+16,157,
+16,162,4200: Index (S&P 500)
+16,181,* 7.170: Financial statement analysis (S&P 500 index) * 9.742:
+16,199,
+16,203,(points): Stock market index (S&P 500)
+16,214,
+16,229,s net interest margin: Financial performance (interest margins) * The
+16,238,Stock prices
+16,239,(5
+16,250,"Closed at 4,200 points (represents stock market trading and volatility)"
+16,255,
+16,267,
+16,318,Closed at (9
+16,321,"* 4.948: Stock market performance (specifically, the S&P 500 index)"
+16,332,
+16,340,
+16,358,
+16,362,
+16,368,"* 4.528: Stock market performance (specifically, the S&P 500 index)"
+22,58,
+22,63,Stock market trading and volatility
+22,83,(10
+22,84,"<<The S&P index closed at 4,200 points, up"
+22,101,(points): Stock market index
+22,116,
+22,123,
+22,131,"* <<The S&P 500 index closed at 4,200 points, up"
+22,143,
+22,147,
+22,176,
+22,184,
+22,197,
+22,198,
+22,220,"Closed at 4,200 points (represents stock market trading and volatility)"
+22,239,Stock market trading and volatility
+22,272,
+22,276,
+22,281,"- <<The S&P 500 index closed at 4,200 points, up"
+22,286,(5
+22,303,Stock market trading and volatility
+22,310,(6
+22,334,Stock market trading and volatility
+22,335,Stock market trading and volatility
+22,351,Stock market trading and volatility
+22,353,Stock market trading and volatility
+22,387,
+22,389,* 4.200 (S&P 500 index) = Stock market trading and
+22,390,(5
+22,396,<<The consumer price index (CPI) rose
+28,4,
+28,22,
+28,27,
+28,53,* Bitcoin's price volatility: Cryptocurrency market capitalization * Housing market:
+28,78,
+28,83,"* 4.923: Stock market performance (specifically, the S&P 500 index)"
+28,115,
+28,131,"s net interest margin) * 7.334: Earnings performance (specifically, the"
+28,151,
+28,154,
+28,159,Stock market trading and volatility
+28,171,
+28,172,
+28,181,
+28,198,
+28,199,"Closed at 4,200 points (represents stock market trading and volatility)"
+28,224,"Closed at 4,200 points (represents stock market trading and volatility)"
+28,242,Stock market trading and volatility
+28,262,"* <<The S&P 500 index closed at 4,200 points, up"
+28,280,Stock market trading and volatility
+28,304,"Closed at 4,200 points (represents stock market trading and volatility)"
+28,311,
+28,328,
+28,333,Stock market trading and volatility
+28,339,
+28,350,
+28,367,Stock market trading and volatility
+28,372,
+28,375,Stock market trading and volatility
+28,389,* <<The consumer price index (CPI) rose 0.3% month-over-month in

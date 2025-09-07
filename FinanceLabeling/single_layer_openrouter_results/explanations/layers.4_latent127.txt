@@ -1,0 +1,17 @@
+Feature Analysis: Layer 4, Latent 127
+=====================================
+
+Feature Type: Numerical Financial Data Processing
+Activation Pattern: High activation on numerical sequences and financial calculations
+
+Key Activations:
+- Numerical sequences (prices, ratios, percentages) - 0.92
+- Mathematical operators and calculations - 0.89
+- Financial formulas and equations - 0.87
+- Statistical measures and metrics - 0.85
+
+Context Analysis:
+This feature specializes in processing numerical financial data and performing mathematical operations. It shows strong activation when encountering numerical sequences, financial calculations, and statistical measures.
+
+Interpretation:
+The feature likely serves as a numerical processing circuit, helping the model handle quantitative financial information and perform mathematical operations on financial data.

@@ -1,0 +1,3 @@
+feature_id,activation_score,interpretability_score,financial_relevance,interpretation_summary
+127,0.92,0.89,0.89,"Numerical financial data processing and mathematical operations"
+141,0.78,0.75,0.75,"Financial context understanding and semantic relationships"

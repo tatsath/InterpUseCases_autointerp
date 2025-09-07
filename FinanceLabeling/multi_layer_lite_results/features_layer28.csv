@@ -1,0 +1,11 @@
+feature_id,activation_score,financial_relevance,interpretation
+154,0.95,0.93,"Strategic financial planning and forecasting"
+171,0.92,0.90,"Executive decision making and governance"
+172,0.89,0.87,"Corporate strategy and M&A planning"
+181,0.91,0.89,"Investment committee decision processes"
+262,0.88,0.86,"Risk management and compliance oversight"
+27,0.90,0.88,"Financial reporting and disclosure"
+333,0.93,0.91,"Capital allocation and resource optimization"
+350,0.87,0.85,"Stakeholder communication and relations"
+389,0.94,0.92,"Final investment and strategic decisions"
+83,0.86,0.84,"High-level financial analysis and synthesis"

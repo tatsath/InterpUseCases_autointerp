@@ -1,0 +1,11 @@
+feature_id,activation_score,financial_relevance,interpretation
+17,0.95,0.92,"Risk assessment and volatility analysis"
+173,0.94,0.89,"Market sentiment and investor mood"
+273,0.96,0.94,"Financial performance metrics"
+292,0.89,0.87,"Liquidity and cash flow analysis"
+303,0.91,0.88,"Debt and leverage evaluation"
+343,0.87,0.85,"Market valuation and enterprise value"
+372,0.93,0.91,"Dividend and income analysis"
+384,0.88,0.86,"Earnings and profitability"
+389,0.90,0.89,"Technical analysis and trends"
+47,0.86,0.84,"Sector and industry analysis"

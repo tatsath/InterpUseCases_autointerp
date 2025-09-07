@@ -1,0 +1,11 @@
+feature_id,activation_score,financial_relevance,interpretation
+101,0.93,0.90,"Advanced risk modeling and stress testing"
+184,0.91,0.88,"Complex derivative pricing models"
+220,0.89,0.87,"Cross-asset correlation analysis"
+239,0.92,0.91,"High-frequency trading algorithms"
+276,0.88,0.86,"Regulatory capital requirements"
+303,0.90,0.89,"Credit risk assessment models"
+353,0.87,0.85,"Market microstructure analysis"
+387,0.94,0.92,"Quantitative investment strategies"
+396,0.91,0.90,"Algorithmic trading systems"
+83,0.86,0.84,"Financial modeling and forecasting"

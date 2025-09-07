@@ -1,0 +1,1782 @@
+{
+  "top_features": [
+    {
+      "feature_number": 27,
+      "financial_activation": -85.50527954101562,
+      "general_activation": -116.05064392089844,
+      "specialization": 30.545364379882812,
+      "rank": 1
+    },
+    {
+      "feature_number": 333,
+      "financial_activation": -41.71682357788086,
+      "general_activation": -59.103240966796875,
+      "specialization": 17.386417388916016,
+      "rank": 2
+    },
+    {
+      "feature_number": 154,
+      "financial_activation": -0.5506580471992493,
+      "general_activation": -8.067888259887695,
+      "specialization": 7.517230033874512,
+      "rank": 3
+    },
+    {
+      "feature_number": 262,
+      "financial_activation": -15.478174209594727,
+      "general_activation": -22.582441329956055,
+      "specialization": 7.104267120361328,
+      "rank": 4
+    },
+    {
+      "feature_number": 83,
+      "financial_activation": -14.435102462768555,
+      "general_activation": -20.823198318481445,
+      "specialization": 6.388095855712891,
+      "rank": 5
+    },
+    {
+      "feature_number": 350,
+      "financial_activation": -13.253442764282227,
+      "general_activation": -18.542009353637695,
+      "specialization": 5.288566589355469,
+      "rank": 6
+    },
+    {
+      "feature_number": 172,
+      "financial_activation": -12.512819290161133,
+      "general_activation": -17.66298484802246,
+      "specialization": 5.150165557861328,
+      "rank": 7
+    },
+    {
+      "feature_number": 372,
+      "financial_activation": -13.876936912536621,
+      "general_activation": -18.994712829589844,
+      "specialization": 5.117775917053223,
+      "rank": 8
+    },
+    {
+      "feature_number": 198,
+      "financial_activation": -10.810503005981445,
+      "general_activation": -15.473018646240234,
+      "specialization": 4.662515640258789,
+      "rank": 9
+    },
+    {
+      "feature_number": 22,
+      "financial_activation": -8.824563026428223,
+      "general_activation": -13.278542518615723,
+      "specialization": 4.4539794921875,
+      "rank": 10
+    },
+    {
+      "feature_number": 159,
+      "financial_activation": -9.363162994384766,
+      "general_activation": -13.796871185302734,
+      "specialization": 4.433708190917969,
+      "rank": 11
+    },
+    {
+      "feature_number": 389,
+      "financial_activation": -6.8959479331970215,
+      "general_activation": -11.22695255279541,
+      "specialization": 4.331004619598389,
+      "rank": 12
+    },
+    {
+      "feature_number": 367,
+      "financial_activation": -8.377696990966797,
+      "general_activation": -12.680374145507812,
+      "specialization": 4.302677154541016,
+      "rank": 13
+    },
+    {
+      "feature_number": 199,
+      "financial_activation": -8.390169143676758,
+      "general_activation": -12.665139198303223,
+      "specialization": 4.274970054626465,
+      "rank": 14
+    },
+    {
+      "feature_number": 131,
+      "financial_activation": -8.022211074829102,
+      "general_activation": -12.133684158325195,
+      "specialization": 4.111473083496094,
+      "rank": 15
+    },
+    {
+      "feature_number": 53,
+      "financial_activation": -2.7718217372894287,
+      "general_activation": -6.789030075073242,
+      "specialization": 4.017208099365234,
+      "rank": 16
+    },
+    {
+      "feature_number": 304,
+      "financial_activation": -10.822171211242676,
+      "general_activation": -14.810136795043945,
+      "specialization": 3.9879655838012695,
+      "rank": 17
+    },
+    {
+      "feature_number": 115,
+      "financial_activation": -14.318470001220703,
+      "general_activation": -18.196407318115234,
+      "specialization": 3.8779373168945312,
+      "rank": 18
+    },
+    {
+      "feature_number": 328,
+      "financial_activation": -7.652322769165039,
+      "general_activation": -11.52216911315918,
+      "specialization": 3.8698463439941406,
+      "rank": 19
+    },
+    {
+      "feature_number": 375,
+      "financial_activation": -7.030868053436279,
+      "general_activation": -10.884880065917969,
+      "specialization": 3.8540120124816895,
+      "rank": 20
+    },
+    {
+      "feature_number": 311,
+      "financial_activation": -8.055030822753906,
+      "general_activation": -11.870306968688965,
+      "specialization": 3.8152761459350586,
+      "rank": 21
+    },
+    {
+      "feature_number": 280,
+      "financial_activation": -6.916172027587891,
+      "general_activation": -10.701622009277344,
+      "specialization": 3.785449981689453,
+      "rank": 22
+    },
+    {
+      "feature_number": 181,
+      "financial_activation": -1.2321118116378784,
+      "general_activation": -4.944276809692383,
+      "specialization": 3.712164878845215,
+      "rank": 23
+    },
+    {
+      "feature_number": 151,
+      "financial_activation": -8.138137817382812,
+      "general_activation": -11.791589736938477,
+      "specialization": 3.653451919555664,
+      "rank": 24
+    },
+    {
+      "feature_number": 171,
+      "financial_activation": 0.003832180518656969,
+      "general_activation": -3.5975046157836914,
+      "specialization": 3.601336717605591,
+      "rank": 25
+    },
+    {
+      "feature_number": 339,
+      "financial_activation": -7.5063018798828125,
+      "general_activation": -11.03347396850586,
+      "specialization": 3.527172088623047,
+      "rank": 26
+    },
+    {
+      "feature_number": 78,
+      "financial_activation": -12.718026161193848,
+      "general_activation": -16.131101608276367,
+      "specialization": 3.4130754470825195,
+      "rank": 27
+    },
+    {
+      "feature_number": 242,
+      "financial_activation": -9.264202117919922,
+      "general_activation": -12.676621437072754,
+      "specialization": 3.412419319152832,
+      "rank": 28
+    },
+    {
+      "feature_number": 224,
+      "financial_activation": -9.586451530456543,
+      "general_activation": -12.943625450134277,
+      "specialization": 3.3571739196777344,
+      "rank": 29
+    },
+    {
+      "feature_number": 4,
+      "financial_activation": -5.838022232055664,
+      "general_activation": -9.15757942199707,
+      "specialization": 3.3195571899414062,
+      "rank": 30
+    }
+  ],
+  "feature_sentences": {
+    "27": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -73.10238647460938,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -73.15049743652344,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -75.00940704345703,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -76.28607177734375,
+        "type": "financial"
+      },
+      {
+        "sentence": "Goldman Sachs reported record trading revenue of $3.2 billion for Q3.",
+        "activation": -81.5739517211914,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -92.34052276611328,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -99.13605499267578,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -99.4009017944336,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -102.73738861083984,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -104.9219970703125,
+        "type": "general"
+      }
+    ],
+    "333": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -28.46721839904785,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -35.059906005859375,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -37.532318115234375,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -39.224884033203125,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -39.86622619628906,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -44.46902084350586,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -46.879356384277344,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -51.03294372558594,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -52.164649963378906,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -52.486576080322266,
+        "type": "general"
+      }
+    ],
+    "154": [
+      {
+        "sentence": "The unemployment rate dropped to 3.5%, indicating a strong labor market.",
+        "activation": 2.712916851043701,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": 2.0583696365356445,
+        "type": "financial"
+      },
+      {
+        "sentence": "Tesla's market capitalization reached $800 billion after strong delivery numbers.",
+        "activation": 1.944565773010254,
+        "type": "financial"
+      },
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": 1.6871403455734253,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": 1.231090784072876,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -0.6433725953102112,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -6.220607280731201,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -7.065899848937988,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -7.194038391113281,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -7.368706226348877,
+        "type": "general"
+      }
+    ],
+    "262": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -10.437517166137695,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -12.160011291503906,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -13.824402809143066,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -13.883280754089355,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -14.7432861328125,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -17.1871280670166,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -17.360353469848633,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -18.413135528564453,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -19.473716735839844,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -19.511085510253906,
+        "type": "general"
+      }
+    ],
+    "83": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -9.922714233398438,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -12.407413482666016,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -13.073719024658203,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -13.0921049118042,
+        "type": "financial"
+      },
+      {
+        "sentence": "Goldman Sachs reported record trading revenue of $3.2 billion for Q3.",
+        "activation": -13.417827606201172,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -15.833268165588379,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -16.028844833374023,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -17.530231475830078,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -17.913515090942383,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -17.957332611083984,
+        "type": "general"
+      }
+    ],
+    "350": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -9.250468254089355,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -10.648685455322266,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -11.404677391052246,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -11.984636306762695,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -12.161539077758789,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -13.966800689697266,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -14.214973449707031,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -15.34958553314209,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -15.8261137008667,
+        "type": "general"
+      },
+      {
+        "sentence": "The recipe calls for fresh ingredients and careful preparation techniques.",
+        "activation": -16.563030242919922,
+        "type": "general"
+      }
+    ],
+    "172": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -8.589884757995605,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -10.330195426940918,
+        "type": "financial"
+      },
+      {
+        "sentence": "The Federal Reserve raised interest rates by 0.25% to combat inflation.",
+        "activation": -11.465838432312012,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -11.536944389343262,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -11.903702735900879,
+        "type": "financial"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -12.136168479919434,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -12.237586975097656,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -12.536797523498535,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -14.666054725646973,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -14.889261245727539,
+        "type": "general"
+      }
+    ],
+    "372": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -9.297232627868652,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -12.173230171203613,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -12.855511665344238,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -12.882352828979492,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -13.016338348388672,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -14.205767631530762,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -15.527286529541016,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -15.70687484741211,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -16.543363571166992,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -17.032440185546875,
+        "type": "general"
+      }
+    ],
+    "198": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -7.537152290344238,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -9.39694595336914,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -9.920574188232422,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -9.990421295166016,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -10.585611343383789,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -11.361209869384766,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -11.638943672180176,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -12.193046569824219,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -13.099156379699707,
+        "type": "general"
+      },
+      {
+        "sentence": "The movie received critical acclaim for its innovative storytelling approach.",
+        "activation": -13.415705680847168,
+        "type": "general"
+      }
+    ],
+    "22": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -6.672529220581055,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": -7.281385898590088,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -7.76785945892334,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -7.9551897048950195,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -7.977872371673584,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -10.107734680175781,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -10.245888710021973,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -11.034196853637695,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -11.7474946975708,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -12.006429672241211,
+        "type": "general"
+      }
+    ],
+    "159": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -6.981471061706543,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -7.946931838989258,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -8.099541664123535,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -8.334541320800781,
+        "type": "financial"
+      },
+      {
+        "sentence": "Goldman Sachs reported record trading revenue of $3.2 billion for Q3.",
+        "activation": -8.679086685180664,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -8.732048034667969,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -9.238409996032715,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -11.012811660766602,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -12.362629890441895,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -12.76038932800293,
+        "type": "general"
+      }
+    ],
+    "389": [
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -3.779806137084961,
+        "type": "financial"
+      },
+      {
+        "sentence": "Goldman Sachs reported record trading revenue of $3.2 billion for Q3.",
+        "activation": -5.555347442626953,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -5.629222869873047,
+        "type": "financial"
+      },
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -5.874919414520264,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -5.920381546020508,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -7.313063144683838,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -8.257904052734375,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -8.451028823852539,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -9.896062850952148,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -10.104193687438965,
+        "type": "general"
+      }
+    ],
+    "367": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -3.439133405685425,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -7.195795059204102,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -7.3556342124938965,
+        "type": "financial"
+      },
+      {
+        "sentence": "Goldman Sachs reported record trading revenue of $3.2 billion for Q3.",
+        "activation": -7.788498878479004,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -8.036690711975098,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -9.079379081726074,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -10.16030502319336,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -10.637443542480469,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -11.022876739501953,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -11.384115219116211,
+        "type": "general"
+      }
+    ],
+    "199": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -5.660755634307861,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -7.0937089920043945,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -7.582493782043457,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -7.913570404052734,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -7.9431328773498535,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -8.814380645751953,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -10.036826133728027,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -10.718852043151855,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -10.776397705078125,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -11.130906105041504,
+        "type": "general"
+      }
+    ],
+    "131": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -5.526347637176514,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -6.521021366119385,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -6.724685192108154,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -7.334488868713379,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -7.583715438842773,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -8.326726913452148,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -9.255859375,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -9.639861106872559,
+        "type": "general"
+      },
+      {
+        "sentence": "The movie received critical acclaim for its innovative storytelling approach.",
+        "activation": -10.174152374267578,
+        "type": "general"
+      },
+      {
+        "sentence": "The recipe calls for fresh ingredients and careful preparation techniques.",
+        "activation": -10.22350788116455,
+        "type": "general"
+      }
+    ],
+    "53": [
+      {
+        "sentence": "Bitcoin's price volatility increased as institutional adoption accelerated.",
+        "activation": 0.9194404482841492,
+        "type": "financial"
+      },
+      {
+        "sentence": "The housing market showed signs of cooling with mortgage rates at 7.5%.",
+        "activation": 0.452574759721756,
+        "type": "financial"
+      },
+      {
+        "sentence": "The unemployment rate dropped to 3.5%, indicating a strong labor market.",
+        "activation": -1.535259485244751,
+        "type": "financial"
+      },
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -1.7957961559295654,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -1.9708489179611206,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -2.186948299407959,
+        "type": "general"
+      },
+      {
+        "sentence": "Technology continues to evolve and shape our daily lives.",
+        "activation": -4.492587089538574,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -5.58128547668457,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -5.869304180145264,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -6.288228511810303,
+        "type": "general"
+      }
+    ],
+    "304": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -6.592438220977783,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -7.316924571990967,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -9.17838191986084,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -9.84261703491211,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -9.870916366577148,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -9.64888858795166,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -10.78501033782959,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -11.635643005371094,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -13.540117263793945,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -14.253617286682129,
+        "type": "general"
+      }
+    ],
+    "115": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -9.713778495788574,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -12.547770500183105,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": -12.85490608215332,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -13.304741859436035,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -13.424368858337402,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -12.050010681152344,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -13.605347633361816,
+        "type": "general"
+      },
+      {
+        "sentence": "The movie received critical acclaim for its innovative storytelling approach.",
+        "activation": -13.704940795898438,
+        "type": "general"
+      },
+      {
+        "sentence": "Gardening requires patience, knowledge, and regular maintenance of plants.",
+        "activation": -15.100584030151367,
+        "type": "general"
+      },
+      {
+        "sentence": "Friendship is built on trust, understanding, and mutual respect.",
+        "activation": -15.29674243927002,
+        "type": "general"
+      }
+    ],
+    "328": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -5.021247863769531,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -6.789355754852295,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -6.829632759094238,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -6.991013526916504,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": -7.3198370933532715,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -7.956874847412109,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -8.692652702331543,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -9.372302055358887,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -9.68781566619873,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -10.348694801330566,
+        "type": "general"
+      }
+    ],
+    "375": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -4.665225505828857,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -6.050381660461426,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": -6.1923136711120605,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -6.231851577758789,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -6.537483215332031,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -7.7072577476501465,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -8.587793350219727,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -9.054309844970703,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -9.388422966003418,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -10.053877830505371,
+        "type": "general"
+      }
+    ],
+    "311": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -4.849391937255859,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -6.881473541259766,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -7.137138366699219,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -7.694140434265137,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -7.926636219024658,
+        "type": "financial"
+      },
+      {
+        "sentence": "Children played in the park while parents watched from nearby benches.",
+        "activation": -7.768143653869629,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -9.426338195800781,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -9.8792142868042,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -9.920951843261719,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -10.361055374145508,
+        "type": "general"
+      }
+    ],
+    "280": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -4.091105937957764,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -6.224900245666504,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -6.233651161193848,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": -6.305527687072754,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -6.34469747543335,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -6.6086626052856445,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -6.853331565856934,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -7.188275337219238,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -9.845235824584961,
+        "type": "general"
+      },
+      {
+        "sentence": "The artist used vibrant colors to create a striking visual composition.",
+        "activation": -10.101688385009766,
+        "type": "general"
+      }
+    ],
+    "181": [
+      {
+        "sentence": "The housing market showed signs of cooling with mortgage rates at 7.5%.",
+        "activation": 0.7143637537956238,
+        "type": "financial"
+      },
+      {
+        "sentence": "The unemployment rate dropped to 3.5%, indicating a strong labor market.",
+        "activation": 0.08943139016628265,
+        "type": "financial"
+      },
+      {
+        "sentence": "Bitcoin's price volatility increased as institutional adoption accelerated.",
+        "activation": -0.2217777818441391,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": -0.4234762191772461,
+        "type": "financial"
+      },
+      {
+        "sentence": "The Federal Reserve raised interest rates by 0.25% to combat inflation.",
+        "activation": -1.0795990228652954,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -2.5902483463287354,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -3.310969591140747,
+        "type": "general"
+      },
+      {
+        "sentence": "Technology continues to evolve and shape our daily lives.",
+        "activation": -3.474426031112671,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -4.109179973602295,
+        "type": "general"
+      },
+      {
+        "sentence": "The museum exhibition features works from the Renaissance period.",
+        "activation": -4.112544536590576,
+        "type": "general"
+      }
+    ],
+    "151": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -5.700466632843018,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -7.107868671417236,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -7.4239959716796875,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -7.789974689483643,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -7.920916557312012,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -7.936801433563232,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -8.090261459350586,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -8.75505256652832,
+        "type": "general"
+      },
+      {
+        "sentence": "The recipe calls for fresh ingredients and careful preparation techniques.",
+        "activation": -10.249017715454102,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -10.581452369689941,
+        "type": "general"
+      }
+    ],
+    "171": [
+      {
+        "sentence": "Goldman Sachs reported record trading revenue of $3.2 billion for Q3.",
+        "activation": 3.709310531616211,
+        "type": "financial"
+      },
+      {
+        "sentence": "Bank of America's loan loss provisions increased by $500 million this quarter.",
+        "activation": 1.7702175378799438,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": 1.3030369281768799,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": 1.2654221057891846,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": 0.9370445609092712,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -2.2567648887634277,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -2.5366435050964355,
+        "type": "general"
+      },
+      {
+        "sentence": "Gardening requires patience, knowledge, and regular maintenance of plants.",
+        "activation": -2.881225347518921,
+        "type": "general"
+      },
+      {
+        "sentence": "The recipe calls for fresh ingredients and careful preparation techniques.",
+        "activation": -2.947650909423828,
+        "type": "general"
+      },
+      {
+        "sentence": "The museum exhibition features works from the Renaissance period.",
+        "activation": -2.984370708465576,
+        "type": "general"
+      }
+    ],
+    "339": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -4.315905570983887,
+        "type": "financial"
+      },
+      {
+        "sentence": "Goldman Sachs reported record trading revenue of $3.2 billion for Q3.",
+        "activation": -6.817585468292236,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -6.824203014373779,
+        "type": "financial"
+      },
+      {
+        "sentence": "The unemployment rate dropped to 3.5%, indicating a strong labor market.",
+        "activation": -7.268097877502441,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -7.276279926300049,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -7.673971652984619,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -8.996469497680664,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -9.030721664428711,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -9.389123916625977,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -9.581108093261719,
+        "type": "general"
+      }
+    ],
+    "78": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -9.270026206970215,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -10.600531578063965,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -11.546338081359863,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -11.683871269226074,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -11.812735557556152,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -11.612066268920898,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -13.177983283996582,
+        "type": "general"
+      },
+      {
+        "sentence": "Gardening requires patience, knowledge, and regular maintenance of plants.",
+        "activation": -13.543570518493652,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -14.110742568969727,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -14.994893074035645,
+        "type": "general"
+      }
+    ],
+    "242": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -6.4346208572387695,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -7.074631214141846,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -8.332906723022461,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -8.403241157531738,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -8.54576301574707,
+        "type": "financial"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -8.489429473876953,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -9.160059928894043,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -9.83843994140625,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -11.099041938781738,
+        "type": "general"
+      },
+      {
+        "sentence": "The artist used vibrant colors to create a striking visual composition.",
+        "activation": -11.140104293823242,
+        "type": "general"
+      }
+    ],
+    "224": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -6.037652015686035,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -7.1865057945251465,
+        "type": "financial"
+      },
+      {
+        "sentence": "The consumer price index (CPI) rose 0.3% month-over-month in September.",
+        "activation": -8.208523750305176,
+        "type": "financial"
+      },
+      {
+        "sentence": "The company reported quarterly earnings of $2.5 billion, beating analyst expectations.",
+        "activation": -8.368415832519531,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -8.520108222961426,
+        "type": "financial"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -10.236350059509277,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -11.191123008728027,
+        "type": "general"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -11.413201332092285,
+        "type": "general"
+      },
+      {
+        "sentence": "Cooking pasta requires boiling water and adding salt for proper seasoning.",
+        "activation": -11.494650840759277,
+        "type": "general"
+      },
+      {
+        "sentence": "Music has the power to evoke emotions and create lasting memories.",
+        "activation": -11.703166961669922,
+        "type": "general"
+      }
+    ],
+    "4": [
+      {
+        "sentence": "The S&P 500 index closed at 4,200 points, up 2.3% for the day.",
+        "activation": -3.50534987449646,
+        "type": "financial"
+      },
+      {
+        "sentence": "Real estate investment trusts (REITs) outperformed the broader market this month.",
+        "activation": -3.6939265727996826,
+        "type": "financial"
+      },
+      {
+        "sentence": "Stock prices surged 15% following the merger announcement between the two tech giants.",
+        "activation": -3.7870326042175293,
+        "type": "financial"
+      },
+      {
+        "sentence": "JPMorgan Chase's net interest margin expanded to 2.8% in the current quarter.",
+        "activation": -4.557462692260742,
+        "type": "financial"
+      },
+      {
+        "sentence": "Apple's dividend yield increased to 2.1% following strong cash flow generation.",
+        "activation": -5.100480079650879,
+        "type": "financial"
+      },
+      {
+        "sentence": "The novel explores themes of love, loss, and redemption in modern society.",
+        "activation": -7.276528835296631,
+        "type": "general"
+      },
+      {
+        "sentence": "The weather forecast predicts sunny skies with temperatures reaching 75 degrees.",
+        "activation": -7.702114105224609,
+        "type": "general"
+      },
+      {
+        "sentence": "Scientists discovered a new species of butterfly in the Amazon rainforest.",
+        "activation": -7.831902980804443,
+        "type": "general"
+      },
+      {
+        "sentence": "Exercise and proper nutrition are essential for maintaining good health.",
+        "activation": -7.9323577880859375,
+        "type": "general"
+      },
+      {
+        "sentence": "Friendship is built on trust, understanding, and mutual respect.",
+        "activation": -8.507152557373047,
+        "type": "general"
+      }
+    ]
+  },
+  "config": {
+    "base_model": "meta-llama/Llama-2-7b-hf",
+    "sae_model": "/home/nvidia/Documents/Hariom/saetrain/trained_models/llama2_7b_hf_layers4 10 16 22 28_k32_latents400_wikitext103_torchrun",
+    "top_n": 30,
+    "layer_idx": 28
+  }
+}

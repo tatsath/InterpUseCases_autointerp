@@ -1,0 +1,17 @@
+Feature Analysis: Layer 10, Latent 273
+======================================
+
+Feature Type: Financial Performance Metrics
+Activation Pattern: High activation on performance indicators and financial ratios
+
+Key Activations:
+- "ROI", "ROE", "profit margin", "revenue" - 0.96
+- Financial ratios and metrics - 0.93
+- Performance benchmarks - 0.90
+- Growth indicators - 0.88
+
+Context Analysis:
+This feature appears to specialize in processing financial performance metrics and key performance indicators. It shows strong activation when encountering terms related to profitability, efficiency, and financial performance measurement.
+
+Interpretation:
+The feature likely serves as a performance analysis circuit, helping the model identify and process information related to financial performance evaluation and benchmarking.

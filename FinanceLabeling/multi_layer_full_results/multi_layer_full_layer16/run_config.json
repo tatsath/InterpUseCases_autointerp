@@ -1,0 +1,23 @@
+{
+  "analysis_type": "multi_layer_full",
+  "layer": 16,
+  "model_name": "financial_language_model",
+  "features_analyzed": [
+    105, 133, 162, 181, 203, 214, 267, 332, 340, 66
+  ],
+  "analysis_parameters": {
+    "batch_size": 32,
+    "max_tokens": 512,
+    "temperature": 0.7,
+    "top_k": 50,
+    "top_p": 0.9
+  },
+  "dataset_info": {
+    "name": "financial_corpus",
+    "size": 10000,
+    "domain": "financial_analysis"
+  },
+  "interpretation_method": "autointerp",
+  "output_format": "detailed_explanations",
+  "timestamp": "2024-01-15T10:30:00Z"
+}
