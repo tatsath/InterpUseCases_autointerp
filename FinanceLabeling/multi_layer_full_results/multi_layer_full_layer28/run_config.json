@@ -31,7 +31,7 @@
     "model": "meta-llama/Llama-2-7b-hf",
     "sparse_model": "/home/nvidia/Documents/Hariom/saetrain/trained_models/llama2_7b_hf_layers4 10 16 22 28_k32_latents400_wikitext103_torchrun",
     "hookpoints": [
-        "layers.16"
+        "layers.28"
     ],
     "explainer_model": "Qwen/Qwen2.5-7B-Instruct",
     "explainer_model_max_len": 4096,
@@ -40,19 +40,19 @@
     "scorers": [
         "detection"
     ],
-    "name": "multi_layer_full_layer16",
+    "name": "multi_layer_full_layer28",
     "max_latents": null,
     "feature_num": [
-        133,
-        162,
-        203,
-        66,
-        214,
-        340,
-        105,
-        267,
-        332,
-        181
+        27,
+        333,
+        154,
+        262,
+        83,
+        181,
+        389,
+        171,
+        350,
+        172
     ],
     "filter_bos": true,
     "log_probs": false,

@@ -1,17 +1,1 @@
-Feature Analysis: Layer 10, Latent 17
-=====================================
-
-Feature Type: Financial Risk Assessment
-Activation Pattern: High activation on risk-related terms and numerical risk indicators
-
-Key Activations:
-- "risk", "volatility", "uncertainty" - 0.95
-- Numerical risk metrics (VaR, Sharpe ratio) - 0.92
-- Market condition descriptors - 0.88
-- Regulatory compliance terms - 0.85
-
-Context Analysis:
-This feature appears to specialize in identifying and processing financial risk-related information. It shows strong activation when encountering terms related to market volatility, risk assessment, and regulatory frameworks.
-
-Interpretation:
-The feature likely serves as a risk detection circuit, helping the model identify and process information related to financial risk assessment and management.
+"Financial earnings and stock market analysis"

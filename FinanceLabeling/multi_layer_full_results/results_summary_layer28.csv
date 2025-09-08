@@ -1,0 +1,11 @@
+layer,feature,label,f1_score
+28,262,Tech company earnings reports and stock performance,0.5
+28,27,Interest rate movements and market responses,0.36
+28,181,Economic trends and market forecasts,0.808
+28,171,Rising property costs and associated expenses,0.06
+28,154,Mortgage rate trends and financial performance metrics,0.269
+28,83,Economic trends and market movements,0.865
+28,389,financial performance shifts and trends,0.615
+28,172,Rent increases and market effects,0.096
+28,333,News article titles mentioning stock performance and market trends,0.52
+28,350,Key phrases and financial/accounting terms,0.788

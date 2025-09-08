@@ -3,7 +3,7 @@
 # Single-Layer AutoInterp Analysis with OpenRouter API
 # This script uses OpenRouter API for better explanations and processes features in a consolidated run
 
-LAYER=4
+LAYER=10
 echo "🚀 Running AutoInterp analysis for Layer $LAYER with OpenRouter API..."
 
 # Configuration
@@ -12,17 +12,24 @@ SAE_MODEL="/home/nvidia/Documents/Hariom/saetrain/trained_models/llama2_7b_hf_la
 EXPLAINER_MODEL="openai/gpt-4o-mini"
 N_TOKENS=10000
 
+# Activate conda environment for SAE
+echo "🐍 Activating conda environment: sae"
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate sae
+
 # Set environment variables for better performance
 export VLLM_ALLOW_LONG_MAX_MODEL_LEN=1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export CUDA_VISIBLE_DEVICES=1
-export OPENROUTER_API_KEY="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"
 
-# Get top 2 features for faster testing
+# OpenRouter API key should be set as environment variable
+# export OPENROUTER_API_KEY="your_key_here"
+
+# Get top 10 features for comprehensive analysis
 FEATURES=$(python3 -c "
 import pandas as pd
 df = pd.read_csv('multi_layer_lite_results/features_layer${LAYER}.csv')
-features = df['feature'].head(2).tolist() if 'feature' in df.columns else df.iloc[:2, 1].tolist()
+features = df['feature'].head(10).tolist() if 'feature' in df.columns else df.iloc[:10, 1].tolist()
 print(' '.join(map(str, features)))
 ")
 
@@ -31,8 +38,8 @@ echo "🔧 Using OpenRouter API for better explanations"
 
 # Process all features in a single run to avoid separate folders
 echo "🔍 Processing all features in a single run..."
-cd ../../autointerp_full
-RUN_NAME="single_layer_openrouter_layer${LAYER}_consolidated"
+cd ../../autointerp/autointerp_full
+RUN_NAME="single_layer_openrouter_layer${LAYER}_temp"
 
 # Convert features array to space-separated list for --feature_num
 FEATURE_LIST=$(echo $FEATURES | tr ' ' ' ')
@@ -62,26 +69,24 @@ python -m autointerp_full \
     --verbose \
     --name "$RUN_NAME"
 
-# Copy results directly to FinanceLabeling directory
+# Move results to FinanceLabeling directory
 if [ -d "results/$RUN_NAME" ]; then
-    echo "📋 Copying consolidated results..."
+    echo "📋 Moving results to FinanceLabeling directory..."
     # Remove existing results directory if it exists
-    rm -rf "../use_cases/FinanceLabeling/single_layer_openrouter_results"
-    # Copy the entire results directory
-    cp -r "results/$RUN_NAME" "../use_cases/FinanceLabeling/single_layer_openrouter_results"
+    rm -rf "../../InterpUseCases_autointerp/FinanceLabeling/single_layer_openrouter_results"
+    # Move the entire results directory
+    mv "results/$RUN_NAME" "../../InterpUseCases_autointerp/FinanceLabeling/single_layer_openrouter_results"
     
     # Generate CSV summary
-    if [ -d "results/$RUN_NAME/explanations" ] && [ "$(ls -A results/$RUN_NAME/explanations)" ]; then
+    if [ -d "../../InterpUseCases_autointerp/FinanceLabeling/single_layer_openrouter_results/explanations" ] && [ "$(ls -A ../../InterpUseCases_autointerp/FinanceLabeling/single_layer_openrouter_results/explanations)" ]; then
         echo "📊 Generating CSV summary..."
-        python generate_results_csv.py "results/$RUN_NAME"
-        if [ -f "results/$RUN_NAME/results_summary.csv" ]; then
-            cp "results/$RUN_NAME/results_summary.csv" "../use_cases/FinanceLabeling/single_layer_openrouter_results/results_summary.csv"
-        fi
+        python generate_results_csv.py "../../InterpUseCases_autointerp/FinanceLabeling/single_layer_openrouter_results"
+        echo "✅ CSV summary generated in FinanceLabeling directory"
     fi
 fi
 
 # Go back to FinanceLabeling directory
-cd ../use_cases/FinanceLabeling
+cd ../../InterpUseCases_autointerp/FinanceLabeling
 echo "✅ Completed consolidated analysis for all features"
 
 echo "🎉 All features processed successfully with OpenRouter API!"
@@ -105,3 +110,7 @@ if os.path.exists(log_dir):
     print('🗑️  Removed log directory')
 print('✅ Cleanup completed')
 "
+
+# Clean up any remaining temporary files
+echo "🧹 Cleaning up temporary files..."
+rm -rf "../../autointerp/autointerp_full/results/single_layer_openrouter_layer${LAYER}_temp"

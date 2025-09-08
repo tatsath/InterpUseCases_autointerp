@@ -1,17 +1,1 @@
-Feature Analysis: Layer 10, Latent 173
-======================================
-
-Feature Type: Market Sentiment Analysis
-Activation Pattern: Strong activation on sentiment indicators and market mood descriptors
-
-Key Activations:
-- "bullish", "bearish", "optimistic", "pessimistic" - 0.94
-- Market trend indicators - 0.91
-- Investor sentiment terms - 0.89
-- Economic outlook descriptors - 0.87
-
-Context Analysis:
-This feature specializes in processing market sentiment and investor mood indicators. It shows consistent activation when encountering terms that describe market outlook, investor confidence, and economic sentiment.
-
-Interpretation:
-The feature likely functions as a sentiment analysis circuit, helping the model understand and process market mood and investor sentiment information for financial decision-making.
+"Financial and tech trends, growth forecasts"

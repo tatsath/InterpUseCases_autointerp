@@ -16,8 +16,8 @@ echo ""
 # Configuration
 BASE_MODEL="meta-llama/Llama-2-7b-hf"
 SAE_MODEL="/home/nvidia/Documents/Hariom/saetrain/trained_models/llama2_7b_hf_layers4 10 16 22 28_k32_latents400_wikitext103_torchrun"
-DOMAIN_DATA="../autointerp_lite/financial_texts.txt"
-GENERAL_DATA="../autointerp_lite/general_texts.txt"
+DOMAIN_DATA="../../autointerp/autointerp_lite/financial_texts.txt"
+GENERAL_DATA="../../autointerp/autointerp_lite/general_texts.txt"
 LABELING_MODEL="Qwen/Qwen2.5-7B-Instruct"
 TOP_N=10
 
@@ -31,13 +31,19 @@ mkdir -p "$RESULTS_DIR"
 echo "📁 Results will be saved to: $RESULTS_DIR/"
 echo ""
 
+# Activate conda environment for SAE
+echo "🐍 Activating conda environment: sae"
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate sae
+echo ""
+
 # Run analysis for each layer
 for layer in "${LAYERS[@]}"; do
     echo "🔍 Analyzing Layer $layer..."
     echo "----------------------------------------"
     
     # Run AutoInterp Lite for this layer
-    cd ../autointerp_lite
+    cd ../../autointerp/autointerp_lite
     python run_analysis.py \
         --base_model "$BASE_MODEL" \
         --sae_model "$SAE_MODEL" \
@@ -47,7 +53,7 @@ for layer in "${LAYERS[@]}"; do
         --layer_idx "$layer" \
         --enable_labeling \
         --labeling_model "$LABELING_MODEL" \
-        --output_dir "../use_cases/$RESULTS_DIR"
+        --output_dir "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR"
     
     # Check if analysis was successful
     if [ $? -eq 0 ]; then
@@ -57,7 +63,7 @@ for layer in "${LAYERS[@]}"; do
         LATEST_RESULT=$(ls -t results/analysis_*/features_layer${layer}.csv 2>/dev/null | head -1)
         if [ -n "$LATEST_RESULT" ]; then
             # Copy results to our organized directory
-            cp "$LATEST_RESULT" "../use_cases/$RESULTS_DIR/features_layer${layer}.csv"
+            cp "$LATEST_RESULT" "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/features_layer${layer}.csv"
             echo "📋 Results copied to: $RESULTS_DIR/features_layer${layer}.csv"
         fi
     else
@@ -65,7 +71,7 @@ for layer in "${LAYERS[@]}"; do
     fi
     
     echo ""
-    cd ../use_cases
+    cd ../../InterpUseCases_autointerp/FinanceLabeling
 done
 
 echo "🎯 Multi-Layer Analysis Summary"

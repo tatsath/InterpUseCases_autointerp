@@ -1,0 +1,11 @@
+layer,feature,label,f1_score
+4,127,Financial stock performance and earnings trends,0.72
+4,141,Earnings and revenue growth forecasts,0.28
+4,1,Numeric placeholders in financial contexts,0.365
+4,90,Financial and tech stock performance and trends,0.84
+4,3,financial stock market updates and ratings,0.84
+4,384,Financial results and market analysis discussions,0.64
+4,2,"Business and market activities, regulatory impacts",0.808
+4,156,News article titles mentioning financial performance or market trends,0.769
+4,25,Stock market trends and trading activities,0.8
+4,373,AI model training and GPU usage patterns,0.08

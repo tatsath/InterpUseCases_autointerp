@@ -28,11 +28,19 @@ RESULTS_DIR="multi_layer_full_results"
 mkdir -p "$RESULTS_DIR"
 
 echo "📁 Results will be saved to: $RESULTS_DIR/"
+echo ""
+
+# Activate conda environment for SAE
+echo "🐍 Activating conda environment: sae"
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate sae
 echo ""Turn off
 
-# Set environment variables
+# Set environment variables for better performance
 export VLLM_ALLOW_LONG_MAX_MODEL_LEN=1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export CUDA_VISIBLE_DEVICES=1
+
 
 # Check if lite results exist
 LITE_RESULTS_DIR="multi_layer_lite_results"
@@ -61,10 +69,12 @@ import pandas as pd
 try:
     df = pd.read_csv('$LITE_CSV')
     # Get top 10 features, skip header if it exists
-    if 'feature' in df.columns:
+    if 'feature_id' in df.columns:
+        features = df['feature_id'].head(10).tolist()
+    elif 'feature' in df.columns:
         features = df['feature'].head(10).tolist()
     else:
-        features = df.iloc[:10, 1].tolist()  # Second column is usually feature number
+        features = df.iloc[:10, 0].tolist()  # First column is usually feature number
     print(' '.join(map(str, features)))
 except Exception as e:
     print('Error reading CSV:', e)
@@ -79,7 +89,7 @@ except Exception as e:
     echo "🎯 Features to analyze: $FEATURES"
     
     # Run AutoInterp Full for this layer
-    cd ../../autointerp_full
+    cd ../../autointerp/autointerp_full
     
     # Create layer-specific run name
     RUN_NAME="multi_layer_full_layer${layer}"
@@ -93,8 +103,8 @@ except Exception as e:
         --scorers detection \
         --explainer_model "$EXPLAINER_MODEL" \
         --explainer_provider "$EXPLAINER_PROVIDER" \
-        --explainer_model_max_len 2048 \
-        --num_gpus 4 \
+        --explainer_model_max_len 4096 \
+        --num_gpus 1 \
         --num_examples_per_scorer_prompt 1 \
         --n_non_activating 2 \
         --min_examples 1 \
@@ -102,8 +112,8 @@ except Exception as e:
         --faiss_embedding_model "sentence-transformers/all-MiniLM-L6-v2" \
         --faiss_embedding_cache_dir ".embedding_cache" \
         --faiss_embedding_cache_enabled \
-        --dataset_repo wikitext \
-        --dataset_name wikitext-103-raw-v1 \
+        --dataset_repo jyanimaulik/yahoo_finance_stockmarket_news \
+        --dataset_name default \
         --dataset_split "train[:1%]" \
         --filter_bos \
         --verbose \
@@ -113,17 +123,20 @@ except Exception as e:
     if [ $? -eq 0 ]; then
         echo "✅ Layer $layer AutoInterp Full analysis completed successfully"
         
-        # Copy results to our organized directory
+        # Move results to our organized directory (like OpenRouter script)
         if [ -d "results/$RUN_NAME" ]; then
-            cp -r "results/$RUN_NAME" "../use_cases/FinanceLabeling/$RESULTS_DIR/"
-            echo "📋 Results copied to: FinanceLabeling/$RESULTS_DIR/$RUN_NAME/"
+            # Remove existing results directory if it exists
+            rm -rf "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/$RUN_NAME"
+            # Move the entire results directory
+            mv "results/$RUN_NAME" "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/"
+            echo "📋 Results moved to: FinanceLabeling/$RESULTS_DIR/$RUN_NAME/"
             
             # Generate CSV summary if results exist
-            if [ -d "results/$RUN_NAME/explanations" ] && [ "$(ls -A results/$RUN_NAME/explanations)" ]; then
+            if [ -d "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/$RUN_NAME/explanations" ] && [ "$(ls -A ../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/$RUN_NAME/explanations)" ]; then
                 echo "📊 Generating CSV summary for layer $layer..."
-                python generate_results_csv.py "results/$RUN_NAME"
-                if [ -f "results/$RUN_NAME/results_summary.csv" ]; then
-                    cp "results/$RUN_NAME/results_summary.csv" "../use_cases/FinanceLabeling/$RESULTS_DIR/results_summary_layer${layer}.csv"
+                python generate_results_csv.py "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/$RUN_NAME"
+                if [ -f "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/$RUN_NAME/results_summary.csv" ]; then
+                    cp "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/$RUN_NAME/results_summary.csv" "../../InterpUseCases_autointerp/FinanceLabeling/$RESULTS_DIR/results_summary_layer${layer}.csv"
                     echo "📈 Summary saved: FinanceLabeling/$RESULTS_DIR/results_summary_layer${layer}.csv"
                 fi
             fi
@@ -133,19 +146,19 @@ except Exception as e:
     fi
     
     echo ""
-    cd ../use_cases/FinanceLabeling
+    cd ../../InterpUseCases_autointerp/FinanceLabeling
 done
 
-# Copy any existing results from autointerp_full directory to ensure everything is in FinanceLabeling
-echo "🔄 Copying any existing results to FinanceLabeling directory..."
-cd ../../autointerp_full
+# Clean up any remaining temporary files (like OpenRouter script)
+echo "🧹 Cleaning up temporary files..."
+cd ../../autointerp/autointerp_full
 for layer in "${LAYERS[@]}"; do
     if [ -d "results/multi_layer_full_layer${layer}" ]; then
-        cp -r "results/multi_layer_full_layer${layer}" "../use_cases/FinanceLabeling/$RESULTS_DIR/"
-        echo "📋 Copied existing results for layer $layer"
+        rm -rf "results/multi_layer_full_layer${layer}"
+        echo "🗑️  Cleaned up temporary results for layer $layer"
     fi
 done
-cd ../use_cases/FinanceLabeling
+cd ../../InterpUseCases_autointerp/FinanceLabeling
 
 echo "🎯 Multi-Layer AutoInterp Full Analysis Summary"
 echo "==============================================="
@@ -168,5 +181,25 @@ echo "🔍 Check the following for detailed results:"
 echo "   • explanations/: Human-readable feature explanations"
 echo "   • scores/detection/: F1 scores and metrics"
 echo "   • results_summary_layer*.csv: CSV summaries per layer"
+echo ""
+echo "🧹 Cleaning up unnecessary directories to save space..."
+python3 -c "
+import os
+import shutil
+
+# Clean up latents and log directories to save space for each layer
+layers = [4, 10, 16, 22, 28]
+for layer in layers:
+    latents_dir = f'multi_layer_full_results/multi_layer_full_layer{layer}/latents'
+    log_dir = f'multi_layer_full_results/multi_layer_full_layer{layer}/log'
+    if os.path.exists(latents_dir):
+        shutil.rmtree(latents_dir)
+        print(f'🗑️  Removed latents directory for layer {layer}')
+    if os.path.exists(log_dir):
+        shutil.rmtree(log_dir)
+        print(f'🗑️  Removed log directory for layer {layer}')
+print('✅ Cleanup completed')
+"
+
 echo ""
 echo "✅ Multi-layer AutoInterp Full analysis completed!"

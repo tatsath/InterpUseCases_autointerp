@@ -1,0 +1,11 @@
+layer,feature,label,f1_score
+22,396,Financial metrics and revenue growth,0.462
+22,353,Financial performance and revenue metrics,0.42
+22,220,Financial metrics and stock performance discussions,0.76
+22,184,Economic indicators and market trends analysis,0.808
+22,276,Stock market analysis and investment advice,0.68
+22,83,Signals for future growth or investment opportunities,0.731
+22,303,Biotech and AI stock performance and strategies,0.34
+22,387,Economic forecasts and market trends,0.654
+22,239,Stock performance and market trends analysis,0.712
+22,101,Stock market analysis and investment advice,0.76
