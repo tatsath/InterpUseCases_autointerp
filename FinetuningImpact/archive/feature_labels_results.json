@@ -1,0 +1,432 @@
+{
+  "4": {
+    "base_model": {
+      "features": {
+        "feature_indices": [
+          205,
+          254,
+          37,
+          248,
+          192,
+          93,
+          39,
+          219,
+          92,
+          363
+        ],
+        "activation_values": [
+          3.4893453121185303,
+          2.858839511871338,
+          2.849632978439331,
+          2.7554852962493896,
+          2.5258045196533203,
+          2.455174207687378,
+          2.4024622440338135,
+          2.3832035064697266,
+          2.297443389892578,
+          2.2737386226654053
+        ],
+        "model_path": "meta-llama/Llama-2-7b-hf",
+        "layer": 4
+      },
+      "labels": [
+        "Feature_205_Layer_4",
+        "Feature_254_Layer_4",
+        "Feature_37_Layer_4",
+        "Feature_248_Layer_4",
+        "Feature_192_Layer_4",
+        "Feature_93_Layer_4",
+        "Feature_39_Layer_4",
+        "Feature_219_Layer_4",
+        "Feature_92_Layer_4",
+        "Feature_363_Layer_4"
+      ]
+    },
+    "finetuned_model": {
+      "features": {
+        "feature_indices": [
+          205,
+          248,
+          37,
+          93,
+          192,
+          39,
+          219,
+          254,
+          364,
+          363
+        ],
+        "activation_values": [
+          2.300286054611206,
+          2.097776174545288,
+          2.002894401550293,
+          1.8469716310501099,
+          1.8325921297073364,
+          1.8266170024871826,
+          1.7907463312149048,
+          1.7375296354293823,
+          1.7259680032730103,
+          1.6543980836868286
+        ],
+        "model_path": "cxllin/Llama2-7b-Finance",
+        "layer": 4
+      },
+      "labels": [
+        "Feature_205_Layer_4",
+        "Feature_248_Layer_4",
+        "Feature_37_Layer_4",
+        "Feature_93_Layer_4",
+        "Feature_192_Layer_4",
+        "Feature_39_Layer_4",
+        "Feature_219_Layer_4",
+        "Feature_254_Layer_4",
+        "Feature_364_Layer_4",
+        "Feature_363_Layer_4"
+      ]
+    }
+  },
+  "10": {
+    "base_model": {
+      "features": {
+        "feature_indices": [
+          205,
+          254,
+          37,
+          248,
+          39,
+          363,
+          92,
+          55,
+          219,
+          192
+        ],
+        "activation_values": [
+          4.3084564208984375,
+          3.4020142555236816,
+          3.3478288650512695,
+          3.1198208332061768,
+          2.910496234893799,
+          2.690852403640747,
+          2.660691261291504,
+          2.6334807872772217,
+          2.6194405555725098,
+          2.611663579940796
+        ],
+        "model_path": "meta-llama/Llama-2-7b-hf",
+        "layer": 10
+      },
+      "labels": [
+        "Feature_205_Layer_10",
+        "Feature_254_Layer_10",
+        "Feature_37_Layer_10",
+        "Feature_248_Layer_10",
+        "Feature_39_Layer_10",
+        "Feature_363_Layer_10",
+        "Feature_92_Layer_10",
+        "Feature_55_Layer_10",
+        "Feature_219_Layer_10",
+        "Feature_192_Layer_10"
+      ]
+    },
+    "finetuned_model": {
+      "features": {
+        "feature_indices": [
+          37,
+          254,
+          248,
+          205,
+          93,
+          39,
+          364,
+          192,
+          219,
+          92
+        ],
+        "activation_values": [
+          2.0934200286865234,
+          2.0563082695007324,
+          2.0290956497192383,
+          2.0119590759277344,
+          1.9466674327850342,
+          1.9162200689315796,
+          1.899490237236023,
+          1.7842386960983276,
+          1.7435346841812134,
+          1.6932591199874878
+        ],
+        "model_path": "cxllin/Llama2-7b-Finance",
+        "layer": 10
+      },
+      "labels": [
+        "Feature_37_Layer_10",
+        "Feature_254_Layer_10",
+        "Feature_248_Layer_10",
+        "Feature_205_Layer_10",
+        "Feature_93_Layer_10",
+        "Feature_39_Layer_10",
+        "Feature_364_Layer_10",
+        "Feature_192_Layer_10",
+        "Feature_219_Layer_10",
+        "Feature_92_Layer_10"
+      ]
+    }
+  },
+  "16": {
+    "base_model": {
+      "features": {
+        "feature_indices": [
+          205,
+          364,
+          254,
+          37,
+          248,
+          192,
+          39,
+          214,
+          363,
+          93
+        ],
+        "activation_values": [
+          2.8333914279937744,
+          2.8306517601013184,
+          2.594092607498169,
+          2.546093225479126,
+          2.431872606277466,
+          2.2593700885772705,
+          2.208296298980713,
+          2.203786611557007,
+          2.1369025707244873,
+          2.1271681785583496
+        ],
+        "model_path": "meta-llama/Llama-2-7b-hf",
+        "layer": 16
+      },
+      "labels": [
+        "Feature_205_Layer_16",
+        "Feature_364_Layer_16",
+        "Feature_254_Layer_16",
+        "Feature_37_Layer_16",
+        "Feature_248_Layer_16",
+        "Feature_192_Layer_16",
+        "Feature_39_Layer_16",
+        "Feature_214_Layer_16",
+        "Feature_363_Layer_16",
+        "Feature_93_Layer_16"
+      ]
+    },
+    "finetuned_model": {
+      "features": {
+        "feature_indices": [
+          389,
+          205,
+          364,
+          254,
+          37,
+          248,
+          93,
+          192,
+          385,
+          219
+        ],
+        "activation_values": [
+          2.3653831481933594,
+          1.9449725151062012,
+          1.8510693311691284,
+          1.6145501136779785,
+          1.6005911827087402,
+          1.596207857131958,
+          1.5226401090621948,
+          1.5147528648376465,
+          1.513399362564087,
+          1.4662344455718994
+        ],
+        "model_path": "cxllin/Llama2-7b-Finance",
+        "layer": 16
+      },
+      "labels": [
+        "Feature_389_Layer_16",
+        "Feature_205_Layer_16",
+        "Feature_364_Layer_16",
+        "Feature_254_Layer_16",
+        "Feature_37_Layer_16",
+        "Feature_248_Layer_16",
+        "Feature_93_Layer_16",
+        "Feature_192_Layer_16",
+        "Feature_385_Layer_16",
+        "Feature_219_Layer_16"
+      ]
+    }
+  },
+  "22": {
+    "base_model": {
+      "features": {
+        "feature_indices": [
+          290,
+          294,
+          101,
+          25,
+          205,
+          181,
+          387,
+          364,
+          192,
+          254
+        ],
+        "activation_values": [
+          12.647000312805176,
+          4.364894866943359,
+          4.061577320098877,
+          2.6200389862060547,
+          2.419731378555298,
+          2.3996481895446777,
+          2.3925931453704834,
+          2.3216190338134766,
+          2.200105905532837,
+          2.1901423931121826
+        ],
+        "model_path": "meta-llama/Llama-2-7b-hf",
+        "layer": 22
+      },
+      "labels": [
+        "Feature_290_Layer_22",
+        "Feature_294_Layer_22",
+        "Feature_101_Layer_22",
+        "Feature_25_Layer_22",
+        "Feature_205_Layer_22",
+        "Feature_181_Layer_22",
+        "Feature_387_Layer_22",
+        "Feature_364_Layer_22",
+        "Feature_192_Layer_22",
+        "Feature_254_Layer_22"
+      ]
+    },
+    "finetuned_model": {
+      "features": {
+        "feature_indices": [
+          258,
+          116,
+          159,
+          386,
+          186,
+          205,
+          93,
+          364,
+          95,
+          389
+        ],
+        "activation_values": [
+          10.158488273620605,
+          2.966593027114868,
+          2.571767807006836,
+          1.9984670877456665,
+          1.8462408781051636,
+          1.7021516561508179,
+          1.5963294506072998,
+          1.537886619567871,
+          1.5195595026016235,
+          1.494450330734253
+        ],
+        "model_path": "cxllin/Llama2-7b-Finance",
+        "layer": 22
+      },
+      "labels": [
+        "Feature_258_Layer_22",
+        "Feature_116_Layer_22",
+        "Feature_159_Layer_22",
+        "Feature_386_Layer_22",
+        "Feature_186_Layer_22",
+        "Feature_205_Layer_22",
+        "Feature_93_Layer_22",
+        "Feature_364_Layer_22",
+        "Feature_95_Layer_22",
+        "Feature_389_Layer_22"
+      ]
+    }
+  },
+  "28": {
+    "base_model": {
+      "features": {
+        "feature_indices": [
+          134,
+          294,
+          172,
+          9,
+          333,
+          154,
+          25,
+          94,
+          230,
+          385
+        ],
+        "activation_values": [
+          29.230737686157227,
+          8.22048568725586,
+          4.563847541809082,
+          3.8968429565429688,
+          3.886087656021118,
+          3.4536118507385254,
+          3.361772060394287,
+          3.073204278945923,
+          2.9078240394592285,
+          2.7765424251556396
+        ],
+        "model_path": "meta-llama/Llama-2-7b-hf",
+        "layer": 28
+      },
+      "labels": [
+        "Feature_134_Layer_28",
+        "Feature_294_Layer_28",
+        "Feature_172_Layer_28",
+        "Feature_9_Layer_28",
+        "Feature_333_Layer_28",
+        "Feature_154_Layer_28",
+        "Feature_25_Layer_28",
+        "Feature_94_Layer_28",
+        "Feature_230_Layer_28",
+        "Feature_385_Layer_28"
+      ]
+    },
+    "finetuned_model": {
+      "features": {
+        "feature_indices": [
+          116,
+          375,
+          172,
+          134,
+          276,
+          345,
+          287,
+          19,
+          305,
+          283
+        ],
+        "activation_values": [
+          19.965726852416992,
+          6.147290229797363,
+          4.009654998779297,
+          3.886129140853882,
+          3.837599515914917,
+          3.5895462036132812,
+          3.007300615310669,
+          2.8206875324249268,
+          2.3805360794067383,
+          2.2359087467193604
+        ],
+        "model_path": "cxllin/Llama2-7b-Finance",
+        "layer": 28
+      },
+      "labels": [
+        "Feature_116_Layer_28",
+        "Feature_375_Layer_28",
+        "Feature_172_Layer_28",
+        "Feature_134_Layer_28",
+        "Feature_276_Layer_28",
+        "Feature_345_Layer_28",
+        "Feature_287_Layer_28",
+        "Feature_19_Layer_28",
+        "Feature_305_Layer_28",
+        "Feature_283_Layer_28"
+      ]
+    }
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "4": {
+    "base_model": {
+      "features": [
+        205,
+        254,
+        37,
+        248,
+        192,
+        93,
+        39,
+        219,
+        92,
+        363
+      ],
+      "labels": [
+        "Question patterns (Layer 4)",
+        "Collocation patterns (Layer 4)",
+        "Reference patterns (Layer 4)",
+        "Gerund usage (Layer 4)",
+        "Adjective usage (Layer 4)",
+        "Conditional forms (Layer 4)",
+        "Verb tense patterns (Layer 4)",
+        "Discourse markers (Layer 4)",
+        "Negation structures (Layer 4)",
+        "Infinitive patterns (Layer 4)"
+      ]
+    },
+    "finetuned_model": {
+      "features": [
+        205,
+        248,
+        37,
+        93,
+        192,
+        39,
+        219,
+        254,
+        364,
+        363
+      ],
+      "labels": [
+        "Market sentiment shifts (Layer 4)",
+        "Investment planning (Layer 4)",
+        "Currency movements (Layer 4)",
+        "Market analysis techniques (Layer 4)",
+        "Bond yield curves (Layer 4)",
+        "Stock price movements (Layer 4)",
+        "Sector rotation patterns (Layer 4)",
+        "Monetary policy effects (Layer 4)",
+        "Asset allocation strategies (Layer 4)",
+        "Portfolio rebalancing (Layer 4)"
+      ]
+    },
+    "top_improved_features": {
+      "features": [
+        299,
+        335,
+        387,
+        347,
+        269,
+        32,
+        176,
+        209,
+        362,
+        312
+      ],
+      "labels": [
+        "Market manipulation signs (Layer 4)",
+        "Risk-on/risk-off shifts (Layer 4)",
+        "Earnings surprise detection (Layer 4)",
+        "Market manipulation signs (Layer 4)",
+        "Merger announcement effects (Layer 4)",
+        "Credit downgrade signals (Layer 4)",
+        "Credit downgrade signals (Layer 4)",
+        "Short squeeze patterns (Layer 4)",
+        "Bear market patterns (Layer 4)",
+        "Market crash indicators (Layer 4)"
+      ]
+    }
+  },
+  "10": {
+    "base_model": {
+      "features": [
+        205,
+        254,
+        37,
+        248,
+        39,
+        363,
+        92,
+        55,
+        219,
+        192
+      ],
+      "labels": [
+        "Question patterns (Layer 10)",
+        "Collocation patterns (Layer 10)",
+        "Reference patterns (Layer 10)",
+        "Gerund usage (Layer 10)",
+        "Verb tense patterns (Layer 10)",
+        "Infinitive patterns (Layer 10)",
+        "Negation structures (Layer 10)",
+        "Conditional forms (Layer 10)",
+        "Discourse markers (Layer 10)",
+        "Adjective usage (Layer 10)"
+      ]
+    },
+    "finetuned_model": {
+      "features": [
+        37,
+        254,
+        248,
+        205,
+        93,
+        39,
+        364,
+        192,
+        219,
+        92
+      ],
+      "labels": [
+        "Currency movements (Layer 10)",
+        "Monetary policy effects (Layer 10)",
+        "Investment planning (Layer 10)",
+        "Market sentiment shifts (Layer 10)",
+        "Market analysis techniques (Layer 10)",
+        "Stock price movements (Layer 10)",
+        "Asset allocation strategies (Layer 10)",
+        "Bond yield curves (Layer 10)",
+        "Sector rotation patterns (Layer 10)",
+        "Investment planning (Layer 10)"
+      ]
+    },
+    "top_improved_features": {
+      "features": [
+        83,
+        91,
+        17,
+        318,
+        162,
+        266,
+        310,
+        105,
+        320,
+        131
+      ],
+      "labels": [
+        "Market manipulation signs (Layer 10)",
+        "Volatility expansion (Layer 10)",
+        "Short squeeze patterns (Layer 10)",
+        "IPO performance tracking (Layer 10)",
+        "Gamma squeeze detection (Layer 10)",
+        "Bear market patterns (Layer 10)",
+        "Style factor changes (Layer 10)",
+        "Bankruptcy risk indicators (Layer 10)",
+        "Credit downgrade signals (Layer 10)",
+        "Market manipulation signs (Layer 10)"
+      ]
+    }
+  },
+  "16": {
+    "base_model": {
+      "features": [
+        205,
+        364,
+        254,
+        37,
+        248,
+        192,
+        39,
+        214,
+        363,
+        93
+      ],
+      "labels": [
+        "Question patterns (Layer 16)",
+        "Modal verb usage (Layer 16)",
+        "Collocation patterns (Layer 16)",
+        "Reference patterns (Layer 16)",
+        "Gerund usage (Layer 16)",
+        "Adjective usage (Layer 16)",
+        "Verb tense patterns (Layer 16)",
+        "Phrasal verbs (Layer 16)",
+        "Infinitive patterns (Layer 16)",
+        "Conditional forms (Layer 16)"
+      ]
+    },
+    "finetuned_model": {
+      "features": [
+        389,
+        205,
+        364,
+        254,
+        37,
+        248,
+        93,
+        192,
+        385,
+        219
+      ],
+      "labels": [
+        "Commodity price trends (Layer 16)",
+        "Market sentiment shifts (Layer 16)",
+        "Asset allocation strategies (Layer 16)",
+        "Monetary policy effects (Layer 16)",
+        "Currency movements (Layer 16)",
+        "Investment planning (Layer 16)",
+        "Market analysis techniques (Layer 16)",
+        "Bond yield curves (Layer 16)",
+        "Retail sentiment (Layer 16)",
+        "Sector rotation patterns (Layer 16)"
+      ]
+    },
+    "top_improved_features": {
+      "features": [
+        389,
+        85,
+        385,
+        279,
+        121,
+        107,
+        355,
+        228,
+        18,
+        283
+      ],
+      "labels": [
+        "Merger announcement effects (Layer 16)",
+        "Dark pool activity (Layer 16)",
+        "Bull market signals (Layer 16)",
+        "Institutional buying (Layer 16)",
+        "Bull market signals (Layer 16)",
+        "Market manipulation signs (Layer 16)",
+        "Volatility expansion (Layer 16)",
+        "High-frequency trading (Layer 16)",
+        "Gamma squeeze detection (Layer 16)",
+        "Volatility expansion (Layer 16)"
+      ]
+    }
+  },
+  "22": {
+    "base_model": {
+      "features": [
+        290,
+        294,
+        101,
+        25,
+        205,
+        181,
+        387,
+        364,
+        192,
+        254
+      ],
+      "labels": [
+        "Phrasal verbs (Layer 22)",
+        "Lexical cohesion (Layer 22)",
+        "Idiomatic expressions (Layer 22)",
+        "Idiomatic expressions (Layer 22)",
+        "Question patterns (Layer 22)",
+        "Discourse markers (Layer 22)",
+        "Sentence structures (Layer 22)",
+        "Modal verb usage (Layer 22)",
+        "Adjective usage (Layer 22)",
+        "Collocation patterns (Layer 22)"
+      ]
+    },
+    "finetuned_model": {
+      "features": [
+        258,
+        116,
+        159,
+        386,
+        186,
+        205,
+        93,
+        364,
+        95,
+        389
+      ],
+      "labels": [
+        "Sector rotation patterns (Layer 22)",
+        "Commodity price trends (Layer 22)",
+        "Earnings announcement patterns (Layer 22)",
+        "Options flow analysis (Layer 22)",
+        "Algorithmic trading (Layer 22)",
+        "Market sentiment shifts (Layer 22)",
+        "Market analysis techniques (Layer 22)",
+        "Asset allocation strategies (Layer 22)",
+        "Trading pattern recognition (Layer 22)",
+        "Commodity price trends (Layer 22)"
+      ]
+    },
+    "top_improved_features": {
+      "features": [
+        258,
+        116,
+        159,
+        186,
+        323,
+        157,
+        353,
+        252,
+        141,
+        90
+      ],
+      "labels": [
+        "Gamma squeeze detection (Layer 22)",
+        "Correlation breakdown (Layer 22)",
+        "Institutional buying (Layer 22)",
+        "Gamma squeeze detection (Layer 22)",
+        "Market manipulation signs (Layer 22)",
+        "Dark pool activity (Layer 22)",
+        "Short squeeze patterns (Layer 22)",
+        "High-frequency trading (Layer 22)",
+        "Sector rotation signals (Layer 22)",
+        "Gamma squeeze detection (Layer 22)"
+      ]
+    }
+  },
+  "28": {
+    "base_model": {
+      "features": [
+        134,
+        294,
+        172,
+        9,
+        333,
+        154,
+        25,
+        94,
+        230,
+        385
+      ],
+      "labels": [
+        "Gerund usage (Layer 28)",
+        "Lexical cohesion (Layer 28)",
+        "Gerund usage (Layer 28)",
+        "Modifier placement (Layer 28)",
+        "Discourse markers (Layer 28)",
+        "Adjective usage (Layer 28)",
+        "Idiomatic expressions (Layer 28)",
+        "Passive voice (Layer 28)",
+        "Adjective usage (Layer 28)",
+        "Article usage (Layer 28)"
+      ]
+    },
+    "finetuned_model": {
+      "features": [
+        116,
+        375,
+        172,
+        134,
+        276,
+        345,
+        287,
+        19,
+        305,
+        283
+      ],
+      "labels": [
+        "Commodity price trends (Layer 28)",
+        "Sector rotation patterns (Layer 28)",
+        "Price movement predictions (Layer 28)",
+        "Trading pattern recognition (Layer 28)",
+        "Earnings announcement patterns (Layer 28)",
+        "Institutional flows (Layer 28)",
+        "Investment planning (Layer 28)",
+        "Economic policy impacts (Layer 28)",
+        "Market maker behavior (Layer 28)",
+        "Market sentiment shifts (Layer 28)"
+      ]
+    },
+    "top_improved_features": {
+      "features": [
+        116,
+        375,
+        276,
+        345,
+        121,
+        19,
+        103,
+        287,
+        305,
+        178
+      ],
+      "labels": [
+        "Correlation breakdown (Layer 28)",
+        "Institutional buying (Layer 28)",
+        "High-frequency trading (Layer 28)",
+        "Bankruptcy risk indicators (Layer 28)",
+        "Bull market signals (Layer 28)",
+        "Volatility expansion (Layer 28)",
+        "Dividend cut warnings (Layer 28)",
+        "Risk-on/risk-off shifts (Layer 28)",
+        "Short squeeze patterns (Layer 28)",
+        "Liquidity crisis detection (Layer 28)"
+      ]
+    }
+  }
+}

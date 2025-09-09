@@ -1,0 +1,49 @@
+nohup: ignoring input
+🔍 Running AutoInterp analysis for FINETUNED model
+📊 Model: cxllin/Llama2-7b-Finance
+🎯 Features: Top activated features from finetuning analysis
+
+🔍 Analyzing Layer 4...
+🎯 Features: 205 248 37 93 192 39 219 254 364 363
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/nvidia/Documents/Hariom/autointerp/autointerp_full/autointerp_full/__main__.py", line 482, in <module>
+    asyncio.run(run(args.run_cfg))
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nvidia/Documents/Hariom/autointerp/autointerp_full/autointerp_full/__main__.py", line 409, in run
+    hookpoints, hookpoint_to_sparse_encode, model, transcode = load_artifacts(run_cfg)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nvidia/Documents/Hariom/autointerp/autointerp_full/autointerp_full/__main__.py", line 43, in load_artifacts
+    model = AutoModel.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 600, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/site-packages/transformers/modeling_utils.py", line 317, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/site-packages/transformers/modeling_utils.py", line 5069, in from_pretrained
+    ) = cls._load_pretrained_model(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/site-packages/transformers/modeling_utils.py", line 5532, in _load_pretrained_model
+    _error_msgs, disk_offload_index, cpu_offload_index = load_shard_file(args)
+                                                         ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/site-packages/transformers/modeling_utils.py", line 962, in load_shard_file
+    state_dict = load_state_dict(
+                 ^^^^^^^^^^^^^^^^
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/site-packages/transformers/modeling_utils.py", line 562, in load_state_dict
+    check_torch_load_is_safe()
+  File "/home/nvidia/miniconda3/envs/sae/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 1622, in check_torch_load_is_safe
+    raise ValueError(
+ValueError: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434

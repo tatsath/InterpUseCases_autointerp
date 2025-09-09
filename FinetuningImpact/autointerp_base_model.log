@@ -1,0 +1,68 @@
+nohup: ignoring input
+🔍 Running AutoInterp analysis for BASE model
+📊 Model: meta-llama/Llama-2-7b-hf
+🎯 Features: Top improved features from finetuning analysis
+
+🔍 Analyzing Layer 4...
+🎯 Features: 299 335 387 347 269 32 176 209 362 312
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.34s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.47s/it]
+Resolving path for hookpoint: layers.4
+Files found in /home/nvidia/Documents/Hariom/autointerp/autointerp_full/results/base_model_layer4/latents, skipping...
+Skipping neighbour creation
+INFO 09-09 17:20:09 __init__.py:207] Automatically detected platform cuda.
+INFO 09-09 17:20:19 config.py:549] This model supports multiple tasks: {'score', 'embed', 'generate', 'reward', 'classify'}. Defaulting to 'generate'.
+INFO 09-09 17:20:19 llm_engine.py:234] Initializing a V0 LLM engine (v0.7.3) with config: model='Qwen/Qwen2.5-7B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-7B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=0, served_model_name=Qwen/Qwen2.5-7B-Instruct, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=True, chunked_prefill_enabled=False, use_async_output_proc=True, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"max_capture_size":256}, use_cached_outputs=False, 
+INFO 09-09 17:20:20 cuda.py:229] Using Flash Attention backend.
+INFO 09-09 17:20:20 model_runner.py:1110] Starting to load model Qwen/Qwen2.5-7B-Instruct...
+INFO 09-09 17:20:21 weight_utils.py:254] Using model weights format ['*.safetensors']
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:02,  1.22it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.15it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:02<00:00,  1.18it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:03<00:00,  1.22it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:03<00:00,  1.20it/s]
+
+INFO 09-09 17:20:25 model_runner.py:1115] Loading model weights took 14.2487 GB
+INFO 09-09 17:20:26 worker.py:267] Memory profiling takes 0.78 seconds
+INFO 09-09 17:20:26 worker.py:267] the current vLLM instance can use total_gpu_memory (93.34GiB) x gpu_memory_utilization (0.90) = 84.01GiB
+INFO 09-09 17:20:26 worker.py:267] model weights take 14.25GiB; non_torch_memory takes 0.07GiB; PyTorch activation peak memory takes 1.44GiB; the rest of the memory reserved for KV Cache is 68.26GiB.
+INFO 09-09 17:20:26 executor_base.py:111] # cuda blocks: 79879, # CPU blocks: 4681
+INFO 09-09 17:20:26 executor_base.py:116] Maximum concurrency for 4096 tokens per request: 312.03x
+INFO 09-09 17:20:30 model_runner.py:1434] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graph shapes:   3%|▎         | 1/35 [00:00<00:09,  3.57it/s]Capturing CUDA graph shapes:   6%|▌         | 2/35 [00:00<00:07,  4.41it/s]Capturing CUDA graph shapes:   9%|▊         | 3/35 [00:00<00:06,  4.68it/s]Capturing CUDA graph shapes:  11%|█▏        | 4/35 [00:00<00:06,  4.90it/s]Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:01<00:05,  5.04it/s]Capturing CUDA graph shapes:  17%|█▋        | 6/35 [00:01<00:05,  5.13it/s]Capturing CUDA graph shapes:  20%|██        | 7/35 [00:01<00:05,  5.19it/s]Capturing CUDA graph shapes:  23%|██▎       | 8/35 [00:01<00:05,  5.22it/s]Capturing CUDA graph shapes:  26%|██▌       | 9/35 [00:01<00:05,  5.11it/s]Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:02<00:04,  5.17it/s]Capturing CUDA graph shapes:  31%|███▏      | 11/35 [00:02<00:04,  5.22it/s]Capturing CUDA graph shapes:  34%|███▍      | 12/35 [00:02<00:04,  5.26it/s]Capturing CUDA graph shapes:  37%|███▋      | 13/35 [00:02<00:04,  5.29it/s]Capturing CUDA graph shapes:  40%|████      | 14/35 [00:02<00:03,  5.29it/s]Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:02<00:03,  5.30it/s]Capturing CUDA graph shapes:  46%|████▌     | 16/35 [00:03<00:03,  5.32it/s]Capturing CUDA graph shapes:  49%|████▊     | 17/35 [00:03<00:03,  5.35it/s]Capturing CUDA graph shapes:  51%|█████▏    | 18/35 [00:03<00:03,  5.37it/s]Capturing CUDA graph shapes:  54%|█████▍    | 19/35 [00:03<00:02,  5.34it/s]Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:03<00:02,  5.26it/s]Capturing CUDA graph shapes:  60%|██████    | 21/35 [00:04<00:02,  5.25it/s]Capturing CUDA graph shapes:  63%|██████▎   | 22/35 [00:04<00:02,  5.25it/s]Capturing CUDA graph shapes:  66%|██████▌   | 23/35 [00:04<00:02,  5.30it/s]Capturing CUDA graph shapes:  69%|██████▊   | 24/35 [00:04<00:02,  5.35it/s]Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:04<00:01,  5.37it/s]Capturing CUDA graph shapes:  74%|███████▍  | 26/35 [00:05<00:01,  5.37it/s]Capturing CUDA graph shapes:  77%|███████▋  | 27/35 [00:05<00:01,  5.35it/s]Capturing CUDA graph shapes:  80%|████████  | 28/35 [00:05<00:01,  5.32it/s]Capturing CUDA graph shapes:  83%|████████▎ | 29/35 [00:05<00:01,  5.05it/s]Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [00:05<00:00,  5.13it/s]Capturing CUDA graph shapes:  89%|████████▊ | 31/35 [00:05<00:00,  5.17it/s]Capturing CUDA graph shapes:  91%|█████████▏| 32/35 [00:06<00:00,  5.07it/s]Capturing CUDA graph shapes:  94%|█████████▍| 33/35 [00:06<00:00,  5.21it/s]Capturing CUDA graph shapes:  97%|█████████▋| 34/35 [00:06<00:00,  5.24it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:06<00:00,  5.17it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:06<00:00,  5.18it/s]
+INFO 09-09 17:20:37 model_runner.py:1562] Graph capturing finished in 7 secs, took 0.31 GiB
+INFO 09-09 17:20:37 llm_engine.py:436] init engine (profile, create kv cache, warmup model) took 11.46 seconds
+Processing items: 0it [00:00, ?it/s]Processing items: 1it [00:21, 21.81s/it]Processing items: 6it [00:21,  2.70s/it]Processing items: 10it [00:21,  2.20s/it]
+/home/nvidia/Documents/Hariom/autointerp/autointerp_full/autointerp_full/log/result_analysis.py:279: FutureWarning:
+
+DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+
+Number of dead features: 0
+Number of interpreted live features: 520
+min examples 1
+Number of features below the interpretation firing count threshold: 0
+
+--- Detection Metrics ---
+Class-Balanced Accuracy: 0.604
+F1 Score: 0.625
+Frequency-Weighted F1 Score: 0.493
+Note: the frequency-weighted F1 score is computed over each hookpoint and averaged
+Precision: 0.979
+Recall: 0.459
+Logits not available.
+Average fraction of failed examples: 0.0
+
+Confusion Matrix:
+True Positive Rate:  0.459 (229)
+True Negative Rate:  0.750 (15)
+False Positive Rate: 0.250 (5)
+False Negative Rate: 0.541 (270)
+
+Class Distribution:
+Positives: 499
+Negatives: 20
+Total: 519
+[rank0]:[W909 17:21:06.756734429 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+✅ Layer 4 completed
+
+🔍 Analyzing Layer 10...
