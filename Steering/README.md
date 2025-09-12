@@ -40,6 +40,16 @@ Uses **finetuned model labels** from the financial domain analysis:
 - **Layer 22**: Financial Performance and Growth, Market indicators
 - **Layer 28**: Company financial performance, Stock Performance Analysis
 
+## 📸 Interactive Demo
+
+**Screenshot**: The Streamlit app interface showing before and after steering effects
+
+**Key Highlights**:
+- **Left Sidebar**: Clean controls (Layer, Feature, Steering Strength, Max Tokens)
+- **Main Area**: Input prompt and side-by-side output comparison
+- **Steering Effect**: Strength 28 transforms general business questions into structured financial quizzes with specific numerical questions and multiple-choice answers
+- **Feature-Specific**: Each feature produces distinct, dramatic transformations aligned with its label
+
 ## 🎯 Steering Examples
 
 ### Example 1: Financial Performance Focus
