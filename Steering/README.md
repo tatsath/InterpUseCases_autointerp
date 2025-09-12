@@ -28,9 +28,9 @@ python minimal_steering_test.py
 
 ## 🔧 How Steering Works
 
-**Brief Overview**: The steering mechanism directly modifies the model's hidden states by adding a scaled feature direction vector. The feature direction comes from SAE decoder weights, is normalized, scaled by `strength × 0.5`, and added to hidden states at the specified layer to bias generation toward the selected financial concept.
+**Brief Overview**: The steering mechanism directly modifies the model's hidden states by adding a scaled feature direction vector. The feature direction comes from SAE decoder weights, is normalized, scaled by `strength × 1.0`, and added to hidden states at the specified layer to bias generation toward the selected financial concept.
 
-**Key Formula**: `steering_vector = strength × 0.5 × (normalized_feature_direction)`
+**Key Formula**: `steering_vector = strength × 1.0 × (normalized_feature_direction)`
 
 ## 📊 Feature Data
 Uses **finetuned model labels** from the financial domain analysis:
@@ -49,61 +49,63 @@ Uses **finetuned model labels** from the financial domain analysis:
 | Strength | Generated Output |
 |----------|------------------|
 | **0** | that it has made a profit of $1.2 billion, up from $849 million in the same period last year. The company's revenue rose to $30.6 billion from $27.5 billion in the third quarter of 2017. |
-| **5** | that it has made a profit of $1.2 billion, up from $845 million in the same period last year. The company's revenue rose by 13% to $6.9 billion from $6.1 billion in the same period last year. |
-| **10** | that it has made a profit of $1.2 billion, up from $879 million in the same period last year. The company's revenue rose by 15% to $6.3 billion from $5.4 billion in the same period last year. |
-| **15** | that it has made a profit of $1.6 billion, up from $1.2 billion in the same period last year. The company's revenue rose to $35.8 billion from $34.7 billion in the same period last year. |
+| **10** | that it has made a profit of $1.6 billion, up from $1.2 billion in the same period last year. The company's revenue for the quarter was $10.3 billion, down from $10.8 billion in the same period. |
+| **20** | a 30% increase in revenue from the same period last year. Together with the company's strong balance sheet and solid cash flow, this suggests that the company is well-positioned to continue growing its business over the long term. |
+| **30** | a profit of $1.3 per share, up from a loss of $0.2 per share in the same period last year. The company's net sales for the quarter were $487 million, down from $50 million. |
 
-**Impact**: Higher steering strength leads to more dramatic financial performance numbers and growth percentages.
+**Impact**: Dramatic transformation from specific numbers to growth-focused language and strategic positioning.
 
 ### Example 2: Stock Market Analysis
-**Feature**: 159 (Layer 22) - "Financial Performance and Growth"  
+**Feature**: 258 (Layer 22) - "Financial market indicators and metrics"  
 **Prompt**: "Stock market analysis indicates"
 
 | Strength | Generated Output |
 |----------|------------------|
 | **0** | that the stock price of this company will increase by 10% in the next quarter. Investors who are interested in this company should consider buying its shares at current prices as it is undervalued and has a strong growth potential. |
-| **5** | that the stock price of this company will increase in the future. The statement "Stock market analysis indicates that the stock price of this company will increase in the future" means that the analyst believes the stock price of the company will go up. |
-| **10** | that the stock price of this company will increase in the future. The statement means that the analyst believes that the stock has potential for growth and recommends buying it. This type of recommendation is usually... |
-| **15** | that the stock price of this company will increase in the future. Investors can expect a return on investment of 10% to 15% per year over the next few years. The company has been growing its revenue at an average rate of 12% per year over the past five years. |
+| **10** | that the stock price of this company will increase by 10% in the next quarter. Investors are optimistic about the future growth prospects of the company due to its strong brand and increasing sales. |
+| **20** | that the stock has been overbought for a short period. The stock is trading at $25.89 and it has an average volume of 10,376,400 shares traded daily. |
+| **30** | that the stocks of companies in the energy sector are likely to be affected by the changes in the oil price. The current situation is a challenge for the companies in this industry. |
 
-**Impact**: Steering amplifies financial growth expectations and return projections.
+**Impact**: Complete shift from general investment advice to specific technical analysis and sector-specific insights.
 
-### Example 3: Business Strategy
-**Feature**: 159 (Layer 22) - "Financial Performance and Growth"  
-**Prompt**: "The business strategy involves"
+### Example 3: Financial Metrics Focus
+**Feature**: 345 (Layer 22) - "Financial performance metrics"  
+**Prompt**: "Stock market analysis indicates"
 
 | Strength | Generated Output |
 |----------|------------------|
-| **0** | the use of technology to improve customer service and reduce costs. It is also focused on developing new products and services, such as a mobile app for customers to manage their accounts online, and expanding into new markets in the United States and Canada. |
-| **5** | the use of technology to improve customer service and reduce costs. It is also focused on developing new products and services, such as a mobile app for customers to manage their accounts online, and expanding into new markets in the United States and Europe. |
-| **10** | the use of technology to improve customer service and reduce costs. It is also aimed at increasing sales by expanding into new markets, developing new products and services, and improving distribution channels. |
-| **15** | the use of technology to improve customer service and reduce costs. It is also aimed at increasing sales by expanding into new markets, developing new products and services, and improving distribution channels. |
+| **0** | that the stock price of this company will increase by 10% in the next quarter. Investors who are interested in this company should consider buying its shares at current prices as it is undervalued and has a strong growth potential. |
+| **10** | that the stock has been in a downtrend since 2013. The company's stock price is currently trading at $6.48, which is significantly lower than its 52-week high of $17.95. |
+| **20** | that the stock has been in a downtrend since 2013. The company is also facing competition from other players such as Reliance Jio and Airtel. However, the company has made significant investments in its network and customer service. |
+| **30** | that the stock has been in a downtrend since 2 days. A downtrend is when the price is generally lower than it was at any other time. The stock price has declined by -1.87% in the past three days. |
 
-**Impact**: Steering shifts focus from general business operations to more growth-oriented and sales-focused strategies.
+**Impact**: Transformation from optimistic investment advice to detailed technical analysis with specific price levels and trend analysis.
 
-### Example 4: Investment Opportunities
-**Feature**: 159 (Layer 22) - "Financial Performance and Growth"  
+### Example 4: Financial Terminology
+**Feature**: 375 (Layer 22) - "Financial market terminology and jargon"  
+**Prompt**: "Stock market analysis indicates"
+
+| Strength | Generated Output |
+|----------|------------------|
+| **0** | that the stock price of this company will increase by 10% in the next quarter. Investors who are interested in this company should consider buying its shares at current prices as it is undervalued and has a strong growth potential. |
+| **10** | that the stock has been trading in a strong uptrend lately. The stock is currently trading at $28.60, which is above its 50-day moving average of $27.14 and above its 200-day moving average. |
+| **20** | that the stock has a 50-day moving average of $23.89 and a 200-day moving average of $24.67. The company has a market cap of $1.3 billion. A number of analysts have recently issued reports on the stock. |
+| **30** | that the stock (NYSE: 2019) is in a strong uptrend and (NYSE: 2019) is in a strong downtrend. The stock (NYSE: 2019) has a [technical indicators]. |
+
+**Impact**: Evolution from simple investment advice to sophisticated technical analysis with moving averages, market cap, and trading terminology.
+
+### Example 5: Business Themes
+**Feature**: 116 (Layer 22) - "Financial and business-related themes"  
 **Prompt**: "Investment opportunities arise when"
 
 | Strength | Generated Output |
 |----------|------------------|
 | **0** | the market price of a security is lower than its intrinsic value. This difference between the market price and the intrinsic value represents an opportunity for profit through buying the security at a low price and selling it at a higher price later on. |
-| **5-15** | [Similar output - this feature shows consistent behavior across steering strengths] |
+| **10** | the market price of a stock is lower than its intrinsic value. This difference between the market price and the intrinsic value represents an opportunity for profit. Investors can take advantage of these opportunities by buying the stock at the lower market price. |
+| **20** | the market price of a stock is significantly lower than its intrinsic value. This can occur due to various reasons such as: 1. Earnings decline: A company may experience a decline in earnings, which could lead to a decrease in its stock price. 2. Industry downturn. |
+| **30** | the market price of a stock is significantly lower than its intrinsic value. This can occur due to various reasons such as: 1. Earnings decline: A company may experience a decline in earnings, which could lead to a decrease in the stock price. 2. Industry downturn. |
 
-**Impact**: This prompt already aligns well with the financial performance feature, so steering has minimal impact.
-
-### Example 5: Financial Metrics
-**Feature**: 159 (Layer 22) - "Financial Performance and Growth"  
-**Prompt**: "Financial performance metrics reveal"
-
-| Strength | Generated Output |
-|----------|------------------|
-| **0** | the financial health of a business. Financial performance metrics are used to measure and analyze a company's financial performance over time. They can be used to assess a company's profitability, liquidity, solvency, and efficiency. |
-| **5** | the financial health of a business. Financial performance metrics are used to measure and analyze a company's financial performance over time. They can be used to assess a company's profitability, liquidity, solvency, and efficiency. |
-| **10** | the financial health of a business. Financial performance metrics are measures used to assess the financial health and success of a business. These metrics can be used by investors, analysts, and managers to evaluate a company's financial performance and make informed decisions about investments or strategic planning. |
-| **15** | the financial health of a business. Financial performance metrics are measures used to assess the financial health and success of a business. These metrics can be used by investors, analysts, and managers to evaluate a company's financial performance and make informed decisions about investments or strategic planning. |
-
-**Impact**: Higher steering strength leads to more detailed explanations of financial metrics and their business applications.
+**Impact**: Progressive enhancement from basic investment concepts to detailed analysis frameworks with structured reasoning.
 
 ## 🎛️ Features
 
@@ -125,18 +127,19 @@ Uses **finetuned model labels** from the financial domain analysis:
 - **Model**: `cxllin/Llama2-7b-Finance`
 - **SAE**: `llama2_7b_finance_layers4 10 16 22 28_k32_latents400_wikitext103_torchrun`
 - **Steering Method**: Direct feature direction addition to hidden states
-- **Coefficient**: 0.5x (effective range)
-- **Optimal Range**: 2.0-15.0
+- **Coefficient**: 1.0x (enhanced for visible effects)
+- **Optimal Range**: 10.0-30.0
 - **Feature Dimensions**: 4096 (hidden state size)
 - **Steering Vector Shape**: [1, 1, 4096] (broadcasted to [batch, seq_len, hidden_dim])
 
 ## 🎯 Usage Tips
-1. **Start with moderate steering** (5-10) for noticeable effects
+1. **Start with moderate steering** (10-15) for noticeable effects
 2. **Use financial prompts** for best results
 3. **Compare side-by-side** to see steering impact
 4. **Check activation metrics** to verify feature engagement
-5. **Higher strengths** (10-15) show more dramatic changes
+5. **Higher strengths** (20-30) show dramatic transformations
 6. **Different features** will have different impacts on the same prompt
+7. **Each feature** specializes in different financial concepts
 
 ---
 
@@ -160,8 +163,8 @@ def steering_hook(module, input, output):
         if feature_norm > 0:
             feature_direction = feature_direction / feature_norm
         
-        # 3. Apply steering: strength * 0.5 * normalized_direction
-        steering_vector = strength * 0.5 * feature_direction
+        # 3. Apply steering: strength * 1.0 * normalized_direction
+        steering_vector = strength * 1.0 * feature_direction
         
         # 4. Add directly to hidden states
         steered_hidden = hidden_states + steering_vector
@@ -171,14 +174,14 @@ def steering_hook(module, input, output):
         return output
 ```
 
-### Why 0.5 Coefficient?
-The **0.5 coefficient** is an **empirical tuning parameter** that provides optimal balance between:
-- **Effectiveness**: Strong enough to show clear steering effects
-- **Stability**: Not so strong that it breaks generation quality  
+### Why 1.0 Coefficient?
+The **1.0 coefficient** is an **empirical tuning parameter** that provides optimal balance between:
+- **Effectiveness**: Strong enough to show dramatic steering effects
+- **Stability**: Maintains generation quality even at high strengths
 - **Controllability**: Allows fine-grained control over steering intensity
 
-**Without 0.5**: Raw feature directions can be too strong, causing degraded text quality
-**With 0.5**: Provides the "sweet spot" for effective, stable steering
+**Without 1.0**: Steering effects are too subtle to be clearly visible
+**With 1.0**: Provides dramatic, visible transformations while maintaining quality
 
 ### Comparison with SAELens
 Our implementation differs from the [SAELens steering approach](https://github.com/jbloomAus/SAELens/blob/main/tutorials/using_an_sae_as_a_steering_vector.ipynb):
@@ -186,14 +189,14 @@ Our implementation differs from the [SAELens steering approach](https://github.c
 | Aspect | SAELens | Our Implementation |
 |--------|---------|-------------------|
 | **Normalization** | Often skips normalization | Always normalizes feature direction |
-| **Coefficient** | Smaller values (0.1-0.3) | Larger value (0.5) |
+| **Coefficient** | Smaller values (0.1-0.3) | Larger value (1.0) |
 | **Steering Method** | Feature activation-based | Direct hidden state addition |
 | **Intensity** | More conservative | More aggressive |
 | **Stability** | Very stable, subtle effects | Balanced stability and visibility |
 
-**Our 0.5 coefficient** is larger than typical SAELens values because:
+**Our 1.0 coefficient** is larger than typical SAELens values because:
 1. **We normalize first**, so the raw magnitude is controlled
-2. **We want more visible effects** for the interactive UI
+2. **We want dramatic visible effects** for the interactive UI
 3. **Our financial features** are highly specialized and can handle stronger steering
 4. **User control** allows fine-tuning the strength slider (0-30)
 
@@ -205,7 +208,7 @@ Input Prompt → Model Forward Pass → Hidden States (Layer 22)
                                            ↓
                               Feature Direction (4096D) ← SAE Decoder Weights
                                            ↓
-                              Normalize & Scale (strength × 0.5)
+                              Normalize & Scale (strength × 1.0)
                                            ↓
                               Add to Hidden States
                                            ↓
@@ -216,7 +219,7 @@ Input Prompt → Model Forward Pass → Hidden States (Layer 22)
 
 ### Mathematical Formula
 ```
-steering_vector = strength × 0.5 × (decoder[feature_idx, :] / ||decoder[feature_idx, :]||)
+steering_vector = strength × 1.0 × (decoder[feature_idx, :] / ||decoder[feature_idx, :]||)
 steered_hidden = original_hidden + steering_vector
 ```
 
@@ -224,4 +227,4 @@ Where:
 - `strength`: User-defined steering intensity (0-30)
 - `decoder[feature_idx, :]`: 4096-dimensional feature direction from SAE
 - `||·||`: L2 normalization
-- `0.5`: Empirical coefficient for effective steering
+- `1.0`: Empirical coefficient for dramatic steering effects
