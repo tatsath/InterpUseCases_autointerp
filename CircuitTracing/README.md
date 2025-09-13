@@ -33,20 +33,30 @@ streamlit run Reply_Tracing_app.py --server.port 8502
 
 ## 🎯 Sample Prompts
 
-### Text Tracing App
+### Text Tracing App (Direct Text Analysis)
 ```
 "The Federal Reserve raised interest rates by 0.25% to combat inflation, causing stock markets to decline as investors reassessed growth prospects."
 
 "Analyze how the European Central Bank's new policy stance is impacting European bank earnings, citing leadership comments from Deutsche Bank, HSBC, and BNP Paribas."
+
+"Summarize the financial outlook and leadership changes at major banks after the Federal Reserve's latest interest rate decision. Include comments from prominent CEOs like Jamie Dimon, Brian Moynihan, and Jane Fraser, and discuss how their statements have influenced investor sentiment, regulatory expectations, and global market reactions."
+
+"Write a news article on how Warren Buffett's Berkshire Hathaway and Elon Musk's Tesla investments shape the clean energy financial market."
 ```
 
-### Reply Tracing App
+### Reply Tracing App (Question-Answer Analysis)
 ```
 "What are the key factors driving inflation in the current economy?"
 
 "How do interest rates affect stock market performance?"
 
-"Evaluate the risks and opportunities in the fintech sector after recent SEC regulatory proposals."
+"Evaluate the risks and opportunities in the fintech sector after recent SEC regulatory proposals, including statements from top CEOs."
+
+"Summarize the financial outlook and leadership changes at major banks after the Federal Reserve's latest interest rate decision. Include comments from prominent CEOs like Jamie Dimon, Brian Moynihan, and Jane Fraser, and discuss how their statements have influenced investor sentiment, regulatory expectations, and global market reactions."
+
+"Analyze how the European Central Bank's new policy stance is impacting European bank earnings, citing leadership comments from Deutsche Bank, HSBC, and BNP Paribas."
+
+"Write a news article on how Warren Buffett's Berkshire Hathaway and Elon Musk's Tesla investments shape the clean energy financial market."
 ```
 
 ## 🎯 Key Features
