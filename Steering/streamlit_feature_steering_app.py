@@ -128,6 +128,7 @@ class FinancialFeatureSteering:
             )
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token
+            
         return model, tokenizer
     
     @st.cache_resource
@@ -151,6 +152,8 @@ class FinancialFeatureSteering:
                 encoder_bias = encoder_bias.to(_self.device)
                 decoder = decoder.to(_self.device)
                 decoder_bias = decoder_bias.to(_self.device)
+                
+                
                 return encoder, encoder_bias, decoder, decoder_bias
             else:
                 st.error(f"SAE weights not found for layer {layer_idx} at {sae_path}")
@@ -194,7 +197,8 @@ class FinancialFeatureSteering:
         # Load SAE weights for the specific layer
         encoder, encoder_bias, decoder, decoder_bias = self.load_sae_weights(layer_idx)
         if encoder is None:
-            return "Error: Could not load SAE weights"
+            return f"Error: Could not load SAE weights for layer {layer_idx}"
+        
         
         # Create a custom forward hook to modify hidden states using SAELens approach
         def steering_hook(module, input, output):
@@ -316,9 +320,7 @@ class FinancialFeatureSteering:
         }
 
 def main():
-st.title("🎯 Financial LLM Feature Steering")
-st.markdown("**Interactive feature steering for the finetuned Llama2-7b-Finance model**")
-st.info("🚀 **Feature Steering**: Direct feature direction addition to model hidden states. Optimal steering strength: 2.0-10.0")
+    st.title("🎯 Feature Engineering")
     
     # Initialize the steering class
     if 'steerer' not in st.session_state:
@@ -326,12 +328,9 @@ st.info("🚀 **Feature Steering**: Direct feature direction addition to model h
     
     steerer = st.session_state.steerer
     
-    # Sidebar for controls
-        with st.sidebar:
-            st.header("🎛️ Feature Steering Controls")
-            st.markdown("**Method**: Direct feature direction addition to hidden states")
-            st.markdown("**Optimal Range**: 2.0-15.0")
-            st.markdown("**Coefficient**: 0.5x (effective)")
+    # Sidebar for all controls
+    with st.sidebar:
+        st.header("🎛️ Controls")
         
         # Layer selection
         layer_options = list(steerer.feature_data.keys())
@@ -345,6 +344,7 @@ st.info("🚀 **Feature Steering**: Direct feature direction addition to model h
         if selected_layer:
             features = steerer.feature_data[selected_layer]["features"]
             feature_options = {f"{feat['id']}: {feat['label'][:50]}..." for feat in features}
+            
             selected_feature_str = st.selectbox(
                 "Select Feature",
                 options=list(feature_options),
@@ -355,14 +355,14 @@ st.info("🚀 **Feature Steering**: Direct feature direction addition to model h
             selected_feature_id = int(selected_feature_str.split(":")[0])
             selected_feature = next(f for f in features if f['id'] == selected_feature_id)
             
-            # Steering strength - optimized range based on SAELens testing
+            # Steering strength - optimized range for effective steering
             steering_strength = st.slider(
                 "Steering Strength",
-                min_value=-30.0,
-                max_value=30.0,
+                min_value=-50.0,
+                max_value=50.0,
                 value=0.0,
                 step=1.0,
-                help="Feature steering strength: Direct feature direction addition to hidden states. Optimal range: 2.0-15.0. Higher values may degrade performance."
+                help="Feature steering strength: Direct feature direction addition to hidden states. Range: -50 to +50. Higher values show dramatic effects."
             )
             
             # Token length control
@@ -375,11 +375,6 @@ st.info("🚀 **Feature Steering**: Direct feature direction addition to model h
                 help="Number of new tokens to generate. Higher values may take longer."
             )
             
-            # Display feature info
-            st.markdown("### 📊 Feature Information")
-            st.write(f"**Feature ID:** {selected_feature['id']}")
-            st.write(f"**Activation Improvement:** {selected_feature['activation_improvement']:.4f}")
-            st.write(f"**Full Label:** {selected_feature['label']}")
     
     # Input section
     st.header("💬 Input Prompt")
@@ -439,6 +434,7 @@ st.info("🚀 **Feature Steering**: Direct feature direction addition to model h
             st.warning(f"⚠️ Feature activation decreased by {abs(results['activation_change']):.4f}")
         else:
             st.info("ℹ️ No change in feature activation")
+        
     
     # Activation Analysis Section (moved to end)
     if 'steering_results' in st.session_state:
