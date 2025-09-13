@@ -1,0 +1,11 @@
+streamlit
+torch
+transformers
+safetensors
+plotly
+pandas
+numpy
+scipy
+scikit-learn
+seaborn
+matplotlib
