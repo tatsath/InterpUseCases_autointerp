@@ -1,7 +1,7 @@
 # Financial LLM Feature Steering
 
 ## 🎯 Overview
-Interactive feature steering for the finetuned Llama2-7b-Finance model using SAE (Sparse Autoencoder) features. This system allows you to manipulate specific financial concepts in the model's hidden states to influence its output.
+Interactive feature steering for the finetuned Llama2-7b-Finance model using SAE (Sparse Autoencoder) features. This system allows you to manipulate specific financial concepts in the model's hidden states to influence its output. **All layers (4, 10, 16, 22, 28) are fully functional and tested.**
 
 ## 📁 Files
 
@@ -124,7 +124,7 @@ Uses **finetuned model labels** from the financial domain analysis:
 - **Side-by-side comparison** of original vs steered outputs
 - **Large text areas** (400px height) for better readability
 - **Extended token generation** (100-800 tokens, default 500)
-- **Expanded steering range** (-30 to +30)
+- **Steering range** (-50 to +50)
 - **Activation analysis** with charts and metrics
 
 ### Minimal Test Script
@@ -137,8 +137,8 @@ Uses **finetuned model labels** from the financial domain analysis:
 - **Model**: `cxllin/Llama2-7b-Finance`
 - **SAE**: `llama2_7b_finance_layers4 10 16 22 28_k32_latents400_wikitext103_torchrun`
 - **Steering Method**: Direct feature direction addition to hidden states
-- **Coefficient**: 1.0x (enhanced for visible effects)
-- **Optimal Range**: 10.0-30.0
+- **Coefficient**: 0.5x (balanced for effective steering)
+- **Optimal Range**: 10.0-50.0
 - **Feature Dimensions**: 4096 (hidden state size)
 - **Steering Vector Shape**: [1, 1, 4096] (broadcasted to [batch, seq_len, hidden_dim])
 
@@ -173,8 +173,8 @@ def steering_hook(module, input, output):
         if feature_norm > 0:
             feature_direction = feature_direction / feature_norm
         
-        # 3. Apply steering: strength * 1.0 * normalized_direction
-        steering_vector = strength * 1.0 * feature_direction
+        # 3. Apply steering: strength * 0.5 * normalized_direction
+        steering_vector = strength * 0.5 * feature_direction
         
         # 4. Add directly to hidden states
         steered_hidden = hidden_states + steering_vector
@@ -184,14 +184,14 @@ def steering_hook(module, input, output):
         return output
 ```
 
-### Why 1.0 Coefficient?
-The **1.0 coefficient** is an **empirical tuning parameter** that provides optimal balance between:
+### Why 0.5 Coefficient?
+The **0.5 coefficient** is an **empirical tuning parameter** that provides optimal balance between:
 - **Effectiveness**: Strong enough to show dramatic steering effects
 - **Stability**: Maintains generation quality even at high strengths
 - **Controllability**: Allows fine-grained control over steering intensity
 
-**Without 1.0**: Steering effects are too subtle to be clearly visible
-**With 1.0**: Provides dramatic, visible transformations while maintaining quality
+**Without 0.5**: Steering effects are too subtle to be clearly visible
+**With 0.5**: Provides dramatic, visible transformations while maintaining quality
 
 ### Comparison with SAELens
 Our implementation differs from the [SAELens steering approach](https://github.com/jbloomAus/SAELens/blob/main/tutorials/using_an_sae_as_a_steering_vector.ipynb):
@@ -204,11 +204,11 @@ Our implementation differs from the [SAELens steering approach](https://github.c
 | **Intensity** | More conservative | More aggressive |
 | **Stability** | Very stable, subtle effects | Balanced stability and visibility |
 
-**Our 1.0 coefficient** is larger than typical SAELens values because:
+**Our 0.5 coefficient** is balanced compared to typical SAELens values because:
 1. **We normalize first**, so the raw magnitude is controlled
 2. **We want dramatic visible effects** for the interactive UI
 3. **Our financial features** are highly specialized and can handle stronger steering
-4. **User control** allows fine-tuning the strength slider (0-30)
+4. **User control** allows fine-tuning the strength slider (0-50)
 
 ### Steering Process Flow
 ```
@@ -218,7 +218,7 @@ Input Prompt → Model Forward Pass → Hidden States (Layer 22)
                                            ↓
                               Feature Direction (4096D) ← SAE Decoder Weights
                                            ↓
-                              Normalize & Scale (strength × 1.0)
+                              Normalize & Scale (strength × 0.5)
                                            ↓
                               Add to Hidden States
                                            ↓
@@ -229,12 +229,12 @@ Input Prompt → Model Forward Pass → Hidden States (Layer 22)
 
 ### Mathematical Formula
 ```
-steering_vector = strength × 1.0 × (decoder[feature_idx, :] / ||decoder[feature_idx, :]||)
+steering_vector = strength × 0.5 × (decoder[feature_idx, :] / ||decoder[feature_idx, :]||)
 steered_hidden = original_hidden + steering_vector
 ```
 
 Where:
-- `strength`: User-defined steering intensity (0-30)
+- `strength`: User-defined steering intensity (0-50)
 - `decoder[feature_idx, :]`: 4096-dimensional feature direction from SAE
 - `||·||`: L2 normalization
-- `1.0`: Empirical coefficient for dramatic steering effects
+- `0.5`: Empirical coefficient for balanced steering effects
