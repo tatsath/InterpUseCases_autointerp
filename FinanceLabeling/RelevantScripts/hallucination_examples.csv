@@ -1,0 +1,22 @@
+text,label
+"Apple Inc. was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne.",0
+"Apple Inc. was founded in 1985 by Bill Gates and Steve Jobs.",1
+"The Federal Reserve sets interest rates to control inflation.",0
+"The Federal Reserve sets interest rates to increase unemployment.",1
+"Tesla was founded in 2003 by Elon Musk and others.",0
+"Tesla was founded in 1995 by Jeff Bezos and others.",1
+"Bitcoin was created in 2009 by an anonymous person using the name Satoshi Nakamoto.",0
+"Bitcoin was created in 2015 by Elon Musk as a joke.",1
+"Stock prices are determined by supply and demand in the market.",0
+"Stock prices are determined by the weather forecast.",1
+"Apple reported Q3 revenue of $81.4 billion, up 1% year-over-year.",0
+"Apple reported Q3 revenue of $8.14 trillion, up 1000% year-over-year.",1
+"Tesla's net income increased 20% compared to the previous quarter.",0
+"Tesla's net income increased 2000% compared to the previous quarter.",1
+"The Dow Jones Industrial Average is a stock market index of 30 large companies.",0
+"The Dow Jones Industrial Average is a cryptocurrency index tracking 100 digital currencies.",1
+"Gold is a precious metal that has been used as currency for thousands of years.",0
+"Gold is a synthetic metal created in laboratories in the 1950s.",1
+"Warren Buffett is known as the 'Oracle of Omaha' for his investment success.",0
+"Warren Buffett is known as the 'Wizard of Wall Street' for his trading algorithms.",1
+

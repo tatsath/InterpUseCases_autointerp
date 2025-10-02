@@ -1,0 +1,48 @@
+CIRCUIT TRACING RESULTS
+========================
+
+Analysis completed on 5 financial prompts:
+1. "Jamie Dimon leads JPMorgan Chase"
+2. "Bank earnings rise after rate cuts"
+3. "Microsoft acquires Activision"
+4. "Federal Reserve raises rates"
+5. "Tesla stock increases 15%"
+
+KEY FINDINGS:
+=============
+
+Most Important Features (appear in all 5 prompts):
+- Feature 205: Strength 755.00, appears in layers [4, 10, 16, 22]
+- Feature 248: Strength 743.50, appears in layers [4, 10, 16, 22, 28]
+- Feature 37: Strength 628.00, appears in layers [4, 10, 16, 28]
+- Feature 93: Strength 609.00, appears in layers [4, 10, 16, 22]
+- Feature 254: Strength 590.50, appears in layers [4, 10, 16, 28]
+
+Layer-by-Layer Feature Flow:
+============================
+Layer 4:  [205, 37, 46, 93, 92] - Early processing features
+Layer 10: [205, 37, 254, 248, 39] - Mid-level understanding
+Layer 16: [364, 205, 192, 41, 248] - Complex reasoning
+Layer 22: [205, 364, 248, 192, 93] - Advanced processing
+Layer 28: [94, 364, 192, 248, 37] - Final output features
+
+Circuit Connections Found:
+=========================
+- 15 features active across multiple layers
+- 75 total feature connections identified
+- Strong persistence of features 205, 248, 37, 93, 254 across all prompts
+
+Interpretation:
+===============
+- Features 205 and 248 are the most critical for financial topic processing
+- These features maintain high activation across all layers (4→28)
+- The system shows consistent feature patterns regardless of specific financial content
+- This suggests these features represent core financial language understanding
+
+Technical Details:
+=================
+- Model: Llama-2-7b-hf
+- SAE Layers: 4, 10, 16, 22, 28
+- Features per layer: 400
+- Device: CUDA (single GPU)
+- Analysis time: < 1 second per prompt

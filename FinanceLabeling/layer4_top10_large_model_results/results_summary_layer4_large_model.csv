@@ -1,0 +1,11 @@
+layer,feature,label,f1_score
+4,90,"Contextual markers in text, such as dates, locations, and specific terms.",0.492
+4,3,"Dates, numbers, and specific events in historical and cultural contexts",0.42
+4,2,"Specific institutional, organizational, and geographical entities",0.554
+4,373,"Complex, multi-part words and technical terms related to specific contexts or domains.",0.78
+4,384,"Names, dates, and specific entities in historical and institutional contexts",0.58
+4,156,HTML tags and section markers in text,0.431
+4,1,"Highlighting digits, especially zeros, in numerical sequences.",0.385
+4,25,Markers of sentence structure and punctuation in text.,0.3
+4,141,"Mixed content with numbers, dates, and proper nouns in various contexts.",0.68
+4,127,"Numerical and structural elements in text, including dates, numbers, and punctuation.",0.8

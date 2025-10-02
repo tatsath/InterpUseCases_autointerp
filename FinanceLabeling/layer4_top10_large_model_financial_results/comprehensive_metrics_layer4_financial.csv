@@ -1,0 +1,11 @@
+layer,feature,label,f1_score,precision,recall,specificity,accuracy,tp,fp,tn,fn,avg_distance,mean_activation,max_activation,min_activation,total_examples
+4,127,"Financial and stock market-related content, including company names and metrics.",0.924731182795699,1.0,0.86,0,0.86,43,0,0,7,4.5,2.458505859375,4.6875,0.0,50
+4,141,Financial and business-related terms and concepts,0.9795918367346939,1.0,0.96,0,0.96,48,0,0,2,4.5,1.294781494140625,2.953125,0.0,50
+4,1,Focus on zeros in large financial or numerical figures,0.3278688524590164,1.0,0.19607843137254902,1.0,0.36923076923076925,10,0,14,41,3.230769230769231,0.0496856689453125,2.328125,0.0,65
+4,90,Financial and market-related terms and metrics,0.888888888888889,1.0,0.8,0,0.8,40,0,0,10,4.5,0.27558319091796873,1.9140625,0.0,50
+4,3,"Financial and business-related terms, including performance metrics and market updates.",0.8505747126436781,1.0,0.74,0,0.74,37,0,0,13,4.5,0.3541741943359375,1.6015625,0.0,50
+4,384,Financial and business-related terms and concepts,0.9361702127659575,1.0,0.88,0,0.88,44,0,0,6,4.5,0.8291217041015625,2.265625,0.0,50
+4,2,"Financial and business terms, focusing on industries and market performance.",0.9361702127659575,1.0,0.88,0,0.88,44,0,0,6,4.5,0.05304229736328125,1.5078125,0.0,50
+4,156,Financial news and stock market articles,0.8636363636363636,1.0,0.76,0,0.76,38,0,0,12,4.5,0.2995806884765625,1.390625,0.0,50
+4,25,Financial news and stock market updates,0.8372093023255813,1.0,0.72,0,0.72,36,0,0,14,4.5,0.5330621337890625,2.015625,0.0,50
+4,373,"Financial and business-related terms, including company actions and economic indicators.",0.9473684210526316,1.0,0.9,0,0.9,45,0,0,5,4.5,0.19983978271484376,1.890625,0.0,50

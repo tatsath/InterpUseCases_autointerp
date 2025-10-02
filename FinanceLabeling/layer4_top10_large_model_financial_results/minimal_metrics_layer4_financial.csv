@@ -1,0 +1,11 @@
+layer,feature,label,f1_score,precision,recall,accuracy
+4,127,"Financial and stock market-related content, including company names and metrics.",0.924731182795699,1.0,0.86,0.86
+4,141,Financial and business-related terms and concepts,0.9795918367346939,1.0,0.96,0.96
+4,1,Focus on zeros in large financial or numerical figures,0.3278688524590164,1.0,0.19607843137254902,0.36923076923076925
+4,90,Financial and market-related terms and metrics,0.888888888888889,1.0,0.8,0.8
+4,3,"Financial and business-related terms, including performance metrics and market updates.",0.8505747126436781,1.0,0.74,0.74
+4,384,Financial and business-related terms and concepts,0.9361702127659575,1.0,0.88,0.88
+4,2,"Financial and business terms, focusing on industries and market performance.",0.9361702127659575,1.0,0.88,0.88
+4,156,Financial news and stock market articles,0.8636363636363636,1.0,0.76,0.76
+4,25,Financial news and stock market updates,0.8372093023255813,1.0,0.72,0.72
+4,373,"Financial and business-related terms, including company actions and economic indicators.",0.9473684210526316,1.0,0.9,0.9

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "base_model": "llama-2-7b",
+    "sae": {
+      "layer": 4,
+      "l0": 121,
+      "sha": "abc123def456"
+    },
+    "domain": "finance",
+    "latent_id": 141
+  },
+  "labeling": {
+    "label": "financial_performance",
+    "definition": "Feature detects financial performance indicators and metrics",
+    "include_cues": [
+      "earnings",
+      "financial",
+      "growth",
+      "performance",
+      "profit",
+      "revenue"
+    ],
+    "exclude_cues": [
+      "decline",
+      "decrease",
+      "loss",
+      "negative"
+    ],
+    "risks": [
+      "Could miss industry-specific terms",
+      "May trigger on non-financial performance"
+    ],
+    "self_consistency": {
+      "trials": 3,
+      "top_label_votes": 3,
+      "agreement": 1.0
+    }
+  },
+  "clustering": {
+    "n_clusters": 1,
+    "silhouette": 0.0,
+    "polysemanticity_index": 0.0
+  },
+  "metrics": {
+    "tau_star": 1.0,
+    "f1": 0.28571428571428575,
+    "precision": 0.5,
+    "recall": 0.2,
+    "selectivity": 1.0,
+    "confusion_matrix": {
+      "tn": 4,
+      "fp": 1,
+      "fn": 4,
+      "tp": 1
+    },
+    "pr_curve": [
+      {
+        "t": 0.0,
+        "precision": 0.5,
+        "recall": 1.0
+      },
+      {
+        "t": 1.0,
+        "precision": 0.5,
+        "recall": 0.2
+      },
+      {
+        "t": null,
+        "precision": 1.0,
+        "recall": 0.0
+      }
+    ],
+    "robustness_fuzzing": {
+      "pos_mean": 0.2,
+      "pos_fuzz_mean": 0.2,
+      "neg_mean": 0.2,
+      "neg_fuzz_mean": 0.2,
+      "pos_drop": 0.0,
+      "neg_rise": 0.0
+    }
+  },
+  "canonicals": {
+    "positives": [
+      "The stock is trading at premium multiples",
+      "Valuation metrics improved substantially",
+      "Market cap reached $50 billion",
+      "Valuation growth accelerated",
+      "Price targets were raised by analysts",
+      "The company's valuation increased by 30%",
+      "The company's worth increased dramatically",
+      "Enterprise value increased to $45 billion",
+      "Market valuation exceeded expectations",
+      "Price-to-earnings ratio expanded significantly"
+    ],
+    "negatives": [
+      "The company reported a loss this quarter",
+      "Revenue declined by 10% year-over-year",
+      "Operating expenses increased significantly",
+      "The business faced headwinds",
+      "Cost structure deteriorated",
+      "Margins compressed due to inflation",
+      "The company struggled with profitability",
+      "Financial performance was disappointing",
+      "The firm missed revenue targets",
+      "Earnings were below expectations"
+    ],
+    "hard_negatives": [
+      "The weather is beautiful today with clear skies",
+      "Technology advances rapidly in the modern world",
+      "The weather is beautiful today with clear skies",
+      "Technology advances rapidly in the modern world",
+      "Reading improves vocabulary and knowledge",
+      "I went to the grocery store to buy food",
+      "Learning new skills is rewarding",
+      "Friendship is valuable and meaningful",
+      "The movie was entertaining and well-directed",
+      "Learning new skills is rewarding"
+    ]
+  },
+  "lineage": {
+    "data_hash": "2ad7d7cbfb2b",
+    "bg_hash": "dc8b6199b6a0"
+  },
+  "decision": "revise_or_split"
+}
