@@ -1,1 +1,1 @@
-"News article titles mentioning financial performance or market trends"
+"End-of-sequence marker or delimiter"

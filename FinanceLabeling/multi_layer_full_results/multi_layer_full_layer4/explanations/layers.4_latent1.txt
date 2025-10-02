@@ -1,1 +1,1 @@
-"Numeric placeholders in financial contexts"
+"Historical dates and numerical specifics"

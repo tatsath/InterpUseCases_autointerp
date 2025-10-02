@@ -1,1 +1,1 @@
-"Stock market trends and performance"
+"Named entities and their attributes or actions"

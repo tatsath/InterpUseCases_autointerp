@@ -1,1 +1,1 @@
-"News article titles mentioning stock performance and market trends"
+"Named entities, technical terms, specific dates/numbers"

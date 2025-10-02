@@ -1,11 +1,401 @@
 layer,feature,label,f1_score
-4,127,Financial stock performance and earnings trends,0.72
-4,141,Earnings and revenue growth forecasts,0.28
-4,1,Numeric placeholders in financial contexts,0.365
-4,90,Financial and tech stock performance and trends,0.84
-4,3,financial stock market updates and ratings,0.84
-4,384,Financial results and market analysis discussions,0.64
-4,2,"Business and market activities, regulatory impacts",0.808
-4,156,News article titles mentioning financial performance or market trends,0.769
-4,25,Stock market trends and trading activities,0.8
-4,373,AI model training and GPU usage patterns,0.08
+4,239,conjunctions linking related concepts or actions,0.4
+4,208,lasting periods or states,0.267
+4,66,musical collaboration and instrumentation,0.283
+4,0,Relationship or group indicators,0.35
+4,334,Directional positioning and geographical boundaries,0.5
+4,261,location marker for events or places,0.433
+4,288,actions and modifications in historical and technical contexts,0.433
+4,94,"\""over\"" indicates spatial or temporal extent",0.25
+4,314,After/Post: Following an event or time point,0.367
+4,22,"The pattern represents references to specific, named entities or concepts.",0.5
+4,86,"Contextual indicator for \""in\"" specifying location or time",0.467
+4,332,Specific named entities and locations in narratives,0.533
+4,164,Precise numerical and temporal data patterns,0.333
+4,333,Specific instance or example marker,0.317
+4,267,"Refers to specific, previously mentioned entities or concepts.",0.317
+4,197,1990s cultural and historical references,0.217
+4,221,Geographic locations and routes in road networks,0.267
+4,87,Geographical and cultural place names in various languages,0.583
+4,41,Punctuation mark token activations,0.56
+4,246,Country or political affiliation mentioned in context,0.35
+4,383,Past tense or passive voice indicators,0.233
+4,195,Quantitative comparisons and time durations,0.383
+4,351,indicates possession or past occurrence,0.35
+4,212,directional movement or travel,0.417
+4,116,"Roland, rhymed, recovery, rapid",0.183
+4,83,declined: reduction or fall in quantity or value,0.2
+4,72,leaving/distance from powerful figures or situations,0.233
+4,56,Highlighted text markers in context,0.52
+4,81,possessive form indicating ownership or association,0.433
+4,44,Chinese-ethnic place names or historical figures,0.2
+4,189,Numerical thresholds or limits in descriptions,0.417
+4,270,Character introductions and story developments,0.383
+4,92,Sentence terminators and blank lines,0.44
+4,55,Highlighted text segments for emphasis or marking.,0.4
+4,138,Sentence and section boundary markers,0.667
+4,319,Periods in specific contexts marking breaks or ends.,0.483
+4,118,Highlighted text segments for emphasis or marking.,0.38
+4,147,final campaign or war,0.217
+4,217,freeway and road segments connections,0.25
+4,381,Internet dissemination and belief,0.183
+4,329,negative consequences or impacts between parties,0.267
+4,194,Numeric placeholders or specific words in text patterns,0.433
+4,192,Low activation for punctuation and non-content words,0.34
+4,130,Punctuation marks in text sequences,0.64
+4,90,Activation patterns for specific words and phrases indicating historical or documentary content.,0.36
+4,357,magnetic field of stars,0.217
+4,385,temporal context markers in narrative sequences,0.433
+4,104,1940s-1990s decade markers,0.233
+4,247,Names and initials of significant individuals or places,0.517
+4,305,Specific numerical values indicating exact counts or durations.,0.467
+4,181,State or country names in specific contexts,0.4
+4,3,Specific named entities and locations,0.38
+4,182,Music album and its songs,0.25
+4,325,Section breaks or separators,0.55
+4,64,mentions of names and relationships in narratives,0.6
+4,313,Significant temporal or ordinal markers,0.55
+4,354,Punctuation and sentence delimiters,0.6
+4,120,Captive breeding program for endangered species,0.183
+4,157,Habitat degradation and conservation efforts,0.2
+4,260,Specific temporal references (years/decades),0.483
+4,376,Key nouns and initial letters of significant terms,0.633
+4,145,found: evidence or discovery of a fact or situation,0.2
+4,397,"Temporal references, specifically years 1980s-1990s",0.233
+4,234,Key terms with high activation in context,0.283
+4,126,"The definite article \""the\"" in specific contexts referring to unique or well-known entities.",0.417
+4,326,criminal charges and complaints,0.217
+4,186,Year mentions in dates and seasons,0.5
+4,82,temporal reference to prior instances or events,0.45
+4,328,Named individuals in historical or biographical contexts,0.3
+4,166,using as a means or function,0.35
+4,47,guitar performance and song composition,0.183
+4,101,Year: 1990s-2000s,0.2
+4,38,Verbs indicating state or action in past tense,0.433
+4,370,final event or stage,0.217
+4,23,team performance in critical moments,0.217
+4,196,Named entities or proper nouns in text,0.533
+4,57,conflict resolution models and historical battleships,0.217
+4,24,"demo version, internet distribution",0.183
+4,100,"\""both\"" and \""all\"" represent collective dual or comprehensive entities.",0.3
+4,361,infrared detection systems for aircraft,0.217
+4,342,quoted speech or writing,0.3
+4,125,Initiating clauses or actions,0.333
+4,367,Equal signs mark recurring scientific or technical terms,0.25
+4,271,large areas or structures,0.283
+4,50,It refers to a previously mentioned entity or concept.,0.15
+4,2,"Location, conflict, and institutions in historical contexts",0.4
+4,282,Specific numerical values in dates or counts,0.433
+4,45,"into, part of, additional, related to",0.367
+4,340,subjects in close monitoring or control,0.2
+4,396,Year references in dates or timelines,0.317
+4,165,specific instance or location,0.25
+4,256,Named entities in proper context,0.317
+4,355,Personal pronouns indicating specific individuals or entities,0.283
+4,375,Character names and proper nouns in TV shows and movies,0.4
+4,9,Historians and experts' opinions and considerations,0.2
+4,77,Key figures in specific projects or traditions,0.6
+4,229,"repeated, similar, comparative patterns",0.3
+4,235,specific geographic or administrative regions and boundaries,0.433
+4,258,"Refers to a specific person's actions, thoughts, or creations.",0.6
+4,369,"In: temporal marker, often indicating past events or time references",0.3
+4,7,Date references in specific months and years,0.317
+4,171,state of being covered or beneath another entity,0.25
+4,263,"\""both\"" represents pairs or dual relationships.",0.217
+4,337,refusal or refusal to do something,0.2
+4,220,"Announcements, introductions, and film premieres",0.167
+4,207,military and naval forces,0.3
+4,224,traversal or directional positioning,0.3
+4,206,key article or possessive marker,0.517
+4,373,conservation and recovery efforts,0.06
+4,363,Punctuation marks in text sequences,0.6
+4,48,End-of-sentence markers in diverse texts,0.5
+4,343,not indicating negation or contrast,0.167
+4,176,Political and ideological movements,0.1
+4,4,rebuilding or restoration processes,0.233
+4,294,transitional words indicating contrast or pause,0.433
+4,215,End-of-sentence marker,0.4
+4,335,bowling and related actions in cricket,0.2
+4,102,Activations around '>>' often denote quoted or emphasized text.,0.167
+4,348,Activations for hyphen and at symbols in context of historical or formal text.,0.617
+4,5,Subject pronoun referring to male individuals in specific contexts.,0.25
+4,140,population resilience to environmental changes,0.233
+4,13,Sentence delimiters and breaks,0.46
+4,161,Initial letters of words or proper nouns,0.55
+4,142,"community, group, party membership",0.25
+4,68,"\""to\"" indicates intended actions or modifications",0.333
+4,159,Year placeholders in dates or chronological sequences,0.5
+4,62,combat units and warfare technology,0.433
+4,80,Sentence boundaries and conjunctions,0.3
+4,359,quotation marks around phrases,0.467
+4,152,Partially masked terms in text,0.52
+4,227,game modifications and design specifics,0.3
+4,58,End-of-sentence marker or token,0.4
+4,210,temporal reference to events or conditions,0.383
+4,327,The: Noun article indicating specific entities,0.183
+4,297,weapons and military equipment types,0.06
+4,10,"typical, specific descriptors in contexts of science, art, and philosophy",0.3
+4,274,The: article indicating specific noun mentions,0.333
+4,29,transition/to between locations or concepts,0.3
+4,218,End of sentences or idea separations,0.44
+4,49,intention or desire to do something,0.217
+4,88,Connecting supplementary details or additional items in a list.,0.25
+4,350,by indicating authorship or source,0.483
+4,338,Named entities and cultural references,0.55
+4,299,Educational institutions and their roles in training or attending,0.3
+4,78,temporal or conditional actions/states,0.183
+4,320,Date placeholders in text,0.333
+4,150,"Social, cultural, and physical aspects in various contexts",0.317
+4,384,Political figures and events in historical contexts,0.28
+4,54,to indicate purpose or role,0.267
+4,268,Not mentioned/unclear,0.167
+4,273,"the: most frequent, versatile article",0.3
+4,70,ordinal number indicating position or rank,0.25
+4,153,Numerical values indicating specific years or decades.,0.55
+4,318,harsh occupation policies and their effects,0.2
+4,160,Ethnic or national groups mentioned in text,0.483
+4,132,computer animation and traditional techniques,0.233
+4,188,"The comma and \""the\"" highlight temporal or transitional points.",0.383
+4,6,Measurement units and specifications in technical contexts,0.383
+4,60,visual appearance or physical characteristics,0.283
+4,32,selection for design or role,0.08
+4,300,distinctive architectural or design improvements,0.183
+4,158,IUCN assessment of species endangerment levels,0.217
+4,331,Location or place names with specific context,0.483
+4,37,Highlighted text segments for emphasis or marking.,0.38
+4,110,Punctuation marks in text sequences,0.6
+4,285,Year 1990s,0.233
+4,16,Specific digits in numerical values,0.617
+4,250,due to,0.183
+4,226,Limited or modest scale indicator,0.167
+4,190,castle: fortress-like structure symbolizing confinement or historical significance,0.2
+4,296,Notable historical and fictional individuals and events,0.38
+4,219,Highlighted text segments for emphasis or marking.,0.38
+4,349,"combat, invasion, and conflict scenarios",0.35
+4,139,End-of-sentence marker,0.4
+4,122,Sentence terminators and connectors,0.567
+4,345,Wrestling matches and championships,0.25
+4,356,Past tense indicator in historical contexts,0.45
+4,167,geographical regions and their names,0.45
+4,30,Named individuals and places in specific stories or series,0.333
+4,231,Units of measurement in specific contexts,0.233
+4,107,pivotal narrative elements or characters,0.22
+4,12,influential model or concept based on specific criteria,0.2
+4,232,multi-word phrases with hyphens denote specific concepts or themes,0.55
+4,144,End-of-sentence marker,0.4
+4,295,Past state leading to significant change or condition,0.35
+4,372,conjunction linking contrasting or additive ideas,0.25
+4,353,Context-specific referent in sentences,0.333
+4,34,battleship design features and historical context,0.02
+4,286,film production and related activities,0.333
+4,238,fielders' positioning during delivery,0.183
+4,111,Women characters in specific roles or contexts,0.317
+4,156,End-of-sequence marker or delimiter,0.483
+4,214,Place names with regional or country-specific prefixes,0.35
+4,67,Co-occurring conjunctions and articles in formal contexts,0.3
+4,395,temporal qualifiers indicating subsequent or following events,0.3
+4,252,violent acts and their methods,0.317
+4,310,Periods marking sentence endings in text,0.467
+4,254,Punctuation or sentence delimiters,0.54
+4,202,legal charge or governmental initiative,0.183
+4,187,Frontal or rear positioning in various contexts,0.267
+4,31,Transient events or states with social or historical significance,0.26
+4,289,verb gerund form emphasizing action or process,0.367
+4,216,Decade-specific historical events and dates,0.367
+4,15,End-of-sentence marker,0.4
+4,237,Named entities and historical figures,0.5
+4,374,Date placeholders in specific months and years,0.35
+4,251,Punctuation mark indicating sentence or thought separation.,0.6
+4,399,critically endangered species and habitats,0.25
+4,146,Social credit system references,0.183
+4,387,Time period or numeric reference,0.567
+4,133,School names and locations in Northern England and Wales,0.2
+4,306,Named entities in proper contexts,0.367
+4,85,influential regimes or historical figures,0.317
+4,27,"relationships, attributions, and divisions in text",0.54
+4,225,"lineages, origins, and historical structures",0.267
+4,245,"Multiple, specific quantities or instances mentioned consistently.",0.333
+4,259,additional or other specific entities/elements,0.35
+4,69,built structures or pathways,0.283
+4,242,End-of-sequence marker or empty string,0.35
+4,170,Year or date in text,0.583
+4,191,"Historical events, figures, and periods",0.567
+4,264,Sentence punctuation and section breaks,0.52
+4,205,Highlighted text segments in documents,0.22
+4,103,temporal transition or contrast marker,0.35
+4,42,"\""of\"" and quantifiers indicating proportions or parts",0.3
+4,243,Introduces additional information or conditions,0.4
+4,117,Temporal markers in historical sequences,0.517
+4,233,interactions with individuals or entities,0.35
+4,175,temporal references in decades or specific years,0.35
+4,43,Names and initials of people or places,0.567
+4,63,Positive traits and strong character attributes,0.02
+4,262,family member relationships and roles,0.267
+4,1,Historical dates and numerical specifics,0.467
+4,8,"Music, guitar, and sports figures",0.233
+4,209,"Congressional district, political representation, and election history",0.183
+4,255,with: indicating means or method,0.167
+4,25,End of section or paragraph marker,0.22
+4,275,location or timing of events,0.533
+4,201,actions and decisions leading to outcomes,0.417
+4,287,Named entities or specific terms,0.42
+4,84,"Referring to specific, previously mentioned entities.",0.2
+4,74,transitional phrase or symbol,0.46
+4,134,Place names with specific cultural or historical significance,0.533
+4,151,Military and political leadership titles and structures,0.283
+4,309,Numeric placeholders in dates or measurements,0.433
+4,40,devastating events and their impacts,0.2
+4,278,more/less emphasizes comparative quantity or emphasis,0.217
+4,301,"actions described by \""was\"" and \""had been\"" indicate past events or states",0.383
+4,169,newspaper and news reports publication,0.2
+4,177,Animated series and films themes,0.333
+4,52,Date references in specific years and months,0.333
+4,390,conjunctions and commas in lists,0.25
+4,228,defeat and victory in competitive events,0.233
+4,163,war events and their impacts,0.383
+4,137,"behavioral or linguistic patterns involving \""of\"" and \""the\"" in specific contexts",0.317
+4,257,Numerical rankings or counts in factual contexts,0.417
+4,321,"storms, winds, burns, power, rate",0.233
+4,279,Text segment breaks or transitions,0.48
+4,123,"\""of\"" introducing specific instances or parts",0.383
+4,360,support or approval for a cause or group,0.267
+4,277,"distinctive linguistic patterns in specific words like \""hust\"", \""sh\"", \""Harbour\"", \""atch\"", \""Honolulu\"", \""hiphop\"", \""Championship\"", \""Sahif\"", \""ingKuen\"", \""ships\"", \""photobackground\"", \""harm\"", \""Mih\"", \""heat\"", \""chemical\",0.367
+4,178,Political representation and party affiliation,0.25
+4,382,Relative clauses introducing specific details,0.35
+4,352,"Fisher, federation, formation, fishing: professional terms in specific contexts",0.217
+4,389,"examples of \""as\"" introducing specific instances or comparisons",0.25
+4,312,Specific possessive references or instances,0.22
+4,143,new: indicating recent or novel developments,0.217
+4,59,Specific historical and technical terms,0.56
+4,185,water bodies and systems,0.25
+4,154,Numeric placeholders in context of quantities or measurements,0.25
+4,20,temporal or chronological marker,0.583
+4,39,Highlighted text segments for emphasis or marking.,0.4
+4,330,Date references in specific years or months,0.4
+4,33,"Indicative of mentions of \""a\"" or \""many\"" objects/events/people.",0.433
+4,71,first significant or distinctive instance,0.333
+4,14,Referents in context for specific individuals or entities,0.467
+4,362,Named individuals in specific contexts,0.4
+4,377,Year-specific temporal references,0.467
+4,391,initial occurrence or first instance,0.333
+4,283,Historical figures and cultural practitioners,0.383
+4,11,Events or changes that were close but not exact,0.267
+4,368,ability to resist environmental pressures,0.2
+4,339,"an important, specific element or concept",0.35
+4,53,Transitional words indicating comparison or addition,0.233
+4,35,Reported events or states in historical or factual contexts,0.417
+4,21,Specific years marking historical events or milestones,0.417
+4,203,Year/decimal marker,0.383
+4,240,Date placeholders in text,0.283
+4,73,characters and their inspirations in narratives,0.417
+4,213,End-of-sentence marker,0.44
+4,386,Winning championships or titles in competitive events,0.25
+4,398,to accommodate or improve functionality,0.217
+4,17,animated series,0.267
+4,290,Racial tension and representation in media,0.25
+4,119,Specific named entities or titles,0.233
+4,291,Key narrative figure or element,0.533
+4,379,race/cultural/technological references,0.567
+4,315,statement of opinion or belief,0.283
+4,184,Domain-specific thematic categorization,0.383
+4,193,Highlighted text structure marker,0.42
+4,99,"most important, critical, or typical instances",0.233
+4,276,"Videography, male mating behavior, philosophical concepts, art education",0.117
+4,323,"The pattern represents references to specific, particular instances or instances of a category.",0.467
+4,131,Population under threat from human activities and policies,0.06
+4,272,nervousness or anxiety about public performance,0.183
+4,222,"2nd, 3rd Districts, political representation",0.167
+4,223,Numerical values in dates and counts,0.467
+4,317,Sentence delimiter markers,0.5
+4,204,"project, film, species, style, case",0.367
+4,18,action verb indicating past state or occurrence,0.433
+4,46,route through private properties,0.275
+4,230,Religious or spiritual practices and institutions,0.25
+4,136,Cultural references and historical figures,0.517
+4,76,war between groups or leaders,0.267
+4,249,"leader, head, power base",0.267
+4,124,Specific instance or place reference,0.433
+4,322,economic or financial metrics and transactions,0.317
+4,89,Plural nouns or possessives referring to specific groups or concepts.,0.367
+4,79,Time references indicating subsequent events or actions,0.4
+4,211,Directional terms indicating geographic or movement patterns,0.383
+4,172,Numerical placeholders in text patterns,0.383
+4,292,aspect or instance of a broader category or concept,0.3
+4,365,Date range or specific year in parentheses,0.317
+4,302,"Context marker \""the\"" in specific nouns and locations",0.35
+4,148,The pattern represents frequent use of definite articles and possessives referring to specific entities.,0.217
+4,266,Authoritative figures discussing works or concepts,0.333
+4,253,"\""took\"" represents actions of seizing or exploiting opportunities.",0.233
+4,114,Specific dates marking significant events or periods.,0.4
+4,293,Battle: significant conflicts and engagements,0.25
+4,280,Additional information or clarification,0.417
+4,141,Political support and policy changes over time,0.02
+4,135,Named entities or key terms in context,0.517
+4,304,"Indicative phrases linking cause, effect, or shared experiences",0.267
+4,28,Specific illustrative example marker,0.217
+4,121,The: connecting temporal or causal relationships,0.233
+4,129,development and creation processes in various media forms,0.4
+4,341,Transition or conjunction indicating connection between ideas,0.317
+4,65,focused on specific details or origins,0.567
+4,394,article indicating a non-specific noun,0.2
+4,162,Named individuals or roles in specific contexts,0.4
+4,168,additional information or example provided as,0.267
+4,393,causal effects of introduced factors,0.2
+4,155,Section headers or transitions in text,0.367
+4,316,Named individuals in media and political contexts,0.433
+4,344,Word endings or truncations,0.88
+4,173,rapid change or transformation processes,0.333
+4,115,Battleships and naval warfare features,0.3
+4,371,Abbreviations or partial words of proper nouns,0.65
+4,346,Specific historical time periods marking events.,0.367
+4,298,Frequent use of punctuation and quotation marks,0.4
+4,26,"conflict, arrest, imprisonment",0.183
+4,36,Specific instance in a category,0.383
+4,91,suggested but unverified claims or theories,0.283
+4,241,Specific years or terms marking significant events or concepts,0.35
+4,96,Tropical storms and hurricanes activity patterns,0.25
+4,199,future action or state,0.183
+4,180,Decade-specific historical or cultural references,0.35
+4,347,Documented declines in populations or areas,0.25
+4,174,temporal reference to a future event or time point,0.217
+4,303,context-related prepositions and articles,0.517
+4,269,Specific words or phrases indicating named entities or proper nouns.,0.72
+4,105,"Explanatory or contrasting details introduced by punctuation or \""while\"", \""but\",0.35
+4,109,End-of-sentence marker,0.4
+4,388,Text formatting or delimiters recognition,0.44
+4,336,Geopolitical entities and international organizations,0.283
+4,265,becoming synonymous or associated with something,0.367
+4,97,Names or titles given to specific entities or concepts,0.517
+4,93,Punctuation mark token activations,0.56
+4,108,conjunctions linking alternatives or additions,0.333
+4,284,Approximations and near-misses in data and descriptions,0.283
+4,364,Sentence terminators or punctuation marks,0.45
+4,112,Key terms indicating specific named places or concepts.,0.6
+4,113,a: article marker in specific contexts,0.2
+4,311,Key names in cultural or historical contexts,0.383
+4,75,Names or specific individuals,0.483
+4,378,Year references in specific decades,0.4
+4,248,Highlighting or framing specific text segments,0.38
+4,281,AI/ink/indra/ke/visions/dragons/ifah/film/specific names/locations,0.567
+4,200,Contrast marker indicating spite or although in text,0.25
+4,19,"\""was\"" indicates past state or occurrence",0.5
+4,127,Various historical and technical contexts,0.52
+4,198,defeat in sports matches,0.217
+4,95,Decade markers in historical contexts,0.383
+4,236,Movement or origin from a specific place or time,0.567
+4,106,Specific names and titles in cultural works and historical events,0.4
+4,358,Unifying or unified entities or concepts,0.4
+4,307,creation and development of entities or systems,0.283
+4,183,transitional word indicating additional information,0.3
+4,392,Place names or proper nouns in historical contexts,0.383
+4,98,"as, indicating role or function in context",0.383
+4,244,battleships class design features,0.217
+4,308,Typhoons and their impacts,0.217
+4,51,actions or processes in descriptions,0.567
+4,324,"Uses of \""for\"" to introduce purposes or reasons in specific contexts",0.317
+4,380,beginning or starting point of an event or process,0.4
+4,149,Historical figures and cultural references,0.633
+4,179,Japanese cultural elements and structures,0.233
+4,61,indicates purpose or action direction,0.467
+4,128,Time references in decades or specific years,0.483
+4,366,"Specific numerical, temporal, or technical terms",0.55

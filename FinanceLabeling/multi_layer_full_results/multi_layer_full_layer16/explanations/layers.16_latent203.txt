@@ -1,1 +1,1 @@
-"Financial and corporate events mentions"
+"Named entities and proper nouns"

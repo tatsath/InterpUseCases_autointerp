@@ -1,11 +1,401 @@
 layer,feature,label,f1_score
-10,384,AI-related demand and growth,0.288
-10,292,investment opportunities and market trends,0.673
-10,273,Economic and market trends discussed,0.9
-10,173,"Financial and tech trends, growth forecasts",0.865
-10,343,AI-driven growth and strategy,0.154
-10,372,Market trends and earnings season analysis,0.84
-10,17,Financial earnings and stock market analysis,0.7
-10,389,financial performance and market trends,0.82
-10,303,Stock performance and financial metrics discussions,0.808
-10,47,Stock performance and analyst ratings changes,0.615
+10,84,competitions and achievements during early careers,0.233
+10,342,"Low activity, revelations, sound techniques, preparation, loss, reputation, news duty, conservation, destruction, balance",0.283
+10,53,Key historical events and their impacts,0.383
+10,141,"extensively modified, upgraded, or described",0.317
+10,139,Sentence terminators with newlines,0.5
+10,350,psychological state or event,0.283
+10,47,Cultural/technological influences in media and art history,0.533
+10,133,Nature conservation status or political affiliation,0.167
+10,390,Place names with specific local or historical significance,0.55
+10,286,Racially insensitive storylines or characters,0.183
+10,293,religious and political factions,0.217
+10,254,Sentence terminators or punctuation marks,0.42
+10,41,End-of-sequence token marker,0.44
+10,51,comprehensive secondary school reform,0.167
+10,224,Military and political alliances/occupations,0.233
+10,81,Character names in specific contexts,0.433
+10,110,End of sequence/paragraph marker,0.46
+10,45,received as rebuke by fans,0.183
+10,236,Cause-effect relationships and their contexts,0.267
+10,172,Numeric placeholders in text,0.333
+10,95,Decade markers in historical contexts,0.383
+10,0,"\""of\"" introduces specific instances or subsets within a larger category.",0.35
+10,262,technical terms and punctuation marks,0.683
+10,114,Numerical values and percentages in specific ranges,0.383
+10,153,Numerical rankings or positions in lists or sequences.,0.267
+10,242,Specific character or entity mentions with unique identifiers.,0.317
+10,330,1990s-2000s reality TV awards and productions,0.2
+10,226,tropical cyclone activity patterns,0.283
+10,251,Sentence terminators or delimiters,0.46
+10,211,Equality signs and dashes in code or text markers,0.35
+10,217,first occurrence or release of something significant,0.367
+10,199,conjunction linking additional information or actions,0.217
+10,396,temporal reference to specific years or dates,0.55
+10,162,Specific names or initials in titles or proper nouns,0.533
+10,23,severe injuries or deaths,0.183
+10,259,Date references in specific years and months,0.367
+10,112,Numeric placeholders in dates and years,0.2
+10,173,battleship modernization and design features,0.167
+10,118,Delimiter token activation,0.56
+10,73,historical events and figures,0.467
+10,99,Numerical comparisons and approximations,0.383
+10,295,legal actions and disputes,0.217
+10,361,transition phrases indicating comparison or contrast,0.2
+10,195,Distance or area measurements in specific units,0.25
+10,19,Transition or conjunction indicating additional information,0.267
+10,8,gully and river paths through private lands,0.2
+10,218,Sentence terminators with no subsequent activation,0.24
+10,378,Numerical placeholders or specific acronyms in text,0.233
+10,399,"specific named entities and contexts in historical, technical, or cultural texts",0.517
+10,43,Common prepositions and punctuation in formal text,0.417
+10,155,development and evolution of specific game engines,0.183
+10,343,Post-war political reconstruction and economic recovery,0.2
+10,4,album releases and collaborations,0.3
+10,297,animated series and films,0.317
+10,348,cricket fielding tactics and rules,0.4
+10,137,past tense indicating prior state or action,0.283
+10,241,Zero-padding or placeholder digits in numeric sequences,0.3
+10,121,Hip-hop production techniques and cultural impact,0.25
+10,256,an important or unique element in a set,0.283
+10,20,directional geographic terms indicating location relative to other places,0.283
+10,389,Text fragments referencing specific historical events or entities,0.46
+10,284,During significant events or transitions.,0.267
+10,397,Place names or proper nouns in titles or references,0.533
+10,280,injury or wound to skin,0.183
+10,319,Nature conservation and endangered species,0.3
+10,24,"by, indicating source or agent in descriptions",0.417
+10,388,Named entities and proper nouns in text,0.567
+10,151,characters and their development in narratives,0.767
+10,188,to manipulate or influence outcomes,0.183
+10,26,optical range finding equipment for armor protection,0.183
+10,268,tower structures in naval vessels,0.267
+10,88,"suggestions, recommendations, or agreements",0.183
+10,323,Winning seasons or championship matches,0.283
+10,131,Biographical references and historical figures,0.517
+10,28,"furthering, solidifying impacts or connections",0.25
+10,318,Archaic weapons and armor in historical contexts,0.25
+10,208,"Military, historical, and philosophical concepts",0.4
+10,393,for introducing or relating to a specific example or purpose,0.25
+10,331,Shaolin martial arts techniques and history,0.233
+10,178,action verb indicating purpose or intent,0.233
+10,74,Sentence-ending punctuation activation,0.56
+10,62,Names and titles of individuals or organizations,0.517
+10,38,actions of causing or enabling,0.267
+10,269,"Numeric references in percentages, counts, and dates",0.567
+10,165,recent historical revival in specific communities,0.2
+10,210,"result, consequence, or outcome of actions or conditions",0.3
+10,341,Temporal references in historical contexts,0.483
+10,187,Key names and concepts in cultural and historical contexts,0.55
+10,1,Splitting or dividing actions or concepts,0.283
+10,148,Barker's artistic and personal life,0.183
+10,255,martial arts training lineage,0.217
+10,189,Several/numerous instances or examples,0.2
+10,336,rebuke or strong criticism,0.183
+10,29,"Context-specific uses of \""the\"" indicating definite references.",0.383
+10,346,films and settings involving traditional and digital techniques,0.25
+10,149,"battleships, stability and naval modernization",0.217
+10,325,Named entities and titles in text,0.5
+10,86,winning championship match,0.233
+10,240,Abbreviations for organizations or specific codes,0.317
+10,223,"estimated, claimed, suggested: uncertain claims or evaluations",0.3
+10,275,Musical titles and characters from films and anime,0.517
+10,100,revival of interest or reintroduction,0.2
+10,14,Time intervals after specific events or points,0.567
+10,272,Usher and collaborators in music industry,0.217
+10,70,Named entities and historical figures in text contexts,0.4
+10,49,Primary focus or distinguishing feature,0.383
+10,373,"She: referring to powerful, smart, and strong women characters",0.233
+10,192,Sentence terminators with whitespace,0.44
+10,15,Low activation for punctuation marks,0.18
+10,92,End-of-sentence punctuation or token,0.56
+10,46,Common article or preposition in context,0.283
+10,12,legal and historical events/actions,0.46
+10,328,"Canon, religious figures and institutions",0.217
+10,122,"brainwashing, inspiration, and strategic protection",0.167
+10,310,Named entity or section title marker,0.5
+10,265,References to important series installments or notable achievements.,0.267
+10,191,Character introduction or casting details,0.367
+10,72,geographic locations or political entities,0.2
+10,340,Place names and geopolitical entities,0.333
+10,98,temporal qualifier indicating something happened after a previous event,0.25
+10,362,"Non-English characters, numbers, and symbols",0.633
+10,198,visual elements in pivotal scenes,0.25
+10,332,"road, gully, or stadium names",0.283
+10,54,Events or characters from historical narratives and literature,0.533
+10,229,Numeric years or dates in text,0.333
+10,398,Punctuation and conjunctions for textual transitions and separations,0.533
+10,366,rotational speed and surface activity of celestial bodies,0.183
+10,214,Equality signs and at symbols mark specific references or affiliations.,0.5
+10,161,Historical and cultural references in specific eras and contexts,0.4
+10,170,temporal duration or period,0.367
+10,154,Percentage or proportional data in text,0.25
+10,132,camera lens and photographic techniques,0.183
+10,274,similar appearance or characteristics,0.3
+10,63,Post-war recovery and political reconstruction,0.267
+10,379,Specific proper nouns and technical terms,0.68
+10,227,specific entities or contextual instances,0.417
+10,253,verb gerund form indicating action or process,0.467
+10,181,Betty's character development and racial representation in media,0.2
+10,391,Commercial success and critical reception,0.267
+10,85,"plot, story, and release details",0.233
+10,324,Wrestling championship matches and controversies,0.217
+10,311,Intense weather event impacts and phenomena,0.233
+10,249,"addition, contrast, teamplayer",0.2
+10,369,"Refers to specific, previously mentioned entities or concepts.",0.383
+10,374,Year placeholders in dates or seasons,0.317
+10,142,Specific years in historical or chronological contexts,0.483
+10,107,"green roof, environmental conservation",0.183
+10,108,"Suffix modifications indicating actions, states, or qualities",0.4
+10,244,"potential, likely, or capability to function effectively",0.2
+10,34,Production values in mainstream rap music,0.217
+10,65,temporal and spatial indicators in historical contexts,0.5
+10,17,Activation patterns for specific historical and geographical terms.,0.22
+10,129,group members or supporters,0.267
+10,89,Geographic and administrative locations,0.517
+10,304,named entities or specific terms in text,0.45
+10,103,Specific technical or numerical values,0.333
+10,273,"Activation for \""the\"" and specific modifiers indicating important events or states.",0.22
+10,349,narrative transitions or shifts,0.367
+10,290,Verbs indicating state or change over time,0.2
+10,93,Padding token in sequence,0.56
+10,182,Transition or pause indicator in text,0.5
+10,228,Tender requests for specific infrastructure projects,0.183
+10,204,"environmental, political, economic themes in policy and recovery contexts",0.233
+10,322,"conservation efforts, recovery plans",0.217
+10,282,Equal signs denote repeated or emphasized text,0.317
+10,277,road access through private properties,0.217
+10,334,Named entities or specific concepts in context,0.35
+10,152,Sentence delimiter punctuation mark,0.367
+10,183,Transition phrases and dates in text,0.65
+10,2,Historical and cultural narratives in media and literature,0.467
+10,117,Date references in specific months and years,0.45
+10,326,Specific individuals or organizations in historical or political contexts,0.35
+10,315,"Gospel music, specific names, historical figures, political districts, musical genres, game titles, locations, time periods",0.267
+10,164,Metric conversions or specific measurements,0.217
+10,359,Time period or decade reference,0.417
+10,31,"Specific nouns, actions, or central concepts in context",0.4
+10,21,successful outcomes or achievements,0.233
+10,339,"\""the\"" as a definite article in specific contexts",0.417
+10,16,Activation for quoted text and titles,0.383
+10,94,becoming leader or head of organization,0.217
+10,364,Sentence terminators or punctuation marks,0.5
+10,246,Splitting or parcelling out elements,0.15
+10,307,freeway intersections and directions,0.25
+10,44,Named individuals in specific contexts,0.6
+10,258,Possessive pronoun indicating ownership or subject reference,0.317
+10,102,specific time intervals or durations,0.283
+10,87,Distinct place names and cultural entities,0.45
+10,372,Cooking practices and associated risks in women's lives,0.02
+10,276,political and historical events/figures,0.333
+10,384,captive breeding programs for wildlife conservation,0.183
+10,287,numerical data and percentages in context,0.317
+10,203,ISD schools and organizations,0.2
+10,123,Named entities in historical and cultural texts,0.433
+10,237,Specific characters or prefixes in words,0.483
+10,267,Cold War political structure changes,0.2
+10,194,Refers to a specific instance or example in a broader context,0.433
+10,144,End-of-sentence markers,0.42
+10,382,Year: 1990s specific dates,0.2
+10,105,Atomic energy secrets and nuclear weapons development,0.183
+10,33,Historical events and figures,0.433
+10,392,"film, feature film, and related production details",0.433
+10,245,"emphasized, incorporated, or written religious works or poetry",0.3
+10,356,Past tense descriptions and attributions,0.317
+10,127,"Lucasfilm employee, battleship structures, oncology groups, film titles, geographical features, musical pieces, wildlife conservation, historical figures",0.083
+10,385,Visual novels and anime character designs,0.333
+10,233,"actions indicating creation, deployment, or establishment",0.283
+10,18,"Specific punctuation, units, or geographical locations in factual content",0.483
+10,169,relationship or category specification,0.35
+10,394,temporal or spatial references in historical contexts,0.45
+10,75,Time references in historical contexts,0.4
+10,363,End-of-sentence marker,0.42
+10,344,Geographical locations and political entities,0.283
+10,212,Time references indicating later events or revelations,0.433
+10,263,Vanessa Williams character roles in media productions,0.217
+10,238,On record,0.233
+10,35,war events and their unclear details,0.3
+10,184,thematic references to specific individuals or concepts,0.55
+10,177,death sentences and family dynamics,0.183
+10,360,Pitch delivery and fielding in cricket,0.233
+10,193,Punctuation and section markers,0.56
+10,101,Imams or historical figures' names,0.15
+10,30,"Poetic or literary works, specific species or regions, historical events or dates, musical albums or styles, and burns or injuries.",0.233
+10,69,Year 1990s patterns in dates and events,0.233
+10,10,balance between contrasting elements,0.4
+10,11,Not mentioned/Not shared/Not present,0.167
+10,56,End-of-sentence delimiter,0.44
+10,36,"Historical, political, or natural phenomena with significant impact.",0.517
+10,97,Political manipulation and party affiliation,0.233
+10,5,Pronoun references in narrative continuity,0.233
+10,321,"Specific, formalized structured information",0.383
+10,196,Congressional districts and their representation,0.2
+10,113,"actions and states involving \""to\"" and \""as\"" in specific contexts",0.333
+10,239,Named entities and specific cultural/film references,0.55
+10,289,"Activation patterns indicate discussions about specific events, projects, or concepts with numbered or dated references.",0.26
+10,243,Latent represents specific character or place names.,0.4
+10,68,Few/Specific Instances Marking Distinctive Points,0.233
+10,83,Section breaks or headers in text,0.4
+10,158,musical compositions and artists' collaborations,0.383
+10,357,relationship between entities or groups,0.517
+10,116,Proper nouns of individuals in specific contexts,0.433
+10,279,Historical military training and conflicts,0.217
+10,40,Rearranged or alternative design elements in technology products,0.267
+10,306,"AI, specific references, unique individuals or concepts",0.233
+10,76,Historical figures and battles,0.55
+10,59,Third in significance or ranking,0.217
+10,312,Specific proper nouns and directional terms,0.35
+10,163,Named entities in historical or specific contexts,0.567
+10,358,Numerical references to specific years or decades,0.533
+10,146,Computer graphics and traditional animation backgrounds,0.217
+10,145,"In, the, of, as, result, upon, despite, following, after, during, among, in context of temporal or locational relationships",0.433
+10,39,End-of-sentence punctuation marker,0.42
+10,167,Character names and actions in narratives,0.583
+10,206,Uncommon words signaling unique or specific concepts,0.45
+10,138,Road intersections and geographical features,0.383
+10,248,End-of-sentence punctuation marker,0.42
+10,292,use of specific prepositions and articles to structure information,0.4
+10,320,Time indicators in dates and temporal sequences,0.417
+10,309,Japanese Navy and Dál Riata history,0.15
+10,213,Sentence terminators or punctuations,0.48
+10,301,pivotal moments or decisions in narratives,0.3
+10,335,Parentheses and quotation marks around words,0.35
+10,134,"Elementary schools, specific locations, political agreements, rural areas, population policies, personal interactions, military targets, stellar phenomena, habitat issues, national police, newspaper creation, military alliances, racial themes, labor organizations",0.267
+10,351,Historical figures and naval battles,0.25
+10,327,Song listings or musical compilation details,0.267
+10,219,Section delimiter or placeholder,0.5
+10,260,Specific symbols and numbers in text,0.55
+10,308,Numeric placeholders for unspecified numbers or values,0.217
+10,281,Geopolitical and cultural references in text,0.65
+10,380,Arabic proper nouns or technical terms,0.317
+10,6,Highlighted text breaks or emphasized characters,0.433
+10,109,Sentence punctuation followed by section breaks,0.38
+10,270,特定年份的时间标记,0.65
+10,119,Sunspot activity patterns over time,0.2
+10,283,Limit process in calculus,0.183
+10,82,Key roles or titles in historical or cultural contexts,0.433
+10,180,Fifth occurrence or instance,0.183
+10,115,military conquest and sieges,0.433
+10,159,"Year references in dates (e.g., 2010, 2009)",0.333
+10,294,Nomination and awards for media content,0.2
+10,27,final event or conclusion,0.217
+10,365,Rare historical actions or events,0.35
+10,90,"Key concepts among many, specific properties, or distinctive outcomes mentioned.",0.267
+10,91,That introduces conditional or reported clauses,0.2
+10,354,Sentence/paragraph boundary marker,0.48
+10,55,Sentence terminators and blank lines,0.46
+10,120,final event or match,0.233
+10,150,specific roles or titles in professional or historical contexts,0.367
+10,278,improvement over existing version or system,0.217
+10,298,Names of historical or notable figures,0.533
+10,305,Specific numerical values indicating quantity or order.,0.45
+10,329,criminal corruption and legal disputes,0.2
+10,230,transitional words indicating contrast or exception,0.383
+10,202,Names of historical figures and places,0.433
+10,160,"Christian music, Pennsylvania politics, and specific names/locations",0.183
+10,347,religious or spiritual themes and figures,0.3
+10,135,Less detailed character drawings in animations,0.133
+10,7,Nea Salamina football team history,0.233
+10,333,Definite article referring to specific entities or concepts,0.283
+10,200,rare historical figures or events,0.417
+10,80,as connecting conjunction in contexts,0.267
+10,317,End-of-sentence markers,0.42
+10,61,"source, origin, or specific connection",0.65
+10,266,Family relationships and legal documents,0.283
+10,77,"Proper nouns and specific names in historical, cultural, and geographical contexts",0.483
+10,147,temporal or ordinal indicators in text,0.55
+10,171,clarification/introduction of consequence or explanation,0.2
+10,367,Numerical and temporal data in descriptions,0.36
+10,220,Contract signing and legal authority,0.2
+10,50,Specific entity ownership or association marker,0.417
+10,264,End-of-sequence token marker,0.44
+10,247,Key suffixes in specific contexts,0.3
+10,37,End-of-sentence marker,0.44
+10,299,Japanese cultural or political entities,0.25
+10,395,Genetic and population fragmentation,0.233
+10,13,Sentence terminators with newlines,0.5
+10,234,Habitat degradation and species endangerment,0.35
+10,231,named entities and relationships in text,0.55
+10,296,Names or proper nouns in text,0.6
+10,32,Release and promotion events for media works,0.283
+10,179,Secretly recorded conversations or sensitive information,0.217
+10,313,"Temporal or spatial location marker \""in\",0.683
+10,111,"connecting elements through \""as well as\"", \""such as\"", or similar phrases",0.217
+10,376,"Film premieres, cultural events, and media awards ceremonies",0.2
+10,222,battleship armor and protection features,0.267
+10,79,additional or secondary occurrence,0.283
+10,387,End-of-sequence marker indicating section boundaries,0.6
+10,124,number one contender ship match,0.183
+10,186,Time-specific events and statistics,0.383
+10,209,conjunctions linking specific and meaningful concepts,0.4
+10,190,Royal titles and historical figures,0.4
+10,303,technological advancements and innovations in screen technology,0.233
+10,370,limit process in calculus,0.183
+10,9,sensor systems and their functionalities,0.217
+10,197,Date references in specific months and years,0.417
+10,175,Military operations and equipment descriptions,0.35
+10,174,spatial relationships and locations,0.633
+10,383,Suggests uncertainty or hypothetical reasoning,0.217
+10,291,visual novel's pivotal CG scenes,0.183
+10,25,Dialogue and narrative transitions in narratives involving characters like Sinclair and Arya.,0.183
+10,48,End-of-sentence markers,0.42
+10,345,ship modernization and armoring projects,0.267
+10,140,"Specific characters, locations, or technical terms in text.",0.533
+10,71,"specific techniques, themes, or historical events",0.3
+10,271,Proper nouns and historical figures,0.4
+10,156,verb indicating action or teaching in narratives and histories,0.367
+10,57,action-oriented games distinct from InfinityEngine games,0.167
+10,96,Proper nouns and place names,0.433
+10,252,Proper nouns and specific names in text,0.65
+10,288,Date references and event sequences,0.433
+10,168,as: indicating inclusion or purpose,0.2
+10,381,Decline and reduction in activity or quality,0.283
+10,22,Named entities in cultural or historical contexts,0.517
+10,128,Historical periods and their characteristics,0.433
+10,215,End-of-sentence marker,0.44
+10,368,actions or intentions leading to a creation or establishment,0.4
+10,104,listing examples or components including specific instances,0.4
+10,106,Historical events and figures,0.283
+10,52,Overwritten or edited text segments,0.783
+10,207,Conservation status and population trends,0.25
+10,232,"various adaptations, teams, and forms of burns",0.25
+10,235,Damage and its comparison to normal conditions,0.217
+10,337,conjunction linking related concepts or items,0.35
+10,201,Dates and historical events,0.317
+10,375,personal and historical references in text,0.583
+10,371,electro-optical systems or place names,0.35
+10,377,narrative account or description of a character's experience,0.267
+10,60,Comments on artistic quality or reception,0.267
+10,176,Conjunctions linking contrasting or sequential ideas,0.4
+10,58,References to specific historical or cultural events and figures,0.4
+10,300,Naval warfare technology and tactics,0.417
+10,143,time spans or population declines,0.383
+10,126,Year or temporal value,0.433
+10,3,ordinal or specific rank in a sequence,0.25
+10,257,Year references in historical or temporal contexts,0.55
+10,136,Specific names and titles in media and historical contexts,0.483
+10,261,movement or action directed towards a goal,0.5
+10,157,fan engagement and character development,0.217
+10,338,"Volume keys, specific groups, geographic locations, time periods, economic interests, characters in stories, conservation efforts, historical contributions, place names, weather conditions, habitats",0.367
+10,352,discussion of creative processes and techniques,0.217
+10,302,location marker for specific places or events,0.4
+10,285,Year ranges or specific years in historical contexts,0.55
+10,185,conjunctions linking multiple items or concepts,0.45
+10,67,transition between locations or time periods,0.433
+10,353,events following a specific point in time,0.383
+10,221,transition or conclusion markers,0.317
+10,64,References to specific individuals or names in text,0.633
+10,125,distinguishing features or causes,0.233
+10,225,Technical or proper nouns in specific contexts,0.583
+10,386,Year placeholders in text sequences,0.333
+10,42,Specific entities or outcomes following main clauses,0.267
+10,166,Despite or in spite of,0.15
+10,205,End-of-sentence markers,0.42
+10,250,"title, award, or main character",0.333
+10,66,Proper nouns and specific names in text,0.617
+10,316,Distinctive initial letters of names and places,0.717
+10,216,Geographic locations and specific places,0.467
+10,314,End of thoughts/sentences,0.283
+10,78,rare historical or cultural references,0.583
+10,130,Sentence/paragraph boundary marker,0.48
+10,355,"Unions, parties, and social movements creation and organization",0.233
