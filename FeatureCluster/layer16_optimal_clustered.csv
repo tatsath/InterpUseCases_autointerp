@@ -1,0 +1,51 @@
+feature,label,cluster,cluster_name
+41,"Sentence-ending punctuation marks (periods, new lines)",20,Punctuation_Sentence_Ending_Features
+4,"Specific numbers, proper nouns, and technical terms in historical or technical contexts",7,Technical_Historical_Numbers_Features
+36,"Specific directions, positions, or cardinal points",23,Directions_Positions_Cardinal_Features
+24,"Critical or distinctive aspects of a topic, often in reviews or descriptions.",0,Sentence_Critical_Distinctive_Features
+7,"Represents parts of words, suffixes, prefixes, and punctuation.",16,Punctuation_Represents_Words_Features
+3,Specific attributes or conditions that emphasize significant qualities or distinctions.,4,Attributes_Conditions_That_Features
+10,Development of narrative elements and character relationships in creative works.,4,Attributes_Conditions_That_Features
+44,Partial names and initials activation,26,Partial_Names_Initials_Features
+16,"Proper nouns and specific entities, often related to organizations, media, and institutions.",2,Media_Proper_Nouns_Features
+20,Historical and institutional establishment and development contexts,12,Historical_Institutional_Establishment_Features
+49,Claims or assertions about actions or states,20,Punctuation_Sentence_Ending_Features
+14,"Units of measurement and numerical values, often in parentheses or with symbols.",6,Units_Measurement_Numerical_Features
+23,Groups or teams with specific roles or characteristics,1,Groups_Teams_Roles_Features
+2,Leadership roles and appointments in historical and creative contexts,27,Historical_Leadership_Roles_Features
+48,"Sentence delimiters (periods, new lines)",17,Sentence_Periods_New_Features
+12,"Specific terms related to albums, military, and technical contexts",13,Technical_Punctuation_Terms_Features
+26,Punctuation and conjunctions linking elements in lists or sentences,16,Punctuation_Represents_Words_Features
+39,"Sentence delimiters (periods, new lines)",6,Units_Measurement_Numerical_Features
+45,Media content titles and production details,11,Media_Content_Titles_Features
+29,"Actions, events, or status changes",19,Actions_Events_Status_Features
+28,"Media and creative works, including reports, documentaries, and artistic projects.",2,Media_Proper_Nouns_Features
+19,"Units of measurement, dates, and punctuation in technical or statistical contexts",9,Units_Measurement_Dates_Features
+17,"Specific actions, processes, or conditions in technical or historical contexts",19,Actions_Events_Status_Features
+0,"Represents narrative elements, character actions, and plot developments in stories.",16,Punctuation_Represents_Words_Features
+42,"Refers to specific, previously mentioned entities or actions",18,Refers_Previously_Mentioned_Features
+27,"Ongoing actions or processes, often in continuous form",10,Ongoing_Actions_Processes_Features
+30,"Structural elements like punctuation, numbers, and partial words",20,Punctuation_Sentence_Ending_Features
+32,Naval ship specifications and historical context,17,Sentence_Periods_New_Features
+46,"Single-digit numbers, often in dates or counts",24,Single_Digit_Numbers_Features
+40,"Significant events, roles, or relationships in personal or historical contexts",15,Historical_Significant_Events_Features
+47,Special characters and symbols in technical or specific contexts,28,Special_Characters_Symbols_Features
+37,"Sentence delimiters (periods, double quotes)",2,Media_Proper_Nouns_Features
+31,Specific nouns and contextually significant terms,22,Nouns_Contextually_Significant_Features
+35,Punctuation and formatting markers in text,6,Units_Measurement_Numerical_Features
+11,Changes and transitions in processes or states over time,4,Attributes_Conditions_That_Features
+22,"Specific word parts, suffixes, and proper nouns",28,Special_Characters_Symbols_Features
+25,Markers of sentence structure and HTML tags,0,Sentence_Critical_Distinctive_Features
+18,Section headers and punctuation marking text structure,13,Technical_Punctuation_Terms_Features
+33,Contextual relationships and associations,10,Ongoing_Actions_Processes_Features
+21,Units of time or duration,27,Historical_Leadership_Roles_Features
+8,"Military conflicts, political outcomes, and specific actions in historical contexts",15,Historical_Significant_Events_Features
+43,"Historical periods, dates, and significant events",27,Historical_Leadership_Roles_Features
+15,"Sentence-ending punctuation marks (periods, new lines)",17,Sentence_Periods_New_Features
+5,Movement or action leading to a significant event or change,29,Movement_Action_Leading_Features
+9,"Common function words and punctuation, indicating structural roles.",16,Punctuation_Represents_Words_Features
+6,Temporal and locational transitions in historical and narrative contexts,8,Temporal_Locational_Transitions_Features
+13,"Sentence delimiters (periods, new lines)",0,Sentence_Critical_Distinctive_Features
+38,"References to musical performances, theaters, and historical contexts",7,Technical_Historical_Numbers_Features
+1,Punctuation and symbols for formatting or technical notation,13,Technical_Punctuation_Terms_Features
+34,"Specific events, actions, or entities",6,Units_Measurement_Numerical_Features

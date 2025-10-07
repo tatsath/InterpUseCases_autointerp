@@ -1,0 +1,398 @@
+layer,feature,label,f1_score,accuracy,precision,recall,cluster
+16,54,Financial and business terms from news and analyst reports,0.822,0.708,0.786,0.863,10
+16,95,Specific years in financial and market contexts,0.529,0.508,1.0,0.36,5
+16,58,Denotes membership or inclusion in a specific set or group,0.286,0.308,0.75,0.176,7
+16,119,Years and financial figures with zeros and twos,0.441,0.415,0.833,0.3,0
+16,228,"Business and financial terms, including company names and economic indicators.",0.829,0.708,0.767,0.902,2
+16,167,"Key business and financial terms, often related to specific companies or sectors.",0.83,0.723,0.786,0.88,3
+16,183,Financial or business-related articles or key points,0.855,0.754,0.783,0.94,9
+16,124,Financial metrics and stock-related information,0.815,0.692,0.759,0.88,10
+16,264,Sentence-ending punctuation or key terms,0.485,0.514,0.615,0.4,3
+16,41,Punctuation marks (periods) and preceding/following words indicate sentence boundaries.,0.471,0.64,0.571,0.4,11
+16,237,Financial and geopolitical events affecting oil and energy markets,0.413,0.431,1.0,0.26,10
+16,4,"Financial and tech-specific numbers, symbols, and company names",0.804,0.677,0.754,0.86,7
+16,296,Concerns and expectations about company performance and market conditions.,0.682,0.569,0.811,0.588,1
+16,325,Punctuation and short words in financial text,0.713,0.615,0.838,0.62,4
+16,347,"Specific company names, products, and financial terms",0.811,0.692,0.768,0.86,5
+16,155,Time periods and durations in financial contexts,0.595,0.538,0.917,0.44,4
+16,36,"Market trends and financial movements, including stock performance and regional indicators.",0.841,0.738,0.789,0.9,2
+16,70,"Financial and investment concepts, focusing on dividends and stock performance",0.642,0.554,0.839,0.52,0
+16,202,"Financial and business-related terms, including stock, growth, and analyst insights.",0.804,0.692,0.788,0.82,11
+16,181,Punctuation and common end-of-sentence words,0.412,0.385,0.824,0.275,6
+16,72,"Financial and business-related terms, often involving market and investment contexts.",0.936,0.88,1.0,0.88,3
+16,209,Negation or absence in financial and market contexts,0.632,0.569,0.96,0.471,7
+16,91,Financial and business performance indicators and strategic positions,0.779,0.677,0.841,0.725,3
+16,232,"Listing or enumerating specific items, segments, or details",0.276,0.354,1.0,0.16,3
+16,257,"Financial and business-specific terms, including names, numbers, and actions.",0.867,0.769,0.79,0.961,0
+16,120,"Business and financial market dynamics, competition, and economic activities",0.841,0.738,0.789,0.9,2
+16,255,"Fragments of financial and corporate terms, including company names and years.",0.857,0.754,0.774,0.96,11
+16,59,Financial performance and market trends over recent periods,0.701,0.54,1.0,0.54,3
+16,206,"Financial terms, symbols, and specific numerical values",0.835,0.738,0.827,0.843,7
+16,78,"Prepositions and conjunctions linking actions, states, and relationships",0.472,0.415,0.773,0.34,3
+16,253,"Financial transactions, investments, and economic activities",0.807,0.677,0.746,0.88,2
+16,210,"Economic and market-related terms, including prices, competition, and supply.",0.692,0.564,0.711,0.675,2
+16,175,"Product names, brand-related terms, and specific industry jargon",0.708,0.569,0.739,0.68,10
+16,24,"Financial and business-related concepts, including stocks, investments, and market trends.",0.936,0.88,1.0,0.88,2
+16,301,Financial and stock market performance indicators and actions,0.658,0.585,0.897,0.52,6
+16,353,Financial and business context markers,0.844,0.738,0.78,0.92,4
+16,116,Financial metrics and percentages in financial contexts,0.762,0.692,0.97,0.627,7
+16,172,"Financial and economic indicators, market performance, interest rates, and growth",0.747,0.646,0.829,0.68,4
+16,3,"Financial and technological trends, market dynamics, and innovation",0.729,0.6,0.761,0.7,10
+16,203,"Names, titles, and financial entities in business and tech contexts",0.824,0.7,1.0,0.7,4
+16,199,Punctuation and short functional words in financial and market contexts,0.76,0.631,0.76,0.76,3
+16,105,"Financial and market-related dates, events, and metrics",0.719,0.615,0.821,0.64,4
+16,233,Business events and financial market activities,0.812,0.708,0.804,0.82,9
+16,166,Verbs indicating causation or publication in financial contexts,0.564,0.477,0.815,0.431,7
+16,82,"Financial market movements, focusing on stock and commodity prices.",0.63,0.477,0.69,0.58,0
+16,263,Current or past state in business/financial context,0.846,0.754,0.815,0.88,7
+16,338,"Discussions and mentions of Nvidia, its products, and market performance.",0.381,0.4,1.0,0.235,0
+16,334,Leadership and professional titles in finance and business,0.29,0.323,0.818,0.176,3
+16,357,Partial words and acronyms from company names and financial terms,0.875,0.785,0.79,0.98,4
+16,251,End of sentences in financial and stock-related statements.,0.452,0.514,0.7,0.333,7
+16,10,"Article summary structure, highlighting key details and updates",0.276,0.354,1.0,0.16,8
+16,362,"Financial terms, numbers, and specific actions or events",0.804,0.677,0.768,0.843,5
+16,152,Punctuation and transitional phrases indicating sentence structure and flow.,0.364,0.354,0.8,0.235,0
+16,314,"Financial and business transactions, company growth, and milestones",0.86,0.769,0.807,0.92,2
+16,44,"Representation of proper nouns, especially names and company names.",0.851,0.769,0.843,0.86,5
+16,107,Financial and technological trends in business news,0.925,0.86,1.0,0.86,4
+16,16,"Names and abbreviations of companies, financial entities, and stock market terms",0.863,0.8,0.932,0.804,4
+16,20,Punctuation and common words in financial and technical contexts,0.841,0.738,0.789,0.9,7
+16,49,Speculative financial predictions and market trends,0.725,0.615,0.805,0.66,9
+16,123,"Financial and business-related terms, often starting with \""W\",0.462,0.462,1.0,0.3,6
+16,195,Economic and financial performance indicators and trends,0.758,0.646,0.8,0.72,7
+16,118,End of sentences in financial and stock-related contexts.,0.455,0.52,0.417,0.5,10
+16,186,Introducing or referencing specific entities or concepts in text,0.755,0.631,0.771,0.74,1
+16,279,Commas introduce additional details or separate elements in a series.,0.211,0.308,1.0,0.118,2
+16,14,Financial metrics and monetary values in business contexts,0.739,0.631,0.81,0.68,7
+16,214,Financial and market-related news and trends,0.936,0.88,1.0,0.88,11
+16,96,"Financial and business text fragments, focusing on specific terms and symbols.",0.847,0.738,0.783,0.922,2
+16,147,Spatial or directional relationships near specific locations or thresholds,0.113,0.277,1.0,0.06,3
+16,144,Key points or transitions in financial or stock-related sentences.,0.5,0.36,0.381,0.727,8
+16,252,"Company names, stock-related terms, financial metrics",0.796,0.677,0.788,0.804,0
+16,97,"Financial and business strategic actions, confidence, and comparisons",0.808,0.692,0.792,0.824,10
+16,106,Punctuation and percentage signs in financial contexts,0.514,0.477,0.9,0.36,8
+16,299,Financial and company-specific terms in business and stock market contexts.,0.807,0.677,0.746,0.88,8
+16,23,"Financial and investment-related terms, focusing on investor activities and market dynamics.",0.758,0.646,0.8,0.72,10
+16,244,"Business collaborations, financial terms, and market comparisons",0.796,0.677,0.774,0.82,4
+16,194,"Verbs indicating past, present, or future states or actions in business contexts.",0.747,0.615,0.755,0.74,1
+16,322,"Corporate and financial entities, market trends, and economic indicators",0.818,0.692,0.75,0.9,1
+16,293,Stock ticker symbols and company names in financial contexts,0.507,0.462,0.857,0.36,3
+16,154,Financial and business-related terms and events,0.829,0.708,0.754,0.92,8
+16,333,Quantitative financial data and performance metrics,0.597,0.523,0.852,0.46,3
+16,234,Financial and market-related terms and trends,0.847,0.738,0.77,0.94,11
+16,197,"Financial and business actions and goals, including investments, growth, and strategic positioning.",0.849,0.754,0.804,0.9,1
+16,149,"Fragments of company names, stock symbols, and financial terms",0.785,0.646,0.737,0.84,10
+16,282,"Financial and business-related terms, focusing on corporate achievements and metrics",0.747,0.615,0.771,0.725,7
+16,318,Financial and technical details in business and technology contexts,0.87,0.785,0.81,0.94,10
+16,53,"Financial figures, dates, and company actions",0.739,0.631,0.81,0.68,10
+16,289,"Investor and consumer intentions, expectations, and actions in financial contexts.",0.761,0.662,0.833,0.7,7
+16,399,"Financial and business terms, focusing on stocks and market performance.",0.733,0.585,0.74,0.725,5
+16,90,Economic indicators and financial performance metrics,0.634,0.538,0.812,0.52,7
+16,122,Financial metrics and performance indicators in business and stock reports,0.783,0.692,0.857,0.72,3
+16,68,Business and financial actions or states using modal and auxiliary verbs,0.5,0.477,0.944,0.34,0
+16,386,"Financial transactions and market activities, including dividends and deals.",0.784,0.677,0.809,0.76,4
+16,196,Financial and technical term fragments and punctuation,0.855,0.754,0.783,0.94,4
+16,94,"Time periods, company names, significant events",0.816,0.708,0.792,0.84,4
+16,160,Financial and technical content markers,0.767,0.622,0.651,0.933,3
+16,248,End of sentence in financial contexts,0.533,0.72,0.8,0.4,9
+16,368,"Corporate and financial terminology, including business operations and market performance.",0.829,0.708,0.754,0.92,10
+16,2,"Corporate actions, leadership changes, and financial policies",0.435,0.4,0.789,0.3,10
+16,87,Financial news and stock market-related terms and phrases,0.852,0.754,0.807,0.902,8
+16,192,Key points or transitions in financial or stock-related sentences.,0.571,0.52,0.444,0.8,3
+16,297,"Company names, stock-related terms, financial metrics",0.727,0.585,0.735,0.72,10
+16,75,"Financial and business terms, focusing on capital, crude, and customer satisfaction.",0.705,0.6,0.816,0.62,2
+16,288,Temporal and conditional contexts in financial and stock-related discussions,0.714,0.631,0.882,0.6,1
+16,236,Financial and business-related predictions and outcomes,0.781,0.646,0.745,0.82,10
+16,379,"Financial and business-related terms, including company names and product launches.",0.833,0.723,0.776,0.9,10
+16,370,Time-stamped financial events and market updates,0.543,0.508,0.95,0.38,5
+16,77,Financial and business terms related to market dynamics and company performance,0.788,0.662,0.759,0.82,5
+16,48,"Sentence boundary marker, specifically periods.",0.5,0.6,0.556,0.455,0
+16,135,Hyphens denote connections or transitions in financial and technical contexts.,0.64,0.585,0.96,0.48,9
+16,310,Financial performance and stock market trends,0.809,0.723,0.884,0.745,4
+16,335,Denotes specific time periods or contexts in financial discussions,0.444,0.308,0.6,0.353,4
+16,92,End of sentences in financial and stock-related contexts.,0.5,0.44,0.389,0.7,11
+16,226,"Sentence-ending punctuation, especially periods.",0.507,0.492,1.0,0.34,1
+16,246,"Financial metrics, stock symbols, and specific numerical values",0.779,0.677,0.822,0.74,3
+16,104,"Financial and business-related terms, including specific numbers and company names.",0.836,0.723,0.78,0.902,3
+16,80,Comma usage and conditional structuring in complex sentences,0.075,0.246,0.667,0.04,2
+16,12,"Company names, financial terms, and technology keywords",0.847,0.738,0.783,0.922,0
+16,268,Financial and market actions and transitions,0.784,0.677,0.826,0.745,7
+16,26,Punctuation and conjunctions for sentence structure and flow,0.039,0.246,1.0,0.02,4
+16,242,Financial and market-related statements and transitions,0.796,0.662,0.741,0.86,0
+16,280,"Transitions, forecasts, and ongoing/future actions",0.406,0.415,0.929,0.26,7
+16,111,Temporal transitions and shifts in context,0.514,0.477,0.947,0.353,9
+16,93,End of sentence marker,0.133,0.48,0.25,0.091,10
+16,146,Financial and economic terms related to market performance and trends,0.792,0.692,0.826,0.76,1
+16,327,Financial and stock market entities and terms,0.815,0.692,0.759,0.88,7
+16,103,"Fragments of company names, financial terms, and punctuation in stock news",0.836,0.723,0.78,0.902,10
+16,372,AI and smart technology capabilities in devices and companies,0.333,0.385,1.0,0.2,5
+16,305,"Financial metrics, percentages, and economic indicators in business contexts",0.739,0.631,0.829,0.667,9
+16,98,"Pronouns and possessive adjectives referring to companies, entities, or individuals",0.71,0.585,0.767,0.66,2
+16,344,"Corporate and industry-specific terms, including company names and technical segments.",0.83,0.723,0.786,0.88,6
+16,132,"Financial and economic terms, market conditions, and entities",0.86,0.769,0.807,0.92,4
+16,169,Financial and stock-related symbols and numbers,0.72,0.569,0.72,0.72,11
+16,359,Transitions and changes in economic and market conditions,0.521,0.462,0.826,0.38,1
+16,303,Financial performance and market analysis terms,0.674,0.523,0.727,0.627,5
+16,369,Introduction or summary of a news article or announcement,0.355,0.385,0.917,0.22,3
+16,71,Introduces clauses with additional information or context,0.455,0.446,0.938,0.3,9
+16,239,Segments of company names and stock-related terms,0.727,0.585,0.75,0.706,5
+16,170,Temporal and positional markers in financial and news contexts,0.753,0.646,0.814,0.7,9
+16,276,Punctuation and numerical values in financial and economic text,0.6,0.508,0.8,0.48,10
+16,259,Financial figures and stock symbols in financial contexts,0.779,0.677,0.822,0.74,4
+16,129,Contractions and apostrophes in informal or quoted speech,0.349,0.369,0.917,0.216,0
+16,128,"Significant financial milestones, records, or notable events in financial contexts",0.659,0.554,0.8,0.56,3
+16,84,"Financial and market-related terms, including stock lists and performance metrics.",0.833,0.723,0.776,0.9,2
+16,174,"Geographical and financial terms, often involving specific regions or metrics.",0.737,0.615,0.778,0.7,0
+16,204,Time periods and financial performance indicators in business contexts,0.786,0.723,1.0,0.647,4
+16,398,Ongoing or repeated financial actions or returns,0.556,0.508,0.909,0.4,5
+16,215,Key details or transitions in financial content,0.5,0.36,0.364,0.8,3
+16,290,"Financial stakeholders, especially investors, and their actions or perceptions.",0.714,0.569,0.729,0.7,7
+16,216,Company names and financial terms in investment contexts,0.804,0.677,0.754,0.86,6
+16,265,News article metadata and reporting elements,0.455,0.446,1.0,0.294,0
+16,39,"Sentence boundary marker, specifically end of sentence",0.5,0.68,0.8,0.364,3
+16,74,Sentence endings and contextual details,0.286,0.6,0.5,0.2,2
+16,76,Financial and economic terms related to market performance and indicators,0.708,0.569,0.756,0.667,5
+16,137,"Financial and business terms indicating significant opportunities, risks, or roles",0.777,0.646,0.755,0.8,5
+16,165,Punctuation and common words in financial and stock-related contexts,0.822,0.708,0.772,0.88,6
+16,131,Expressing or reporting opinions and beliefs,0.435,0.4,0.789,0.3,9
+16,331,"Financial and market-related terms, focusing on economic indicators, stock performance, and business transitions.",0.824,0.723,0.808,0.84,1
+16,45,"Phrases indicating article source, publication, or continuation",0.543,0.508,0.95,0.38,2
+16,222,"Technology and financial terms, including products, companies, and market indicators.",0.777,0.646,0.755,0.8,2
+16,266,News article titles and metadata structure,0.381,0.4,1.0,0.235,2
+16,139,"Sentence boundary marker, specifically periods.",0.526,0.64,0.625,0.455,10
+16,176,Transitions and causal relationships in financial and business contexts,0.756,0.662,0.872,0.667,3
+16,190,"Continuation from article titles, often financial or market-related content.",0.688,0.538,0.717,0.66,8
+16,224,Company names and stock-related terms in financial news,0.652,0.523,0.763,0.569,7
+16,381,Actions or states indicating performance or change in financial contexts.,0.578,0.415,0.667,0.51,9
+16,168,Time-related financial periods or durations,0.541,0.477,0.833,0.4,10
+16,138,"Financial and business terms, including percentages and market activities",0.822,0.708,0.772,0.88,3
+16,29,"Business and financial actions, outcomes, and strategies",0.855,0.754,0.797,0.922,2
+16,270,Key financial and economic terms and concepts,0.796,0.677,0.774,0.82,9
+16,62,"Financial or business entities starting with \""B\",0.214,0.323,1.0,0.12,3
+16,130,Key points or transitions in financial or stock-related sentences.,0.519,0.48,0.412,0.7,7
+16,309,"Financial and business-related terms, including metrics and company actions.",0.807,0.677,0.759,0.863,7
+16,308,"Financial and technological advancements, market expectations, and company positions.",0.822,0.708,0.772,0.88,10
+16,28,"Media and financial content, including headlines, articles, and reports.",0.85,0.738,0.762,0.96,10
+16,115,"Financial and political entities, events, and strategies",0.847,0.738,0.783,0.922,2
+16,157,Strategic business actions and market opportunities,0.625,0.538,0.862,0.49,10
+16,354,End of sentence or significant clause in financial contexts,0.7,0.76,0.7,0.7,2
+16,19,Financial news and stock analysis elements,0.849,0.754,0.818,0.882,2
+16,100,Zoetis stock performance and product segments in animal health and pet care,0.621,0.686,1.0,0.45,10
+16,298,Financial entities and market-related terms,0.774,0.631,0.745,0.804,7
+16,250,Business and financial growth trends and market performance,0.733,0.585,0.74,0.725,10
+16,17,Facilitating customer experiences and business services,0.175,0.277,0.714,0.1,5
+16,201,Temporal transitions and conditions in financial and business contexts,0.683,0.6,0.903,0.549,7
+16,55,End of sentence or segment in financial contexts,0.455,0.52,0.455,0.455,11
+16,60,"Planning, manufacturing, and production processes in business contexts",0.241,0.323,0.875,0.14,10
+16,271,Financial and business-specific terms and metrics,0.815,0.692,0.759,0.88,9
+16,0,Connective words in financial and tech contexts,0.811,0.692,0.768,0.86,8
+16,205,"Sentence boundary marker, specifically end of sentence",0.533,0.72,1.0,0.364,0
+16,267,Financial and business terms in market and economic contexts,0.807,0.677,0.746,0.88,5
+16,42,Demonstrative pronouns referring to specific events or states,0.276,0.354,1.0,0.16,8
+16,397,Financial performance in specific quarters,0.375,0.385,0.857,0.24,10
+16,173,"Financial metrics, stock performance, and market-related terms",0.745,0.6,0.731,0.76,7
+16,220,"Transitions, contrasts, and conditions in business and financial contexts",0.528,0.477,0.864,0.38,4
+16,142,Financial years or dates in the 2020s,0.551,0.523,1.0,0.38,4
+16,384,Financial metrics and performance indicators,0.585,0.477,0.75,0.48,8
+16,143,Financial metrics and percentages in stock-related contexts,0.691,0.615,0.903,0.56,10
+16,383,"Quantifiers and modifiers indicating scale, extent, or degree",0.701,0.646,1.0,0.54,10
+16,189,Comparative and superlative modifiers in financial and market contexts,0.323,0.354,0.833,0.2,3
+16,187,"Financial and stock market-related content, including company news and analysis.",0.807,0.677,0.759,0.863,10
+16,136,Capitalized names and brand terms,0.703,0.585,0.8,0.627,0
+16,213,End of a sentence or key point in financial or stock-related text.,0.4,0.52,0.4,0.4,11
+16,27,Ongoing business and technology processes and actions,0.768,0.646,0.776,0.76,9
+16,182,"Financial and economic policy discussions, including rates, regulations, and market impacts.",0.733,0.631,0.825,0.66,3
+16,385,"References to financial analysts, publications, and specific articles",0.592,0.554,1.0,0.42,6
+16,30,Focus on sentence structure and formatting elements,0.0,0.231,0.0,0.0,2
+16,117,Publication and distribution of financial news and reports,0.613,0.554,0.92,0.46,4
+16,367,Financial and economic reporting punctuation and terms,0.774,0.677,0.837,0.72,5
+16,390,Financial and business-related place names and locations,0.813,0.738,0.902,0.74,7
+16,32,"Business and financial terms, including corporate actions and transactions.",0.808,0.692,0.778,0.84,7
+16,294,Punctuation and transition words in financial/news articles,0.361,0.22,1.0,0.22,7
+16,227,Business and finance entities or sectors,0.891,0.815,0.817,0.98,10
+16,46,"Numerical values in financial contexts, often stock prices or growth rates.",0.667,0.554,0.784,0.58,5
+16,218,"Sentence termination, marking the end of a statement or thought.",0.308,0.64,0.667,0.2,3
+16,102,"Names, specific terms, and punctuation in financial contexts",0.779,0.677,0.822,0.74,4
+16,262,Financial article structure and key terms,0.771,0.662,0.804,0.74,0
+16,85,"Dates, financial figures, and formal document structures",0.5,0.354,0.636,0.412,4
+16,245,"Financial and business terms, emphasizing growth, revenue, and market performance.",0.804,0.692,0.788,0.82,0
+16,40,Financial and business performance metrics and products,0.854,0.769,0.83,0.88,7
+16,361,Dynamic business and financial activities and movements,0.807,0.677,0.759,0.863,4
+16,47,Financial and market-related content markers,0.83,0.723,0.786,0.88,4
+16,258,Modal and auxiliary verbs indicating potential or certainty,0.148,0.292,1.0,0.08,5
+16,295,Dates and event times in financial and news contexts,0.448,0.431,0.882,0.3,2
+16,140,"Financial and business terms, focusing on market dynamics and company performance.",0.781,0.646,0.745,0.82,3
+16,254,End of sentences in financial and stock-related contexts,0.48,0.48,0.4,0.6,3
+16,358,Financial metrics and growth percentages in stock and economic contexts,0.532,0.431,0.724,0.42,6
+16,37,End of sentence in financial or stock-related statements.,0.381,0.48,0.364,0.4,10
+16,156,Financial metrics and business performance indicators,0.722,0.585,0.745,0.7,11
+16,145,"Temporal references in financial contexts, often specific dates or periods.",0.716,0.646,0.967,0.569,2
+16,374,Connects strategic business actions or outcomes,0.667,0.569,0.824,0.56,6
+16,31,"Economic and market terms, focusing on financial performance and regulatory changes.",0.82,0.723,0.82,0.82,6
+16,161,Financial and tech sector abbreviations and partial words,0.733,0.585,0.725,0.74,9
+16,274,"Financial news, stock recommendations, and publication details",0.82,0.723,0.82,0.82,10
+16,365,Transitional phrases and prepositions indicating movement or change in context.,0.138,0.231,0.5,0.08,2
+16,212,Contextual financial and business-related phrases and terms,0.844,0.738,0.78,0.92,3
+16,159,"Financial and economic indicators, including interest rates and market conditions.",0.705,0.6,0.816,0.62,2
+16,377,Investor sentiment and market reactions to financial performance,0.493,0.462,0.895,0.34,10
+16,121,"Continuation or progression of actions, processes, or narratives",0.521,0.462,0.826,0.38,2
+16,373,Financial and investment-related terms and company names,0.836,0.723,0.767,0.92,10
+16,256,"Subject or entity in financial/business context, often a company or its performance.",0.76,0.631,0.76,0.76,2
+16,56,End of sentence marker,0.308,0.64,1.0,0.182,6
+16,395,Transitional and connecting words linking ideas or providing context.,0.323,0.354,0.909,0.196,0
+16,73,"Financial and business terms, specific sectors, and products",0.818,0.692,0.763,0.882,6
+16,86,Financial performance and market expectations,0.682,0.585,0.829,0.58,5
+16,230,Contrast or continuation in financial narratives,0.729,0.646,0.886,0.62,0
+16,113,"Business and financial contexts, involving companies, products, and performance metrics.",0.83,0.723,0.786,0.88,2
+16,313,"Financial and technical terms related to dividends, growth, and product specifications.",0.763,0.646,0.787,0.74,6
+16,52,Numbers in financial or temporal contexts,0.812,0.708,0.82,0.804,5
+16,153,"Financial and market-related terms, including company names and stock symbols",0.848,0.769,0.857,0.84,10
+16,63,Geographic locations and market segments,0.413,0.431,1.0,0.26,4
+16,345,"Financial and market-related terms, focusing on specific sectors and concepts.",0.781,0.646,0.745,0.82,9
+16,306,Names and abbreviations of financial figures and companies,0.848,0.769,0.857,0.84,11
+16,378,Financial and market-related terms and trends,0.87,0.785,0.825,0.922,4
+16,389,"Focus on punctuation and short word segments, often denoting text boundaries.",0.689,0.569,0.775,0.62,2
+16,332,Beginning and significant parts of company names and financial terms,0.863,0.785,0.846,0.88,8
+16,336,Structure and flow of financial and market-related content,0.667,0.523,0.721,0.62,4
+16,61,Economic indicators and financial performance metrics,0.635,0.523,0.771,0.54,6
+16,376,Company names and stock-related financial metrics,0.698,0.6,0.833,0.6,9
+16,324,Transitional and connecting words linking ideas or providing context,0.455,0.446,0.938,0.3,7
+16,110,End of sentences in financial and stock-related contexts.,0.56,0.56,0.5,0.636,9
+16,79,Actions and changes in financial and market contexts,0.708,0.569,0.756,0.667,0
+16,133,"Financial and stock-related content, including company names and financial terms.",0.936,0.88,1.0,0.88,9
+16,200,"Business and financial actions, entities, and key actors",0.833,0.723,0.776,0.9,9
+16,229,Punctuation and sentence delimiters,0.267,0.323,0.889,0.157,5
+16,109,End of sentences in financial and stock-related content.,0.385,0.36,0.333,0.455,8
+16,112,"Financial terms starting with \""h\"" in market contexts",0.4,0.4,0.867,0.26,4
+16,391,"Movement, change, or progression in various contexts",0.706,0.615,0.882,0.588,5
+16,349,"Punctuation marks, especially periods, in financial or technical contexts",0.772,0.646,0.765,0.78,0
+16,150,Punctuation and short words in financial contexts,0.738,0.585,0.731,0.745,8
+16,316,Punctuation and short words as delimiters in financial text,0.784,0.677,0.809,0.76,3
+16,184,"Financial and economic terms, focusing on market activities and metrics",0.812,0.708,0.82,0.804,0
+16,35,News article titles and financial market-related content,0.769,0.631,0.741,0.8,9
+16,330,Common words and punctuation in financial and technical contexts,0.777,0.646,0.755,0.8,10
+16,81,"Financial and stock market terms, including company names and stock actions",0.819,0.708,0.782,0.86,6
+16,284,Numerical time periods or counts in financial contexts,0.7,0.631,0.933,0.56,9
+16,366,Prepositions and articles in financial and technical relationships,0.585,0.477,0.75,0.48,10
+16,350,"Titles, names, and brand identifiers in news articles and financial contexts.",0.78,0.662,0.78,0.78,10
+16,114,Financial figures and percentages,0.709,0.646,0.966,0.56,5
+16,217,Specific months and quarters in financial and economic contexts,0.438,0.446,1.0,0.28,10
+16,312,"Financial and business terms, focusing on stocks and technology.",0.827,0.723,0.796,0.86,10
+16,321,"Corporate entities, financial terms, and technology sector mentions",0.925,0.86,1.0,0.86,9
+16,317,End of sentences in financial and stock-related contexts.,0.476,0.56,0.455,0.5,7
+16,88,Sentence terminators and concluding elements,0.349,0.369,0.917,0.216,2
+16,11,Changes in financial metrics and business performance,0.641,0.569,0.893,0.5,7
+16,283,Financial metrics and performance indicators,0.615,0.538,0.857,0.48,3
+16,292,Connects entities or items in financial and business contexts,0.707,0.554,0.714,0.7,8
+16,22,"Business, technology, and finance-related word segments",0.86,0.754,0.766,0.98,0
+16,25,"Financial and news context, stock recommendations, market updates, company performance",0.784,0.677,0.826,0.745,7
+16,83,"Financial transactions, deals, and market activities",0.752,0.615,0.745,0.76,9
+16,57,Transitional phrases and financial terms in business contexts,0.76,0.631,0.76,0.76,7
+16,302,Sentence boundary detection or punctuation processing,0.0,0.231,0.0,0.0,9
+16,18,Punctuation marks signaling sentence endings in financial/news contexts,0.471,0.446,0.889,0.32,2
+16,33,Comparative financial performance and market dynamics,0.595,0.538,0.957,0.431,8
+16,388,Transitions or points in time marking significant events or changes,0.5,0.477,0.944,0.34,3
+16,241,"Years in the 2020s, often in financial or market contexts",0.361,0.4,1.0,0.22,0
+16,326,"Financial and business terms, with emphasis on specific sectors and companies",0.822,0.708,0.772,0.88,0
+16,371,"Financial and business terms, focusing on stocks and market conditions.",0.807,0.677,0.746,0.88,9
+16,287,Financial metrics and large monetary values,0.723,0.646,0.909,0.6,7
+16,66,News article titles and financial market updates,0.742,0.646,0.868,0.647,1
+16,352,Economic and market-related events and conditions,0.824,0.723,0.808,0.84,7
+16,300,"Economic and technological trends in production, energy, and market demand.",0.568,0.508,0.875,0.42,10
+16,67,"Financial and business-related terms, including stock performance and company milestones.",0.781,0.646,0.745,0.82,10
+16,396,Indicators of change or movement in financial contexts,0.557,0.462,0.759,0.44,3
+16,278,"Transactions, sales, and financial activities in real estate and healthcare sectors.",0.361,0.4,1.0,0.22,11
+16,277,"Financial and economic terms, including numbers and currency",0.758,0.646,0.818,0.706,5
+16,126,Financial quarters or specific time periods in business contexts,0.276,0.354,1.0,0.16,6
+16,291,"Refers to specific, unique entities or concepts",0.575,0.431,0.694,0.49,10
+16,99,"Word fragments and punctuation, emphasizing boundaries and structure.",0.774,0.631,0.732,0.82,7
+16,342,Financial and business performance metrics and concerns,0.688,0.554,0.762,0.627,10
+16,304,"Financial context elements like portfolio, stock positions, and market periods",0.716,0.585,0.756,0.68,10
+16,320,Innovation and market performance in tech companies,0.567,0.527,0.85,0.425,3
+16,243,Financial and business growth indicators and market trends,0.695,0.554,0.733,0.66,5
+16,286,"Financial and business-related terms, trends, and metrics",0.836,0.723,0.767,0.92,0
+16,225,"Financial and business context, market trends, investor sentiment, company performance",0.847,0.738,0.77,0.94,2
+16,328,Geopolitical and financial entities and terms,0.818,0.692,0.75,0.9,10
+16,89,"Temporal and financial events, company announcements, market activities",0.8,0.677,0.764,0.84,2
+16,223,"Emphasis on frequency, degree, and extent in business and tech contexts",0.507,0.462,0.9,0.353,7
+16,348,"Financial terms and market conditions, emphasizing significant economic indicators and performance metrics.",0.716,0.585,0.756,0.68,5
+16,211,Punctuation and key words introducing or concluding financial statements,0.729,0.646,0.886,0.62,4
+16,382,Punctuation and short functional words structuring phrases,0.207,0.292,0.857,0.118,5
+16,151,"Names, roles, and industry terms in beauty and finance sectors",0.674,0.569,0.806,0.58,5
+16,341,Financial market events and transactions,0.843,0.754,0.827,0.86,10
+16,163,"Financial transactions, values, and market activities",0.808,0.708,0.816,0.8,3
+16,340,Titles and structural elements of articles and webinars,0.431,0.431,0.933,0.28,5
+16,177,"Financial and business terms, focusing on companies, stocks, and market performance.",0.851,0.769,0.843,0.86,9
+16,247,Sentence boundaries and structural transitions,0.145,0.277,0.8,0.08,9
+16,50,Ownership and association through possessive forms and pronouns,0.323,0.354,0.833,0.2,5
+16,360,Transitions and temporal relationships in text,0.438,0.28,1.0,0.28,11
+16,238,Prepositions and articles in financial and corporate contexts,0.769,0.677,0.854,0.7,0
+16,269,"Financial and business terms, including numbers and industry jargon",0.873,0.785,0.8,0.96,2
+16,285,Specific years in financial or market contexts,0.462,0.462,1.0,0.3,7
+16,319,Common financial and economic reporting terms and phrases,0.842,0.769,0.889,0.8,10
+16,21,Time periods and durations in financial and market contexts,0.707,0.631,0.906,0.58,3
+16,125,Key words signaling story continuation or publication,0.635,0.523,0.794,0.529,0
+16,219,"End of sentences, marked by periods.",0.143,0.52,0.333,0.091,5
+16,208,Financial metrics and performance indicators in business and stock market contexts,0.792,0.692,0.826,0.76,3
+16,101,Financial and corporate entity names and stock-related terms,0.788,0.662,0.759,0.82,9
+16,8,Actions or strategies in competitive or financial contexts,0.788,0.677,0.796,0.78,3
+16,51,"Financial and economic concepts, including growth, revenue, and market conditions.",0.8,0.677,0.764,0.84,3
+16,43,"Temporal and financial context, specific time periods and economic metrics",0.694,0.538,0.708,0.68,10
+16,311,"Financial and market-related statements, including economic indicators and company performance.",0.822,0.708,0.786,0.863,11
+16,393,Punctuation and common words in structured text,0.233,0.292,0.778,0.137,0
+16,363,End of sentences in financial and stock-related contexts,0.609,0.64,0.583,0.636,10
+16,351,Names and terms related to AI and tech companies,0.479,0.431,0.81,0.34,3
+16,188,"Expressions of belief, perception, and identification in financial and business contexts",0.59,0.508,0.821,0.46,9
+16,221,Temporal and financial trends over extended periods,0.587,0.523,0.88,0.44,9
+16,191,"Financial market events, economic indicators, and geopolitical risks",0.721,0.631,0.861,0.62,2
+16,15,End of sentences in financial and stock market updates.,0.353,0.56,0.5,0.273,2
+16,281,"Geographic and economic entities (e.g., US, Europe, India)",0.328,0.369,1.0,0.196,1
+16,64,"Actions, intentions, and strategic moves in business and politics",0.635,0.523,0.771,0.54,3
+16,339,"Connects related financial or business ideas, indicating continuation or addition.",0.645,0.492,0.698,0.6,2
+16,346,Financial metrics and projections in business contexts,0.727,0.631,0.842,0.64,7
+16,249,Temporal indicators and sequences of events,0.545,0.462,0.778,0.42,5
+16,231,Financial metrics and company performance indicators,0.779,0.677,0.841,0.725,10
+16,207,Financial performance and growth metrics in business contexts,0.719,0.615,0.821,0.64,11
+16,380,Financial events and market activities,0.769,0.631,0.741,0.8,4
+16,134,"Stock market and financial terms, often related to specific companies or indices.",0.785,0.646,0.737,0.84,10
+16,307,"Financial and business-related terms, focusing on investments, technology, and economic growth.",0.849,0.754,0.818,0.882,9
+16,171,Financial metrics and growth indicators in company performance,0.528,0.477,0.864,0.38,0
+16,337,Punctuation for separating clauses or items in financial contexts,0.241,0.323,0.875,0.14,0
+16,179,Uncertainty and speculative transitions in financial contexts,0.472,0.415,0.773,0.34,2
+16,261,Introduces or transitions to specific details or entities,0.575,0.477,0.767,0.46,9
+16,240,Financial acronyms and stock symbols,0.563,0.523,0.952,0.4,0
+16,392,Economic and financial terms related to business performance and market activities,0.796,0.662,0.741,0.86,9
+16,260,Temporal or conditional specificity in financial contexts,0.659,0.523,0.75,0.588,4
+16,65,Introduces specific information or conditions in clauses,0.271,0.338,0.889,0.16,4
+16,178,"Financial and business terms related to tech and AI investments, expansions, and partnerships.",0.624,0.462,0.674,0.58,5
+16,148,"Financial and business terms, focusing on investments and market activities.",0.796,0.677,0.774,0.82,9
+16,394,"Financial services, stock performance, and company actions",0.804,0.692,0.788,0.82,5
+16,315,"Financial transactions, market movements, and corporate actions",0.8,0.677,0.764,0.84,2
+16,162,"Financial and business-related terms, including company names and market activities.",0.98,0.96,1.0,0.96,11
+16,5,"Financial transactions, investments, and business activities",0.752,0.615,0.745,0.76,7
+16,343,Commas separating clauses in financial and business contexts,0.3,0.354,1.0,0.176,10
+16,180,"Financial market analysis, focusing on technical levels and economic indicators.",0.556,0.508,0.909,0.4,10
+16,193,End of sentence in financial contexts,0.556,0.68,0.714,0.455,1
+16,9,Financial and market-related terms and transitions in economic conditions.,0.807,0.677,0.746,0.88,9
+16,235,Financial indicators and market trends,0.788,0.662,0.759,0.82,7
+16,6,"Financial metrics, market performance, and economic indicators",0.722,0.585,0.745,0.7,6
+16,198,"Financial and business-related terms, including company names and economic indicators.",0.839,0.723,0.758,0.94,5
+16,185,Financial metrics and trend indicators in business contexts,0.739,0.631,0.81,0.68,10
+16,329,"Significant financial events or outcomes, often negative",0.56,0.492,0.84,0.42,1
+16,13,End of sentence in financial contexts,0.353,0.56,0.5,0.273,7
+16,387,Financial and business performance metrics and analysis,0.795,0.66,1.0,0.66,6
+16,69,Punctuation marks and delimiters for titles or quotes,0.622,0.569,0.958,0.46,9
+16,364,End of sentences in financial and stock-related contexts.,0.545,0.6,0.5,0.6,9
+16,273,Temporal or causal relationship in financial contexts,0.575,0.431,0.676,0.5,7
+16,158,Financial and stock market-related terms and concepts,0.78,0.662,0.78,0.78,5
+16,375,Names of individuals and companies in financial contexts,0.822,0.754,0.925,0.74,1
+16,38,"Financial terms and stock market discussions, focusing on Spotify and interest rates.",0.694,0.667,0.895,0.567,11
+16,272,Financial and business entity names and stock-related terms,0.82,0.723,0.82,0.82,9
+16,323,Financial transactions and market predictions,0.752,0.615,0.76,0.745,3
+16,108,Numerical ranges and financial metrics in financial contexts,0.627,0.523,0.788,0.52,7
+16,356,Verbs and auxiliary verbs describing states or actions,0.355,0.385,0.917,0.22,2
+16,1,Continuation or reference to a specific article or content,0.674,0.554,0.769,0.6,3
+16,127,Financial transitions and value changes,0.725,0.615,0.805,0.66,3
+16,141,"Financial sentiment, focusing on bullish and steady market trends.",0.486,0.446,0.85,0.34,10
+16,164,"Parentheses enclosing company names, stock symbols, and financial figures",0.478,0.462,0.941,0.32,9
+16,34,Financial performance and market trends in business contexts,0.876,0.78,1.0,0.78,9
