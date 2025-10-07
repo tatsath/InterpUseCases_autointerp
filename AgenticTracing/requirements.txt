@@ -1,0 +1,8 @@
+autogen-agentchat
+autogen-core
+yfinance
+pandas
+asyncio
+huggingface-hub
+transformers
+torch
