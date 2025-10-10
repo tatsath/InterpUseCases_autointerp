@@ -12,7 +12,7 @@ import joblib
 import json
 
 # Add current directory to path
-sys.path.append('/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes')
+sys.path.append('/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading')
 
 def analyze_feature_importance():
     """Analyze SAE feature importance"""
@@ -21,8 +21,8 @@ def analyze_feature_importance():
     print("="*60)
     
     # Load model and metadata
-    model_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results/sae_logistic_model.joblib"
-    metadata_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results/model_metadata.json"
+    model_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results/sae_logistic_model.joblib"
+    metadata_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results/model_metadata.json"
     
     model = joblib.load(model_path)
     with open(metadata_path, 'r') as f:

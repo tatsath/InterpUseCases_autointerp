@@ -9,7 +9,7 @@ echo "=========================================="
 
 # Set up paths
 PROBETRAIN_DIR="/home/nvidia/Documents/Hariom/probetrain"
-PROBES_DIR="/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes"
+PROBES_DIR="/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading"
 DATASET_PATH="$PROBES_DIR/financial_three_class.csv"
 OUTPUT_DIR="$PROBES_DIR/probetrain_financial_layer16_results"
 

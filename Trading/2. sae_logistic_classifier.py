@@ -99,7 +99,7 @@ class SAELogisticClassifier:
     def _load_financial_data(self, max_samples: int = 1000) -> Tuple[List[str], List[int]]:
         """Load financial dataset"""
         logger.info("Loading financial dataset...")
-        df = pd.read_csv("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/financial_three_class.csv")
+        df = pd.read_csv("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/financial_three_class.csv")
         
         # Limit samples if specified
         if max_samples and len(df) > max_samples:
@@ -292,7 +292,7 @@ def main():
     results = classifier.train(max_samples=1000, test_size=0.2)
     
     # Save the model
-    output_dir = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results"
+    output_dir = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results"
     classifier.save_model(output_dir)
     
     # Test with some examples

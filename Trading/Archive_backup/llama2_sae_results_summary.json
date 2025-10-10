@@ -1,0 +1,47 @@
+{
+  "total_headlines": 10,
+  "total_features_found": 22,
+  "feature_matrix_samples": 10,
+  "top_5_features": [
+    {
+      "feature_id": 364,
+      "total_activation": 2414.638931274414,
+      "feature_label": "feature_364"
+    },
+    {
+      "feature_id": 205,
+      "total_activation": 2401.3870391845703,
+      "feature_label": "feature_205"
+    },
+    {
+      "feature_id": 192,
+      "total_activation": 2038.2816772460938,
+      "feature_label": "feature_192"
+    },
+    {
+      "feature_id": 248,
+      "total_activation": 2011.87744140625,
+      "feature_label": "feature_248"
+    },
+    {
+      "feature_id": 254,
+      "total_activation": 1971.6153717041016,
+      "feature_label": "feature_254"
+    }
+  ],
+  "feature_matrix_columns": [
+    "feature_364",
+    "feature_205",
+    "feature_192",
+    "feature_248",
+    "feature_254",
+    "feature_41",
+    "feature_37",
+    "feature_93",
+    "feature_55",
+    "feature_363",
+    "label",
+    "return",
+    "headline"
+  ]
+}

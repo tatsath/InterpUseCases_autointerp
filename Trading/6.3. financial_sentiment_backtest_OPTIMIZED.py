@@ -25,7 +25,7 @@ import matplotlib.dates as mdates
 
 # Add paths
 sys.path.append('/home/nvidia/Documents/Hariom/probetrain')
-sys.path.append('/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes')
+sys.path.append('/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading')
 
 # GPU Configuration - SAFER SETTINGS
 GPU_IDS = [2, 3, 4, 5]
@@ -85,7 +85,7 @@ class OptimizedFinancialSentimentBacktester:
             # Initialize investigator ONCE
             self.probe_investigator = ProbeInvestigator("meta-llama/Llama-2-7b-hf", "cuda")
             self.probe_investigator.load_model()
-            self.probe_investigator.load_probes("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/probetrain_financial_layer16_results", probe_type='multi_class')
+            self.probe_investigator.load_probes("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/probetrain_financial_layer16_results", probe_type='multi_class')
             
             print("✅ ProbeTrain model loaded and ready for batch processing")
         except Exception as e:
@@ -94,8 +94,8 @@ class OptimizedFinancialSentimentBacktester:
         
         # Load SAE model
         try:
-            self.sae_model = joblib.load("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results/model.pkl")
-            with open("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results/model_metadata.json", 'r') as f:
+            self.sae_model = joblib.load("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results/model.pkl")
+            with open("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results/model_metadata.json", 'r') as f:
                 self.sae_metadata = json.load(f)
             print("✅ SAE model loaded")
         except Exception as e:
@@ -627,7 +627,7 @@ class OptimizedFinancialSentimentBacktester:
             print(f"   🔄 Total Trades: {total_trades}")
         
         # Save results
-        results_file = f"/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/optimized_{years_back}year_backtest_results.json"
+        results_file = f"/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/optimized_{years_back}year_backtest_results.json"
         with open(results_file, 'w') as f:
             json_results = {}
             for ticker, result in results.items():
@@ -726,7 +726,7 @@ def main():
     
     parser = argparse.ArgumentParser(description='Financial Sentiment Backtesting System')
     parser.add_argument('--data_file', type=str, 
-                       default="/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/Financial_data_Tesla.csv",
+                       default="/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/Financial_data_Tesla.csv",
                        help='Path to the dataset CSV file')
     parser.add_argument('--ticker', type=str, default='TSLA',
                        help='Target ticker symbol (e.g., TSLA, BA)')
@@ -742,7 +742,7 @@ def main():
     if not os.path.exists(data_file):
         print(f"❌ Data file not found: {data_file}")
         print("Available files:")
-        for file in os.listdir("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/"):
+        for file in os.listdir("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/"):
             if file.endswith('.csv') and 'financial' in file.lower():
                 print(f"  - {file}")
         return

@@ -23,7 +23,7 @@ def main():
     analyzer = SAEPredictionAnalyzer(layer=16, device="cuda:1")
     
     # Load model
-    model_dir = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results"
+    model_dir = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results"
     print("Loading trained SAE logistic regression model...")
     analyzer.load_model(model_dir)
     print("✅ Model loaded successfully!")

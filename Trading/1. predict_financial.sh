@@ -3,8 +3,8 @@
 # Financial Sentiment Prediction Script
 # Uses the trained probe to predict financial sentiment probabilities
 
-SCRIPT_DIR="/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes"
-PYTHON_SCRIPT="$SCRIPT_DIR/1.get_financial_probabilities.py"
+SCRIPT_DIR="/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading"
+PYTHON_SCRIPT="$SCRIPT_DIR/1. get_financial_probabilities.py"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 'Your financial news text here'"

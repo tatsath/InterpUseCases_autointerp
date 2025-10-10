@@ -65,7 +65,7 @@ def main():
         return
     
     text = sys.argv[1]
-    probe_dir = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/probetrain_financial_layer16_results"
+    probe_dir = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/probetrain_financial_layer16_results"
     
     try:
         result = get_financial_probabilities(text, probe_dir)

@@ -16,8 +16,8 @@ from probetrain.standalone_probe_system import ProbeInvestigator
 
 def load_sae_model():
     """Load SAE logistic regression model"""
-    model_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results/sae_logistic_model.joblib"
-    metadata_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/sae_logistic_results/model_metadata.json"
+    model_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results/sae_logistic_model.joblib"
+    metadata_path = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/sae_logistic_results/model_metadata.json"
     
     model = joblib.load(model_path)
     with open(metadata_path, 'r') as f:
@@ -54,15 +54,15 @@ def analyze_financial_sentiment(text):
     try:
         investigator = ProbeInvestigator("meta-llama/Llama-2-7b-hf", "cuda")
         investigator.load_model()
-        investigator.load_probes("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/probetrain_financial_layer16_results", probe_type='multi_class')
+        investigator.load_probes("/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/probetrain_financial_layer16_results", probe_type='multi_class')
         
         # Use the existing working approach from get_financial_probabilities.py
         import importlib.util
-        spec = importlib.util.spec_from_file_location("get_financial_probabilities", "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/1. get_financial_probabilities.py")
+        spec = importlib.util.spec_from_file_location("get_financial_probabilities", "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/1. get_financial_probabilities.py")
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
         get_financial_probabilities = module.get_financial_probabilities
-        result = get_financial_probabilities(text, "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/probetrain_financial_layer16_results")
+        result = get_financial_probabilities(text, "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/probetrain_financial_layer16_results")
         
         print(f"Predicted Class: {result['predicted_class']} ({result['predicted_label']})")
         print(f"Confidence: {result['confidence']:.3f}")

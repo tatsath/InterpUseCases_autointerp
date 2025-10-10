@@ -420,7 +420,7 @@ def collect_financial_data():
         return pd.DataFrame()
     
     df = pd.DataFrame(all_data)
-    output_file = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/financial_trading_data.csv"
+    output_file = "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Trading/financial_trading_data.csv"
     df.to_csv(output_file, index=False)
     
     print(f"\n🎯 FINAL RESULTS:")
