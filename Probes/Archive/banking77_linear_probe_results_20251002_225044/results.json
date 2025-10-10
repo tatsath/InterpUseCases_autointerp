@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.0,
+  "num_samples": 0,
+  "timestamp": "2025-10-02T22:51:02.976860",
+  "model_name": "meta-llama/Llama-2-7b-hf",
+  "probe_type": "linear"
+}

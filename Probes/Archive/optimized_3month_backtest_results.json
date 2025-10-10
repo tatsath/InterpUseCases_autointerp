@@ -1,0 +1,45 @@
+{
+  "TSLA": {
+    "metrics": {
+      "total_return": 0.1774045013532696,
+      "sharpe_ratio": 2.2464682455282663,
+      "max_drawdown": -0.08999877584647842,
+      "win_rate": 1.0,
+      "n_trades": 2,
+      "volatility": 0.46227138533473844,
+      "quantstats_chart": "optimized_quantstats_TSLA.png",
+      "trading_chart": "optimized_trading_chart_TSLA.png"
+    }
+  },
+  "BA": {
+    "metrics": {
+      "total_return": -0.04090218534918691,
+      "sharpe_ratio": -0.9082715758203627,
+      "max_drawdown": -0.09380988594922712,
+      "win_rate": 0.5,
+      "n_trades": 6,
+      "volatility": 0.2326985318931048,
+      "quantstats_chart": "optimized_quantstats_BA.png",
+      "trading_chart": "optimized_trading_chart_BA.png"
+    }
+  },
+  "BTC-USD": {
+    "metrics": {
+      "total_return": -0.017998373411057547,
+      "sharpe_ratio": -0.16814818592140476,
+      "max_drawdown": -0.1554544403108652,
+      "win_rate": 0.5454545454545454,
+      "n_trades": 11,
+      "volatility": 0.2514091271064379,
+      "quantstats_chart": "optimized_quantstats_BTC-USD.png",
+      "trading_chart": "optimized_trading_chart_BTC-USD.png"
+    }
+  },
+  "timing_stats": {
+    "batch_processing": {
+      "total_time": 2.8065664768218994,
+      "items_processed": 90,
+      "avg_time_per_item": 0.03118407196468777
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+
+saved_data/
+.claude/settings.local.json
+*.pyc
+.DS_Store
+*.npy
+*.pyc
+*.pyc
+.DS_Store
+.env

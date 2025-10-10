@@ -1,0 +1,36 @@
+{
+  "config": {
+    "model_name": "meta-llama/Llama-2-7b-hf",
+    "device": "cuda",
+    "dataset_path": "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/financial_three_class.csv",
+    "dataset_source": "custom",
+    "max_samples": 1000,
+    "epochs": 100,
+    "learning_rate": 0.01,
+    "batch_size": 8,
+    "test_split": 0.2,
+    "probe_type": "multi_class",
+    "use_control_tasks": true,
+    "layers": [
+      16
+    ],
+    "output_dir": "/home/nvidia/Documents/Hariom/InterpUseCases_autointerp/Probes/probetrain_financial_layer16_results",
+    "save_model": true,
+    "verbose": true
+  },
+  "accuracies": [
+    0.5949999690055847
+  ],
+  "losses": [
+    0.2245616316795349
+  ],
+  "test_losses": [
+    1.0873358249664307
+  ],
+  "control_accuracies": [
+    0.35499998927116394
+  ],
+  "selectivities": [
+    0.23999997973442078
+  ]
+}

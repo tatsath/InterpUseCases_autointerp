@@ -1,0 +1,10 @@
+{
+  "dataset_name": "banking77",
+  "original_classes": 77,
+  "label_range": "0 to 76",
+  "train_samples": 9993,
+  "test_samples": 3076,
+  "total_samples": 13069,
+  "binary_mapping": "label < 39 = 1, label >= 39 = 0",
+  "description": "Banking77 dataset converted to binary classification"
+}

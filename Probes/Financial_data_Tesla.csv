@@ -1,0 +1,439 @@
+date,ticker,news,close_price
+2010-06-29,TSLA,"With I.P.O., Tesla Bets on Electric Car’s Future",1.5926669836044312
+2010-06-30,TSLA,Tesla Leaves I.P.O. Price in the Dust,1.5886670351028442
+2010-07-21,TSLA,"Tesla Electric Cars: Revved Up, but Far to Go",1.3480000495910645
+2010-07-26,TSLA,"Tesla Electric Cars: Revved Up, but Far to Go",1.3966670036315918
+2010-07-30,TSLA,Musk’s Secret Identity Is Revealed,1.329332947731018
+2010-08-05,TSLA,Tesla Reports Higher Losses in 2nd Quarter,1.363332986831665
+2010-08-05,TSLA,Tesla Reports Higher Losses in 2nd Quarter,1.363332986831665
+2010-11-04,TSLA,Panasonic Invests $30 Million in Tesla,1.659999966621399
+2010-11-16,TSLA,Unlikely Alliance Results in an All-Electric RAV4,1.9780000448226929
+2011-03-31,TSLA,Tesla Sues ‘Top Gear’ Over Show About the Roadster,1.850000023841858
+2011-04-25,TSLA,Chris Paine Stages a Discussion of the Electric Car’s Future at the Tribeca Film Festival,1.7593330144882202
+2011-05-06,TSLA,Tesla Prepares for a Gap as Roadster Winds Down,1.8079999685287476
+2011-10-20,TSLA,Anticipating Big Growth at Tesla,1.8226670026779175
+2011-10-21,TSLA,"As Documentary Rolls Out, Elon Musk Considers His ‘Revenge’",1.8686670064926147
+2011-10-26,TSLA,"Bucking Trends, Tesla Goes It Alone on Plug Design",1.8653329610824585
+2012-01-17,TSLA,Wheelies: The Damage Control Edition,1.773332953453064
+2012-02-10,TSLA,Tesla Unveils Model X at Its Southern California Design Studios,2.0733330249786377
+2012-06-20,TSLA,"Leaving Baggage On the Dock, a Flagship Departs From California",2.252000093460083
+2012-08-31,TSLA,"With a Jolt From Tesla, a More Electrifying Utility",1.901332974433899
+2012-09-25,TSLA,"For Tesla Motors, One Supercharger to Bind Them",1.843999981880188
+2012-09-26,TSLA,Libor’s New Masters,1.8359999656677246
+2012-09-28,TSLA,Charging Ahead on an Electric Highway,1.9520000219345093
+2012-09-28,TSLA,"One Big Step for Tesla, One Giant Leap for E.V.’s",1.9520000219345093
+2012-10-05,TSLA,Cash Flows Are Critical for Tesla,1.9259999990463257
+2012-10-23,TSLA,Wheelies: The Charged Argument Edition,1.8926670551300049
+2012-11-13,TSLA,"At Tesla’s Party, Superchargers and Delivery Dates",2.107332944869995
+2012-11-14,TSLA,Unprepared for a Disaster,2.0920000076293945
+2012-11-14,TSLA,Elon Musk on a Solid Year for Tesla,2.0920000076293945
+2013-01-15,TSLA,A Holding Pattern at Tesla,2.259999990463257
+2013-02-08,TSLA,Stalled Out on Tesla’s Electric Highway,2.615999937057495
+2013-02-12,TSLA,The Charges Are Flying Over a Test of Tesla’s Charging Network,2.5260000228881836
+2013-02-14,TSLA,Conflicting Assertions Over an Electric Car Test Drive,2.551332950592041
+2013-02-14,TSLA,That Tesla Data: What It Says and What It Doesn’t,2.551332950592041
+2013-02-15,TSLA,"Problems With Precision and Judgment, but Not Integrity, in Tesla Test",2.4693329334259033
+2013-02-21,TSLA,Tesla’s Earnings Indicate Some Customer Cancellations,2.3440001010894775
+2013-02-22,TSLA,"After a Charging System Test, a Debate Erupts Online",2.4073328971862793
+2013-03-12,TSLA,Tesla Model X Production Won’t Start Until Late 2014,2.6080000400543213
+2013-04-01,TSLA,The Timing of Tesla C.E.O.’s Tweets,2.9286670684814453
+2013-04-03,TSLA,"Gentlemen, Start Your Calculators: Checking the Math of Tesla’s Lend-Lease Program",2.740000009536743
+2013-04-12,TSLA,Wheelies: The Fantasy Electric Truck Edition,2.9166669845581055
+2013-05-08,TSLA,Technology Industry Lobbying Group Loses Supporters,3.7193329334259033
+2013-05-08,TSLA,Tesla’s Disappearing Data,3.7193329334259033
+2013-05-14,TSLA,Tesla’s Stock Is Trading at Rich Multiples,5.549333095550537
+2013-05-15,TSLA,Wheelies: The Change the Batteries Edition,5.656000137329102
+2013-05-16,TSLA,Bid for Cash by Tesla Motors Is Likely to Energize Company and Critics Alike,6.150000095367432
+2013-05-23,TSLA,"In a Plus for Electrics, Tesla Repays a Big Federal Loan Early",6.182000160217285
+2013-05-24,TSLA,Tesla vs. Chrysler: Who’s on First?,6.4720001220703125
+2013-06-03,TSLA,The Long Road Ahead for Tesla,6.172667026519775
+2013-06-21,TSLA,Tesla Fast-Tracks Battery Swapping While Fighting a Legislative Attack,6.636666774749756
+2013-06-25,TSLA,Wheelies: The Let’s Sit Down and Talk Edition,6.826666831970215
+2013-07-09,TSLA,Wheelies: The Connecticut Coverage Edition,8.229999542236328
+2013-07-15,TSLA,Musk to Unveil Designs for ‘Hyperloop’ High-Speed Train,8.484000205993652
+2013-08-08,TSLA,Echoes of Steve Jobs in Elon Musk,10.232000350952148
+2013-08-12,TSLA,Elon Musk Unveils Plans for Hyperloop High-Speed Train,9.825332641601562
+2013-08-13,TSLA,Elon Musk’s ‘Hyperloop’ Dream,9.695332527160645
+2013-08-23,TSLA,Getting Tesla From Here to There,10.78933334350586
+2013-09-06,TSLA,"As It Increases Production, Tesla Worries About Battery Supply",11.131333351135254
+2013-09-19,TSLA,General Motors Looks to Cut Battery Prices and Increase E.V. Range,11.861332893371582
+2013-10-04,TSLA,Car Fire a Test for High-Flying Tesla,12.065333366394043
+2013-11-06,TSLA,"Tesla Posts Smaller Loss, but Shares Start to Temper",10.077333450317383
+2013-11-08,TSLA,Another Fire Raises Questions for Tesla,9.196666717529297
+2013-11-12,TSLA,Elon Musk’s Next Blue-Sky Idea,9.186667442321777
+2013-11-19,TSLA,"After 3 Fires, Safety Agency Opens Inquiry Into Tesla Model S ",8.406000137329102
+2013-12-05,TSLA,SolarCity to Use Batteries From Tesla for Energy Storage,9.36533260345459
+2013-12-27,TSLA,"In 2013: Rebounds, Traders and Rights",10.074666976928711
+2014-01-10,TSLA,Wheelies: The Ford Is Watching Edition,9.714667320251465
+2014-01-14,TSLA,"At Auto Show, Tesla Defends Safety Record ",10.751333236694336
+2014-01-14,TSLA,Elon Musk of Tesla on Recall,10.751333236694336
+2014-02-20,TSLA,Loss Tapers at Tesla as Its Sales Still Climb,13.998000144958496
+2014-02-27,TSLA,Tesla Plans $5 Billion Battery Factory for Mass-Market Electric Car,16.836000442504883
+2014-03-18,TSLA,Tesla Fights for a Place to Park,16.002666473388672
+2014-03-28,TSLA,Federal Safety Agency Ends Its Investigation of Tesla Fires,14.157999992370605
+2014-04-10,TSLA,Tesla’s Lightweight Solution to Preventing Model S Fires,13.612667083740234
+2014-04-11,TSLA,Key to Tougher Teslas: Titanium,13.585332870483398
+2014-04-25,TSLA,Wheelies: The Mazda’s Money Edition,13.323332786560059
+2014-05-08,TSLA,Tesla stock falls despite earnings beat,11.906000137329102
+2014-06-18,TSLA,Elon Musk’s Halo Effect,15.141332626342773
+2014-07-17,TSLA,Wheelies: The Mustang Numbers Edition,14.359999656677246
+2014-09-04,TSLA,Nevada and Tesla Hint at Site of Factory,19.069332122802734
+2014-09-05,TSLA,Alibaba set for historic IPO; Stocks shake jobs worry,18.492666244506836
+2014-09-05,TSLA,Elon Musk on Tesla Factory Decision,18.492666244506836
+2014-09-05,TSLA,Nevada a Winner in Tesla’s Battery Contest,18.492666244506836
+2014-09-12,TSLA,"Nevada Woos Tesla Plant in Tax Deal, but Economic Benefits Prompt Debate",18.613332748413086
+2014-10-08,TSLA,Tesla Announces a Quicker Dual-Motor Model With All-Wheel Drive,17.28533363342285
+2014-10-10,TSLA,"Tesla's Musk intros Model S ""autopilot"" features",15.793999671936035
+2014-10-22,TSLA,Daimler Expects $780 Million Gain on Sale of Tesla Motors Stake,15.40666675567627
+2014-10-27,TSLA,Tesla Announces a New Leasing Package for Its Electric Cars,14.777999877929688
+2014-11-06,TSLA,"Tesla Reports Loss, but Beats Wall Street Expectations",16.08133316040039
+2015-01-14,TSLA,Tesla Chief Asks Makers to Support Electric Cars,12.845999717712402
+2015-02-10,TSLA,Lurching Start for Tesla in China,14.419333457946777
+2015-02-12,TSLA,"Tesla Motors Met Its Output Goal, but Showed a 4th-Quarter Loss",13.525333404541016
+2015-03-19,TSLA,Elon Musk Says Self-Driving Tesla Cars Will Be in the U.S. by Summer,13.043333053588867
+2015-03-26,TSLA,"For Hardware Makers, Sharing Their Secrets Is Now Part of the Business Plan",12.694000244140625
+2015-04-27,TSLA,"Apple Earnings, Automaker Results and New Products From Tesla",15.436667442321777
+2015-04-28,TSLA,Elon Musk’s Ex-Wife on What It Takes to Be a Mogul,15.36533260345459
+2015-05-01,TSLA,Tesla Ventures Into Solar Power Storage for Home and Business,15.0686674118042
+2015-05-01,TSLA,Tesla’s Home Battery System,15.0686674118042
+2015-05-01,TSLA,Who Is Tesla’s Home Battery For?,15.0686674118042
+2015-05-07,TSLA,"Losses Widen at Tesla, but Company Says Production Is on Track ",15.786666870117188
+2015-05-12,TSLA,"‘Elon Musk,’ by Ashlee Vance",16.31599998474121
+2015-05-12,TSLA,"‘Elon Musk,’ a Biography by Ashlee Vance, Paints a Driven Portrait",16.31599998474121
+2015-06-15,TSLA,Elon Musk Wants Your Hyperloop Ideas,16.691999435424805
+2015-06-15,TSLA,Elon Musk Wants Your Hyperloop Ideas,16.691999435424805
+2015-08-05,TSLA,"Tesla Motors Trims Delivery Outlook, Sending Stock Down",18.0086669921875
+2015-08-12,TSLA,"Betting on a Smooth Ride, Investors Flock to Tesla ",15.878000259399414
+2015-08-26,TSLA,The Tesla Cheerleader,14.989333152770996
+2015-09-28,TSLA,"Data on Spending, Trevor Noah Starts and Tesla Unveils an S.U.V.",16.562000274658203
+2015-09-30,TSLA,"Tesla Delivers Model X, Its First Sport Utility Vehicle",16.559999465942383
+2015-10-09,TSLA,Musk disses Apple,14.712667465209961
+2015-10-15,TSLA,Tesla Adds High-Speed Autonomous Driving to Its Bag of Tricks,14.753999710083008
+2015-11-04,TSLA,"Elon Musk Says Never Mind the Hiccups, Tesla Is on Track",15.442000389099121
+2016-01-14,TSLA,"From Tesla, a New Car Smell That Vegans Can Get Behind",13.745332717895508
+2016-04-01,TSLA,Tesla’s New Model 3 Jump-Starts Demand for Electric Cars,15.839332580566406
+2016-04-01,TSLA,Tesla Model 3 Orders Surge Even Before Its Unveiling,15.839332580566406
+2016-04-01,TSLA,Tesla Reveals a Lower-Priced Car,15.839332580566406
+2016-04-01,TSLA,Tesla Unveils the Model 3,15.839332580566406
+2016-04-07,TSLA,"Tesla’s Model 3 Already Has 325,000 Preorders",17.14666748046875
+2016-05-05,TSLA,Tesla Says It Will Sharply Ramp Up Production of Model 3,14.10200023651123
+2016-05-19,TSLA,Tesla to Sell $2 Billion in Shares to Bolster Model 3 Output,14.347332954406738
+2016-06-01,TSLA,Tesla Comes to Brooklyn,14.637332916259766
+2016-06-09,TSLA,Tesla Model S Suspension Failures Under Scrutiny by Safety Agency,15.290666580200195
+2016-06-10,TSLA,"For Tesla Owner, Losing a Wheel Was Just the First Surprise",14.586000442504883
+2016-06-22,TSLA,Tesla’s Plan to Buy SolarCity Has Major Flaws,13.11066722869873
+2016-06-22,TSLA,Elon Musk Aims to Shore Up SolarCity by Having Tesla Buy It,13.11066722869873
+2016-06-22,TSLA,Morning Agenda: Elon Musk Wants to Merge SolarCity With Tesla,13.11066722869873
+2016-06-23,TSLA,Testing the Clean-Energy Logic of a Tesla-SolarCity Merger,13.09333324432373
+2016-06-29,TSLA,"Joshua Brown, Who Died in Self-Driving Accident, Tested Limits of His Tesla",14.012666702270508
+2016-06-29,TSLA,A Fatality Forces Tesla to Confront Its Limits,14.012666702270508
+2016-06-30,TSLA,"Self-Driving Tesla Was Involved in Fatal Crash, U.S. Says",14.152000427246094
+2016-07-12,TSLA,"As U.S. Investigates Fatal Tesla Crash, Company Defends Autopilot System",14.976667404174805
+2016-07-13,TSLA,"The Tesla Experiment: Drive, It Said",14.835332870483398
+2016-07-20,TSLA,Farhad’s and Mike’s Week in Tech: The Master Plans of SoftBank and Elon Musk,15.223999977111816
+2016-07-21,TSLA,"Elon Musk, a Serial Entrepreneur",14.699999809265137
+2016-07-21,TSLA,Elon Musk of Tesla Sticks to Mission Despite Setbacks,14.699999809265137
+2016-07-21,TSLA,Morning Agenda: Tesla’s New Grand Plan,14.699999809265137
+2016-07-21,TSLA,"Elon Musk’s Tesla Plan: More Models, More Self-Driving",14.699999809265137
+2016-07-21,TSLA,Elon Musk’s Futuristic Plans Give Shareholders Cause to Worry,14.699999809265137
+2016-07-25,TSLA,Morning Agenda: Verizon Is to Buy Yahoo’s Core Business,15.333999633789062
+2016-07-29,TSLA,"Tesla Faults Brakes, but Not Autopilot, in Fatal Crash",15.652667045593262
+2016-08-01,TSLA,"Theranos Damage Control, Tesla Earnings and the Jobs Report",15.333999633789062
+2016-08-01,TSLA,"In Tesla and SolarCity Deal, a Glimpse of Musk’s Clean-Energy Aspirations",15.333999633789062
+2016-08-01,TSLA,Tesla-SolarCity Deal Could Distract the Carmaker,15.333999633789062
+2016-08-03,TSLA,Tesla’s Big Loss Reflects Its Costly Ambitions,15.052666664123535
+2016-08-04,TSLA,"Everyone Despises SolarCity Deal, Except Tesla Shareholders",15.37399959564209
+2016-08-10,TSLA,Elon Musk’s Long-Term Vision,15.043333053588867
+2016-09-01,TSLA,"Big Carmakers Merge, Cautiously, Into the Self-Driving Lane",13.38466739654541
+2016-09-02,TSLA,Lawyers Burnish Tesla’s Deal for SolarCity,13.185333251953125
+2016-09-06,TSLA,"Elon Musk’s Solar Vision, Up for a Dicey Vote",13.522000312805176
+2016-09-08,TSLA,Elon Musk Says Pending Tesla Updates Could Have Prevented Fatal Crash,13.157333374023438
+2016-09-13,TSLA,Ford’s Driverless Car Plan: Embrace Tech and Go Slow,13.069999694824219
+2016-09-14,TSLA,Autopilot Cited in Death of Chinese Tesla Driver,13.093999862670898
+2016-09-14,TSLA,How Did G.M. Create Tesla’s Dream Car First?,13.093999862670898
+2016-09-20,TSLA,How Tesla and Apple Could Be Good for Each Other,13.642666816711426
+2016-09-23,TSLA,Tesla Upgrades Autopilot in Cars on the Road,13.829999923706055
+2016-10-20,TSLA,"Tesla Will Make Its Cars Fully Self-Driving, but Not Turn the System On Yet",13.273332595825195
+2016-10-20,TSLA,Apple and Tesla to Report Earnings,13.273332595825195
+2016-10-27,TSLA,Tesla Motors Profit Surprises Investors Ahead of Merger Vote,13.600666999816895
+2016-11-04,TSLA,Tesla’s Bid for SolarCity Gets Support From Shareholder Adviser,12.704000473022461
+2016-11-07,TSLA,Power Couple: Tie-Up Shows How Batteries and Solar May Link,12.880666732788086
+2016-11-08,TSLA,Silicon Valley Style Puts Gloss on Tesla’s Bid for SolarCity,12.996000289916992
+2016-11-17,TSLA,Tesla and SolarCity Shareholders Approve Merger,12.577333450317383
+2016-11-18,TSLA,Elon Musk Faces Epic Juggling Act After Tesla-SolarCity Deal,12.334667205810547
+2016-11-18,TSLA,"Morning Agenda: Drug Kickback Charges, Unqualified Princelings, Tesla-SolarCity Vote",12.334667205810547
+2016-12-06,TSLA,"Want to Bring Back Jobs, Mr. President-Elect? Call Elon Musk",12.390000343322754
+2016-12-06,TSLA,"Morning Agenda: Italy Adds to Unknowns, Paging Elon Musk, Elliott’s Diplomacy",12.390000343322754
+2016-12-13,TSLA,"When Trump Meets Tech Leaders, Jobs Will Be on the Agenda",13.210000038146973
+2017-01-20,TSLA,Tesla’s Self-Driving System Cleared in Deadly Crash,16.315332412719727
+2017-01-26,TSLA,"Elon Musk Has Trump’s Ear, and Wall Street Takes Note",16.833999633789062
+2017-01-26,TSLA,China’s Answer to Tesla Is Hopeful Entrant to Global Car Market,16.833999633789062
+2017-01-27,TSLA,Daily Report: Elon Musk’s Unlikely Bond With Donald Trump,16.863332748413086
+2017-03-17,TSLA,Tesla’s $1 Billion Cash Raise May Fall Short,17.433332443237305
+2017-03-28,TSLA,Tencent of China Takes 5 Percent Stake in Tesla,18.496667861938477
+2017-04-03,TSLA,Tesla Reports Jump in Vehicle Production but Aims for Much More,19.90133285522461
+2017-04-04,TSLA,Tesla Passes Ford in Market Value as Investors Bet on the Future,20.246667861938477
+2017-04-06,TSLA,Tesla Has Something Hotter Than Cars to Sell: Its Story,19.913333892822266
+2017-04-10,TSLA,"Tesla Hits a New Milestone, Passing G.M. in Valuation",20.826000213623047
+2017-04-11,TSLA,Tesla’s Rise on a Wave of Shareholder Optimism,20.58066749572754
+2017-04-12,TSLA,Tesla’s Market Surge Has Even Fans Looking for Feet of Clay,19.78933334350586
+2017-05-03,TSLA,"Tesla, Reporting Bigger Loss, Emphasizes Gains in Production and Sales",20.73466682434082
+2017-06-06,TSLA,G.M. and Tesla Shareholders Rebuff Dissidents’ Proposals,23.523332595825195
+2017-07-03,TSLA,"Tesla’s First Mass-Market Car, the Model 3, Hits Production This Week",23.507999420166016
+2017-07-06,TSLA,Tesla Loses No. 1 Spot in Market Value Among U.S. Automakers,20.588666915893555
+2017-07-06,TSLA,"Mosul, G-20, Tesla: Your Morning Briefing",20.588666915893555
+2017-07-07,TSLA,Tesla to Install World’s Largest Lithium-Ion Battery in Australia. Also: Reactions to North Korea.,20.881332397460938
+2017-07-20,TSLA,29 Minutes From New York to Washington? Elon Musk Teases a New Hyperloop,21.994667053222656
+2017-07-26,TSLA,"In Pivotal Moment, Tesla Unveils Its First Mass-Market Sedan",22.92333221435547
+2017-08-02,TSLA,Elon Musk Reassures Investors as Tesla Ramps Up Model 3 Output,21.72599983215332
+2017-08-07,TSLA,Why Tesla Motors Is Fueling Up on Debt,23.67799949645996
+2017-09-12,TSLA,"Tesla Boosts Car Battery Power During Irma, Raising Questions of Control",24.183332443237305
+2017-10-11,TSLA,Tesla Fires Hundreds of Workers,23.639999389648438
+2017-10-27,TSLA,"Tesla’s Tiered Pricing Is a Hurdle, but a Fair One",21.391332626342773
+2017-11-01,TSLA,Tesla’s Elon Musk Reassures Investors Over Model 3 Delays,21.405332565307617
+2017-11-07,TSLA,A.I. Researchers Leave Elon Musk Lab to Begin Robotics Start-Up,20.40333366394043
+2017-11-07,TSLA,Tesla’s Dangerous Sprint Into the Future,20.40333366394043
+2017-11-17,TSLA,Tesla Unveils an Electric Rival to Semi Trucks,21.003332138061523
+2017-11-30,TSLA,Australia Powers Up the World’s Biggest Battery — Courtesy of Elon Musk,20.59000015258789
+2017-12-27,TSLA,"Tesla the Car Is a Household Name. Long Ago, So Was Nikola Tesla.",20.775999069213867
+2018-01-02,TSLA,What’s on TV Tuesday: ‘Tesla’s Death Ray’ and Near East Relief,21.368667602539062
+2018-01-04,TSLA,"Tesla Reports New Setback for Model 3, With Output Lagging",20.974666595458984
+2018-01-11,TSLA,"Electric Vehicle Tax Credit Survives, but G.M. and Tesla Aren’t Cheering",22.530000686645508
+2018-01-23,TSLA,Tesla’s Targets for Elon Musk Would Put His Pay in Orbit,23.519332885742188
+2018-01-23,TSLA,Tesla’s Elon Musk May Have Boldest Pay Plan in Corporate History,23.519332885742188
+2018-02-07,TSLA,DealBook Briefing: Tesla’s Mass Market Hopes May Remain Elusive,23.0
+2018-02-07,TSLA,"Tesla Model 3, Elon Musk’s Grail, Remains a Costly Pursuit",23.0
+2018-02-07,TSLA,"North Korea, Tesla, Taiwan: Your Thursday Briefing",23.0
+2018-02-09,TSLA,"Farhad’s Week in Tech: HomePod Whiffs, but Elon Musk Does Not",20.69466781616211
+2018-02-12,TSLA,SpaceX and Tesla Go Into Orbit,21.048667907714844
+2018-03-06,TSLA,"Porsche Positions Itself Against Tesla, on the Road and Beside It",21.8799991607666
+2018-03-23,TSLA,Elon Musk Joins #DeleteFacebook With a Barrage of Tweets,20.1026668548584
+2018-03-28,TSLA,Fatal Tesla Crash Raises New Questions About Autopilot System,17.185333251953125
+2018-03-29,TSLA,Tesla Looked Like the Future. Now Some Ask if It Has One.,17.742000579833984
+2018-04-02,TSLA,Elon Musk Makes Light of Tesla’s Troubles in April Fool’s Tweets,16.832000732421875
+2018-04-03,TSLA,"For Tesla, ‘Production Hell’ Looks Like the Reality of the Car Business",17.8353328704834
+2018-04-04,TSLA,Tesla’s Manufacturing ‘Hell’ Won’t Slow Down Electric Cars,19.12933349609375
+2018-04-05,TSLA,"With Tesla in a Danger Zone, Can Model 3 Carry It to Safety?",20.381332397460938
+2018-04-16,TSLA,"Noam Chomsky, Elon Musk and Ayn Rand Walk Into a Puppet Show",19.413999557495117
+2018-04-17,TSLA,Tesla to Halt Production of Model 3 Cars Temporarily,19.179332733154297
+2018-04-20,TSLA,Tesla Factory Safety Under Scrutiny After Worker Is Injured,19.349332809448242
+2018-04-24,TSLA,"In This Space Race, Jeff Bezos and Elon Musk Are Competing to Take You There",18.8973331451416
+2018-04-26,TSLA,"Closing Arguments in AT&T Trial, and Jobs Numbers Will Be Released",19.031999588012695
+2018-05-02,TSLA,Even Tesla Seems Worried It’s Consuming Too Much Cash: DealBook Briefing,20.07666778564453
+2018-05-02,TSLA,"Tesla Is Still Burning Cash, but Elon Musk Sees a Turning Point",20.07666778564453
+2018-05-03,TSLA,"Trade, Tariffs and Tesla’s Conference Call: DealBook Briefing",18.963333129882812
+2018-05-03,TSLA,"Elon Musk Rejects ‘Boring, Bonehead Questions,’ and Tesla’s Stock Slides",18.963333129882812
+2018-05-04,TSLA,California Today: Xavier Becerra on California vs. Trump,19.606000900268555
+2018-05-07,TSLA,"Elon Musk Wants to Fill Warren Buffett’s ‘Moat’ With Candy, but It Still Holds Water",20.184667587280273
+2018-05-15,TSLA,California Today: San Francisco Nurses Protest the Zuckerberg Hospital’s Name,18.94533348083496
+2018-05-22,TSLA,"Tesla Model 3 Goes Upscale, and Base-Price Buyers Must Wait",18.333999633789062
+2018-05-23,TSLA,"Elon Musk, the Donald of Silicon Valley",18.60466766357422
+2018-05-24,TSLA,Elon Musk Declares War on the Media: DealBook Briefing,18.523332595825195
+2018-05-24,TSLA,"Why Is Elon Musk Attacking the Media? We Explain. (Also, Give Us a Good Rating!)",18.523332595825195
+2018-05-30,TSLA,"Tesla Fixes Model 3 Flaw, Getting Consumer Reports to Change Review",19.447999954223633
+2018-05-31,TSLA,Apple Developers Gather and Trump Meets World Leaders,18.98200035095215
+2018-05-31,TSLA,Elon Musk: More Than an Electric Car Salesman,18.98200035095215
+2018-06-05,TSLA,Tesla Turns Back Rare Challenge From Shareholders,19.408666610717773
+2018-06-05,TSLA,Proposals Challenging Musk’s Control of Tesla Fail: DealBook Briefing,19.408666610717773
+2018-06-06,TSLA,"Mark Zuckerberg, Elon Musk and the Feud Over Killer Robots",21.299999237060547
+2018-06-12,TSLA,"Elon Musk, in Search of Profit, Cuts Tesla’s Work Force",22.851333618164062
+2018-06-13,TSLA,Tesla Is Coming to Its Financial Senses. That Has Its Own Risks.,22.985332489013672
+2018-06-19,TSLA,Elon Musk Accuses Tesla Employee of Sabotage,23.503332138061523
+2018-06-27,TSLA,Inside Tesla’s Audacious Push to Reinvent the Way Cars Are Made,22.96666717529297
+2018-07-02,TSLA,Tesla Achieves a Key Weekly Goal for Producing Its Model 3,22.33799934387207
+2018-07-05,TSLA,Elon Musk Thinks a Mini-Submarine Could Help in Thai Cave Rescue,20.610666275024414
+2018-07-10,TSLA,"Tesla’s Latest Aim: Build 500,000 Cars a Year in China",21.49799919128418
+2018-07-10,TSLA,Elon Musk Defends His Rejected Mini-Sub Plan for Thai Cave,21.49799919128418
+2018-07-12,TSLA,Thai Navy May Put Elon Musk’s Mini-Submarine to Use. One Day.,21.11400032043457
+2018-07-18,TSLA,Elon Musk Walks Back ‘Pedo Guy’ Attack on Thai Cave Diver,21.59000015258789
+2018-07-23,TSLA,"Tesla, Pushing for Profit, Faces New Questions Over Finances",20.213333129882812
+2018-07-26,TSLA,"Apple Reports Earnings, and July’s Job Numbers Come Out",20.44333267211914
+2018-08-01,TSLA,"Tesla Reports Another Big Loss, but Sees Only Profit Ahead",20.055999755859375
+2018-08-07,TSLA,"Alex Jones, Tesla, Primaries: Your Tuesday Evening Briefing",25.30466651916504
+2018-08-07,TSLA,"Elon Musk Says Tesla May Go Private, and Its Stock Soars",25.30466651916504
+2018-08-08,TSLA,A $70 Billion Deal for Tesla? Elon Musk Faces 2 Huge Questions,24.689332962036133
+2018-08-08,TSLA,"Chris Collins, Tesla, Trade War: Your Thursday Briefing",24.689332962036133
+2018-08-08,TSLA,"Germany, California, Tesla: Your Wednesday Briefing",24.689332962036133
+2018-08-08,TSLA,DealBook Briefing: How on Earth Will Tesla Go Private?,24.689332962036133
+2018-08-08,TSLA,Did Elon Musk Violate Securities Laws With Tweet About Taking Tesla Private?,24.689332962036133
+2018-08-08,TSLA,Elon Musk’s Pitch to Take Tesla Private Has Wall Street Salivating,24.689332962036133
+2018-08-08,TSLA,"Ohio Special Election, Tesla, Alex Jones: Your Wednesday Briefing",24.689332962036133
+2018-08-09,TSLA,DealBook Briefing: Where Is Tesla’s Money?,23.496667861938477
+2018-08-09,TSLA,"Elon Musk Is Beating Short-Sellers, for Now",23.496667861938477
+2018-08-13,TSLA,Tesla Board Surprised by Elon Musk’s Tweet on Taking Carmaker Private,23.76066780090332
+2018-08-13,TSLA,Elon Musk’s Tweets on Tesla Started a Tizzy. Someone Should Hit the Brakes.,23.76066780090332
+2018-08-14,TSLA,Elon Musk’s Effort to Take Tesla Private to Get Board Oversight,23.176000595092773
+2018-08-14,TSLA,DealBook Briefing: Elon Musk Has Answers. We Still Have Questions.,23.176000595092773
+2018-08-15,TSLA,A Question for Tesla’s Board: What Was Elon Musk’s Mental State?,22.57933235168457
+2018-08-15,TSLA,Tesla Is Said to Be Subpoenaed by S.E.C. Over Elon Musk Tweet,22.57933235168457
+2018-08-15,TSLA,A Tesla Take-Private Bid Would Be More of the Same for Silver Lake. Sort of.,22.57933235168457
+2018-08-15,TSLA,"Tesla Directors, in Damage Control Mode, Want Elon Musk to Stop Tweeting",22.57933235168457
+2018-08-15,TSLA,DealBook Briefing: Tesla’s Board Tries to Calm Its Chaos,22.57933235168457
+2018-08-15,TSLA,"Elon Musk’s No Good, Very Bad Year: A Tesla Timeline",22.57933235168457
+2018-08-15,TSLA,"Elon Musk’s Highs and Lows: PayPal, SpaceX, Tesla",22.57933235168457
+2018-08-15,TSLA,Investors Betting Against Tesla Made $1 Billion on Friday,22.57933235168457
+2018-08-16,TSLA,Elon Musk Is the Id of Tech,22.363332748413086
+2018-08-16,TSLA,California Today: Yosemite National Park Reopens to Visitors,22.363332748413086
+2018-08-16,TSLA,"Genoa, Turkey, Elon Musk: Your Thursday Briefing",22.363332748413086
+2018-08-16,TSLA,"Security Clearances, Elon Musk, Aretha Franklin: Your Weekend Briefing",22.363332748413086
+2018-08-16,TSLA,Interviewing Elon Musk,22.363332748413086
+2018-08-17,TSLA,5 Takeaways From Elon Musk’s Interview With The Times About Tesla,20.366666793823242
+2018-08-17,TSLA,DealBook Briefing: The Agony of Elon Musk,20.366666793823242
+2018-08-17,TSLA,Elon Musk Details ‘Excruciating’ Personal Toll of Tesla Turmoil,20.366666793823242
+2018-08-17,TSLA,"Trump, Elon Musk, Turkey: Your Friday Evening Briefing",20.366666793823242
+2018-08-17,TSLA,"Elon Musk, Aretha Franklin, ‘Disenchantment’: Your Friday Briefing",20.366666793823242
+2018-08-17,TSLA,"Congress, Look at Tesla",20.366666793823242
+2018-08-17,TSLA,Weekend at Elon’s: A Tesla Subplot With Azealia Banks,20.366666793823242
+2018-08-20,TSLA,DealBook Briefing: Who Isn’t Worried About Elon Musk?,20.562667846679688
+2018-08-20,TSLA,"Trump, Asia Argento, Elon Musk: Your Monday Evening Briefing",20.562667846679688
+2018-08-20,TSLA,"Tesla Slashes Spending, and May Add to Its Troubles",20.562667846679688
+2018-08-21,TSLA,DealBook Briefing: Tesla Supplier? Your Check May Be in the Mail,21.459999084472656
+2018-08-22,TSLA,"Tesla Will Not Go Private, Elon Musk Says, Capping Month of Turmoil",21.44266700744629
+2018-08-22,TSLA,Why Elon Musk Reversed Course on Taking Tesla Private,21.44266700744629
+2018-08-23,TSLA,Elon Musk Wants to Take Tesla Private. Can He Make the Math Work? ,21.34000015258789
+2018-08-23,TSLA,One Tesla Investor Wants It to Stay Public,21.34000015258789
+2018-08-24,TSLA,DealBook Briefing: The Hard Math of a Tesla Take-Private,21.521333694458008
+2018-08-24,TSLA,How the S.E.C. May Pursue a Case Against Elon Musk and Tesla,21.521333694458008
+2018-08-27,TSLA,Elon Musk and Tesla Resolved One Issue. Now for the Rest.,21.284666061401367
+2018-08-28,TSLA,"In Elon Musk’s World, Brakes Are for Cars, Not C.E.O.s",20.790666580200195
+2018-09-06,TSLA,Tesla Needs to Build Investor Trust. The Exit of Its Accountant Won’t Help.,18.729999542236328
+2018-09-07,TSLA,Tesla Shaken by a Departure and What Elon Musk Was Smoking,17.549333572387695
+2018-09-07,TSLA,"Brett Kavanaugh, George Papadopoulos, Elon Musk: Your Friday Evening Briefing",17.549333572387695
+2018-09-07,TSLA,DealBook Briefing: Elon Musk Smoked Weed On Air,17.549333572387695
+2018-09-13,TSLA,Elon Musk’s Chicago Tunnel: A Breakthrough or a Pipe Dream?,19.297332763671875
+2018-09-17,TSLA,Betting Against Tesla: Short-Sellers Make Their Case,19.6560001373291
+2018-09-17,TSLA,Elon Musk Sued by Cave Rescuer He Accused of Being a Pedophile,19.6560001373291
+2018-09-17,TSLA,"Your Monday Evening News Briefing: Brett Kavanaugh, North Carolina, Elon Musk",19.6560001373291
+2018-09-18,TSLA,Justice Department Is Examining Tesla After Musk Comment,18.997333526611328
+2018-09-18,TSLA,"Your Wednesday News Briefing: China, Myanmar, Elon Musk",18.997333526611328
+2018-09-20,TSLA,Tesla’s Biggest Problem Isn’t Elon Musk,19.8886661529541
+2018-09-26,TSLA,Tesla’s Elon Musk Had a Deal From the S.E.C. It Fell Apart in a Morning.,20.6386661529541
+2018-09-26,TSLA,Elon Musk Steps Down as Chairman in Deal With S.E.C. Over Tweet About Tesla,20.6386661529541
+2018-09-27,TSLA,Tesla Chief Elon Musk Is Sued by S.E.C. in Move That Could Oust Him,20.501333236694336
+2018-09-27,TSLA,"Kavanaugh Hearings, U.N., Elon Musk: Your Thursday Evening Briefing",20.501333236694336
+2018-09-27,TSLA,"Indonesia, Brett Kavanaugh, Elon Musk: Your Monday Briefing",20.501333236694336
+2018-09-27,TSLA,"Brett Kavanaugh, Tsunami, Elon Musk: Your Weekend Briefing",20.501333236694336
+2018-09-28,TSLA,"Brett Kavanaugh, Jeff Flake, Tesla: Your Friday Evening Briefing",17.65133285522461
+2018-09-28,TSLA,"Brett Kavanaugh, Elon Musk, ‘Night School’: Your Friday Briefing",17.65133285522461
+2018-09-28,TSLA,"Brett Kavanaugh, Slovakia, Elon Musk: Your Friday Briefing",17.65133285522461
+2018-09-28,TSLA,Tesla Stock Tumbles Over the S.E.C. Suing Elon Musk: What to Watch Today,17.65133285522461
+2018-09-28,TSLA,Elon Musk’s Fans Just Took a Big Hit as Tesla Shares Tank,17.65133285522461
+2018-09-28,TSLA,DealBook Briefing: Elon Musk Turned Down a Fraud Settlement With the S.E.C.,17.65133285522461
+2018-10-01,TSLA,"Elon Musk Settled With the S.E.C., but Tesla’s Troubles Aren’t Over",20.713333129882812
+2018-10-01,TSLA,DealBook Briefing: The S.E.C. Can’t Change Elon Musk,20.713333129882812
+2018-10-01,TSLA,How the S.E.C. Is Trying to Push Traditional Corporate Governance Upon Tesla,20.713333129882812
+2018-10-01,TSLA,The Future of Electric Cars Is Brighter With Elon Musk in It,20.713333129882812
+2018-10-02,TSLA,Unraveling a Tesla Mystery: Lots (and Lots) of Parked Cars,20.06800079345703
+2018-10-02,TSLA,Tesla Reports Progress on Model 3 Car Production,20.06800079345703
+2018-10-02,TSLA,"Elon Musk’s Ultimatum to Tesla: Fight the S.E.C., or I Quit",20.06800079345703
+2018-10-04,TSLA,Elon Musk Calls S.E.C. ‘the Shortseller Enrichment Commission’ on Twitter,18.788667678833008
+2018-10-11,TSLA,Why Tesla Could Do Better Than James Murdoch for Chairman,16.815332412719727
+2018-10-12,TSLA,What Are the Consequences of Elon Musk’s S.E.C. Criticism?,17.25200080871582
+2018-10-15,TSLA,California Today: The Expensive Rent Control Fight on the State Ballot,17.305999755859375
+2018-10-24,TSLA,"Tesla Reports a Rare Quarterly Profit, Its Biggest Ever",19.233333587646484
+2018-10-25,TSLA,Tesla Faces a Challenger in the Home Solar Business,20.99066734313965
+2018-10-29,TSLA,Tesla’s Future Is Not Yet Secured,22.323333740234375
+2018-11-08,TSLA,Tesla Names a Successor to Elon Musk as Board Chief,23.426666259765625
+2018-11-14,TSLA,A Tech Wunderkind Who Knows Jaden Smith and Elon Musk,22.933332443237305
+2018-11-15,TSLA,What Tesla’s ‘Delivery Logistics Hell’ Is Like for Model 3 Buyers,23.229333877563477
+2018-11-30,TSLA,"G.E., Tesla and Snap Are Under Accounting Investigation. Here’s What They Should Worry About.",23.365333557128906
+2018-11-30,TSLA,"Menial Tasks, Slurs and Swastikas: Many Black Workers at Tesla Say They Faced Racism",23.365333557128906
+2018-12-19,TSLA,"It’s Showtime for Elon Musk’s Boring Co., With a Long Way to Go",22.197999954223633
+2018-12-28,TSLA,Tesla Names Larry Ellison and Kathleen Wilson-Thompson to Its Board,22.257999420166016
+2018-12-28,TSLA,Tesla Scrambles to Sell Cars Before a Tax Break Fades,22.257999420166016
+2019-01-02,TSLA,"Tesla Reports Record Output, but Cuts Prices, and Its Shares Plunge",20.674667358398438
+2019-01-18,TSLA,"Tesla to Cut 3,000 Jobs in Bid to Sell Model 3 to Mass Market",20.150667190551758
+2019-01-30,TSLA,"Tesla Profit Declines, but Musk Says Cash Position Is Strong",20.584667205810547
+2019-02-15,TSLA,"Amazon Invests in Rivian, a Tesla Rival in Electric Vehicles",20.525333404541016
+2019-02-20,TSLA,Tesla’s Top Lawyer Is Leaving. His Tenure at the Company: Two Months.,20.17066764831543
+2019-02-26,TSLA,S.E.C. Asks Court to Hold Tesla’s Elon Musk in Contempt for Twitter Post on Production,19.857332229614258
+2019-02-27,TSLA,Could Elon Musk Talk Himself Into a Tesla Buyout?,20.982667922973633
+2019-02-28,TSLA,"Tesla Offers a $35,000 Model 3, as Elon Musk Long Promised",21.325332641601562
+2019-03-01,TSLA,"DealBook Briefing: Tesla’s $35,000 Car Will Cost the Company",19.652666091918945
+2019-03-01,TSLA,Elon Musk Will Have to Contend With Tesla Short Sellers Again,19.652666091918945
+2019-03-06,TSLA,Tesla’s Troubles Mount: Shuttered Showrooms and Sinking Shares,18.416000366210938
+2019-03-06,TSLA,"The Week in Business: Facebook Wants to Be Your ‘Digital Living Room,’ and Tesla to Unveil the Model Y",18.416000366210938
+2019-03-06,TSLA,"Meng Wanzhou, North Korea, Tesla: Your Thursday Briefing",18.416000366210938
+2019-03-08,TSLA,What Will a Contempt Hearing Mean for Tesla’s Elon Musk?,18.94266700744629
+2019-03-11,TSLA,Tesla Says Never Mind: It Raises Prices and Keeps Most Stores,19.39466667175293
+2019-03-12,TSLA,DealBook Briefing: Elon Musk Accuses the S.E.C. of Unconstitutional Censorship,18.890666961669922
+2019-03-15,TSLA,"Tesla Model Y, a New S.U.V., Is Unveiled Amid Mounting Challenges",18.36199951171875
+2019-03-22,TSLA,Tesla Sales Slump as ’19 Starts Is Hinted At in State Data,17.635332107543945
+2019-04-04,TSLA,Tesla Stock Slides After Delivery Figures Signal Weaker U.S. Demand,17.851999282836914
+2019-04-04,TSLA,"Tesla’s Elon Musk and S.E.C. Have 2 Weeks to Resolve Dispute, Judge Says",17.851999282836914
+2019-04-12,TSLA,"Tesla Ends Online Sales of $35,000 Model 3, Creating New Hurdle for Buyers",17.84666633605957
+2019-04-12,TSLA,Buying a Tesla Seems Pretty Easy. But There Are a Few Things to Know.,17.84666633605957
+2019-04-17,TSLA,Tesla to Shrink Board of Directors by Four People,18.082000732421875
+2019-04-18,TSLA,Tesla and Elon Musk Are Given Week to Reach Accord With S.E.C.,18.21733283996582
+2019-04-22,TSLA,Elon Musk Predicts Tesla Driverless Taxi Fleet Next Year,17.516666412353516
+2019-04-22,TSLA,DealBook Briefing: Tesla Wants You to Focus on Its Robo-Taxis (Not Its Finances),17.516666412353516
+2019-04-24,TSLA,The Week in Business: Tesla’s Driverless Taxis and Uber’s I.P.O.,17.243999481201172
+2019-04-24,TSLA,Tesla Posts Big Quarterly Loss as Its Electric-Car Sales Lag,17.243999481201172
+2019-04-24,TSLA,"Ford to Invest $500 Million in Rivian, a Tesla Rival",17.243999481201172
+2019-04-26,TSLA,"Elon Musk and S.E.C. Reach New Accord, Lifting Cloud Over Tesla",15.675999641418457
+2019-04-30,TSLA,Tesla Looks to Regain Its Luster in Solar Energy by Slashing Prices,15.912667274475098
+2019-05-02,TSLA,Tesla Seeks to Raise $2 Billion in Sale of Stock and Debt,16.273332595825195
+2019-05-03,TSLA,DealBook Briefing: Tesla Is Raising Cash. It May Not Be Enough.,17.00200080871582
+2019-05-24,TSLA,"The Highest-Paid C.E.O.s of 2018: A Year So Lucrative, We Had to Redraw Our Chart",12.708666801452637
+2019-06-03,TSLA,Can Tesla Ever Be More Than a Niche Automaker? Wall St. Increasingly Thinks No,11.9313325881958
+2019-06-10,TSLA,"Tesla, Facing Setbacks and Skeptics, Tries to Get Back on Course",14.192000389099121
+2019-07-02,TSLA,Model 3 Helps Tesla Send Quarterly Deliveries to a Record,14.970000267028809
+2019-07-02,TSLA,"Meet the Man Quietly Building the Tesla of Trucks, With Jeff Bezos Aboard",14.970000267028809
+2019-07-17,TSLA,Elon Musk’s Neuralink Wants ‘Sewing Machine-Like’ Robots to Wire Brains to the Internet,16.99066734313965
+2019-07-24,TSLA,Tesla Loses Less Money as Model 3 Sales Surge,17.658666610717773
+2019-08-12,TSLA,The Day Jeffrey Epstein Told Me He Had Dirt on Powerful People,15.267333030700684
+2019-10-02,TSLA,Tesla’s Record Deliveries Aren’t Enough for Investors,16.208667755126953
+2019-10-03,TSLA,A Police Tesla Nearly Ran Out of Power During a Chase. It Wasn’t the Car’s Fault.,15.535332679748535
+2019-10-23,TSLA,"Tesla Reports Profit for Quarter, Sending Shares Soaring",16.978666305541992
+2019-10-30,TSLA,Elon Musk Bids Twitter Farewell — Briefly,21.000667572021484
+2019-11-13,TSLA,Tesla Is Going to Build a Factory Near Berlin,23.073999404907227
+2019-11-20,TSLA,Elon Musk Ordered to Stand Trial in Cave Explorer’s Defamation Case,23.481332778930664
+2019-11-20,TSLA,Tesla’s Winding Road to Berlin,23.481332778930664
+2019-11-21,TSLA,"Your Thursday Briefing: Impeachment, Prince Andrew, Tesla",23.655332565307617
+2019-11-21,TSLA,Tesla’s Electric ‘Cybertruck’ Is Unveiled. It’s Pointy.,23.655332565307617
+2019-11-22,TSLA,Will Anyone Buy Elon Musk’s New Pickup?,22.202667236328125
+2019-11-27,TSLA,"‘I Think This Guy Is, Like, Passed Out in His Tesla’",22.086000442504883
+2019-11-27,TSLA,Tesla’s ‘Cybertruck’,22.086000442504883
+2019-12-03,TSLA,Elon Musk’s Defense: ‘Pedo Guy’ Tweet Was a Generic Insult,22.413333892822266
+2019-12-06,TSLA,Elon Musk Is Cleared in Lawsuit Over His ‘Pedo Guy’ Tweet,22.392667770385742
+2019-12-23,TSLA,Rivian Gets $1.3 Billion Investment in Electric Truck Venture,27.947999954223633
+2019-12-24,TSLA,"Tesla Stock Reaches Elon Musk’s Magic $420, and Then Some",28.350000381469727
+2019-12-30,TSLA,Does Germany’s Vaunted Car Industry Have Long to Live?,27.64666748046875
+2020-01-03,TSLA,Tesla Reports Record Output as Elon Musk Achieves Goal,29.534000396728516
+2020-01-22,TSLA,Tesla Value Hits $100 Billion. Will Elon Musk Get a Big Bonus?,37.97066879272461
+2020-01-23,TSLA,She’s Taking on Elon Musk on Solar. And Winning.,38.14666748046875
+2020-01-29,TSLA,"Tesla Posts $105 Million Profit for Quarter, Extending Rebound",38.732666015625
+2020-01-29,TSLA,"As Tesla Earnings Arrive, Bulls and Bears Continue to Spar",38.732666015625
+2020-01-30,TSLA,Elon Musk Hits Back at Critics,42.72066879272461
+2020-02-03,TSLA,Tesla Stock Soars by More Than $100,52.0
+2020-02-04,TSLA,Tesla’s Stock Is Up 36% in Two Days. What’s Going On?,59.137332916259766
+2020-02-13,TSLA,Tesla Faces a New S.E.C. Investigation,53.599998474121094
+2020-02-25,TSLA,Tesla Autopilot System Found Probably at Fault in 2018 Crash,53.32733154296875
+2020-03-04,TSLA,Tesla’s Success in Europe Catches Industry Off Guard,49.96666717529297
+2020-03-19,TSLA,"After Mounting Criticism, Tesla Will Shut Down California Factory",28.50933265686035
+2020-04-30,TSLA,Elon Musk and Mark Zuckerberg Aren’t on the Same Page,52.12533187866211
+2020-05-01,TSLA,Elon Musk Says Tesla Share Price Is Too High,46.75466537475586
+2020-05-06,TSLA,Elon Musk Lashes Out at Officials Keeping Tesla Plant Closed Over Virus,52.172000885009766
+2020-05-08,TSLA,Tesla Tells Workers It Will Reopen California Factory Despite County Order,54.62799835205078
+2020-05-11,TSLA,Tesla to Restart Bay Area Factory in Defiance of Local Order,54.08599853515625
+2020-05-11,TSLA,Elon Musk Is ‘Not Messing Around’,54.08599853515625
+2020-05-13,TSLA,Elon Musk Unleashed Again,52.73066711425781
+2020-05-13,TSLA,Coronavirus Wrecked Tesla’s Momentum and Elon Musk Is Furious,52.73066711425781
+2020-05-18,TSLA,Elon Musk’s Latest Gambit,54.242000579833984
+2020-05-19,TSLA,Tesla Owners Try to Make Sense of Elon Musk’s ‘Red Pill’ Moment,53.867332458496094
+2020-05-27,TSLA,Elon Musk’s SpaceX Suit Is Like a Tuxedo for the Starship Enterprise,54.68199920654297
+2020-07-02,TSLA,Tesla Shines During the Pandemic as Other Automakers Struggle,80.57733154296875
+2020-07-14,TSLA,German Court Says Tesla Self-Driving Claims Are Misleading,101.12000274658203
+2020-07-22,TSLA,"In Electric Car Market, It’s Tesla and a Jumbled Field of Also-Rans",106.15533447265625
+2020-07-22,TSLA,"Elon Musk, Blasting Off in Domestic Bliss",106.15533447265625
+2020-07-23,TSLA,Tesla Turns a Profit in a Pandemic-Squeezed Quarter,100.87133026123047
+2020-07-23,TSLA,Tesla turned a surprise profit despite a plant shutdown and lower sales.,100.87133026123047
+2020-07-23,TSLA,Elon Musk Delivers a Big Surprise,100.87133026123047
+2020-07-27,TSLA,Elon Musk courts more controversy.,102.63999938964844
+2020-09-02,TSLA,"Who Needs a $100,000 Car Right Now? Mercedes Thinks You Do",149.1233367919922
+2020-09-23,TSLA,"Elon Musk Promises to Make a $25,000 Tesla (in 3 Years)",126.78666687011719
+2020-09-28,TSLA,Elon Musk: ‘A.I. Doesn’t Need to Hate Us to Destroy Us’,140.39999389648438
+2020-10-02,TSLA,"Led by Tesla, Auto Industry Rebounds as Car Sales Surge",138.3633270263672
+2020-12-08,TSLA,"Elon Musk says he has moved to Texas, from California.",216.6266632080078
+2020-12-18,TSLA,"Tesla, Profitable at Last, Bulls Its Way Into the S&P 500",231.6666717529297
+2020-12-28,TSLA,German Automakers Are Charged Up and Ready to Take on Tesla,221.22999572753906

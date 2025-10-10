@@ -1,0 +1,21 @@
+{
+  "BA": {
+    "metrics": {
+      "total_return": 0.3405747168877235,
+      "sharpe_ratio": 0.20913527354926467,
+      "max_drawdown": -0.5126071694094061,
+      "win_rate": 0.5277777777777778,
+      "n_trades": 36,
+      "volatility": 0.16078731252773823,
+      "quantstats_chart": "optimized_quantstats_BA.png",
+      "trading_chart": "optimized_trading_chart_BA.png"
+    }
+  },
+  "timing_stats": {
+    "batch_processing": {
+      "total_time": 157.9761097431183,
+      "items_processed": 5323,
+      "avg_time_per_item": 0.02967802174396361
+    }
+  }
+}
