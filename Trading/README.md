@@ -1,4 +1,4 @@
-# Financial Sentiment Analysis Results
+# Mech Interp Based Trading
 
 ## Overview
 
