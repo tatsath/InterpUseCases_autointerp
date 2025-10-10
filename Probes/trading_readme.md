@@ -21,6 +21,16 @@
 - **Confidence Threshold**: 0.3
 - **Models**: ProbeTrain + SAE (synthetic fallback)
 - **Signal Logic**: Buy when both models agree on positive sentiment, Sell when both models agree on negative sentiment, No trade when models disagree
+- **Backtesting Platform**: **VectorBT** for portfolio simulation and signal processing
+- **Performance Analytics**: **QuantStats** for comprehensive financial metrics and risk analysis
+
+## Performance Charts
+
+![Boeing QuantStats Analysis](optimized_quantstats_BA.png)
+*Boeing QuantStats Performance Analysis - Returns, Cumulative Returns, and Drawdown*
+
+![Boeing Trading Chart](optimized_trading_chart_BA.png)
+*Boeing Price Chart with Buy/Sell Signals*
 
 ## Trading Log
 

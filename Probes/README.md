@@ -1,18 +1,18 @@
 # Financial Sentiment Analysis Results
 
-## Project Overview
+## Overview
 
 This project implements a comprehensive financial sentiment analysis system using advanced machine learning techniques on Llama-2-7b-hf language model. The system successfully demonstrates the practical application of interpretable AI for financial trading strategies.
 
-### Implementation Steps:
+### Steps:
 
-**1. ProbeTrain Model Training**: Successfully trained a linear probe on layer 16 of Llama-2-7b-hf using a 3-class financial sentiment dataset with the following labeling strategy: if stock price increases by more than 2% the next day, label as "Up" (2); if price decreases by more than 2%, label as "Down" (0); otherwise label as "Neutral" (1). The model achieved **59.5% accuracy** with 24% selectivity over random baseline.
+**1. ProbeTrain Model Training**: Trained a linear probe on layer 16 of Llama-2-7b-hf using a 3-class financial sentiment dataset with the following labeling strategy: if stock price increases by more than 2% the next day, label as "Up" (2); if price decreases by more than 2%, label as "Down" (0); otherwise label as "Neutral" (1). The model achieved **59.5% accuracy** with 24% selectivity over random baseline.
 
-**2. SAE-Based Classification**: Developed a logistic regression classifier using top 40 Sparse Autoencoder (SAE) features from the same financial dataset, achieving **36.5% test accuracy** with high interpretability through feature-level analysis of the 400 SAE features.
+**2. SAE-Based Classification**: A logistic regression classifier using top 40 Sparse Autoencoder (SAE) features from the same financial dataset, achieving **36.5% test accuracy** with high interpretability through feature-level analysis of the 400 SAE features.
 
-**3. Tesla Trading Strategy (5-Year Backtest)**: Implemented a dual-model trading strategy where buy/sell decisions are made only when both ProbeTrain and SAE models agree on the price direction. If both models predict price going up, a buy signal is generated; if both predict price going down, a sell signal is generated. This strategy achieved **356.93% total return** with **1.765 Sharpe ratio** over 5 years (2015-2020), executing **10 trades** with 50% win rate.
+**3. Tesla Trading Strategy (5-Year Backtest)**: Implemented a dual-model trading strategy where buy/sell decisions are made only when both ProbeTrain and SAE models agree on the price direction. If both models predict price going up, a buy signal is generated; if both predict price going down, a sell signal is generated. This strategy achieved **356.93% total return** with **1.765 Sharpe ratio** over 5 years (2015-2020), executing **10 trades** with 50% win rate. Backtesting was performed using **VectorBT** for portfolio simulation and **QuantStats** for comprehensive performance analytics.
 
-**4. Boeing Trading Strategy (5-Year Backtest)**: Applied the same dual-model agreement-based approach to Boeing stock, achieving **34.06% total return** with **0.209 Sharpe ratio** over 5 years. The strategy executed **36 trades** with 52.78% win rate, showing more conservative performance compared to Tesla.
+**4. Boeing Trading Strategy (5-Year Backtest)**: Applied the same dual-model agreement-based approach to Boeing stock, achieving **34.06% total return** with **0.209 Sharpe ratio** over 5 years. The strategy executed **36 trades** with 52.78% win rate, showing more conservative performance compared to Tesla. All performance metrics were calculated using **VectorBT** and **QuantStats** for robust financial analysis.
 
 ### Technical Implementation:
 - **Models**: ProbeTrain (59.5% accuracy) + SAE Logistic Regression (36.5% accuracy)
@@ -237,6 +237,12 @@ This project implements a comprehensive financial sentiment analysis system usin
 - **Agreement Rate**: 17.1% (56 out of 327 news items generated signals)
 - **Data Coverage**: 327 trading days with news headlines
 
+![Tesla QuantStats Analysis](optimized_quantstats_TSLA.png)
+*Tesla QuantStats Performance Analysis - Returns, Cumulative Returns, and Drawdown*
+
+![Tesla Trading Chart](optimized_trading_chart_TSLA.png)
+*Tesla Price Chart with Buy/Sell Signals*
+
 #### Boeing (BA) - 5-Year Performance  
 - **Total Return**: 34.06%
 - **Sharpe Ratio**: 0.209
@@ -245,6 +251,12 @@ This project implements a comprehensive financial sentiment analysis system usin
 - **Total Trades**: 36
 - **Agreement Rate**: 26.4% (1,406 out of 5,323 news items generated signals)
 - **Data Coverage**: 5,323 trading days with news headlines
+
+![Boeing QuantStats Analysis](optimized_quantstats_BA.png)
+*Boeing QuantStats Performance Analysis - Returns, Cumulative Returns, and Drawdown*
+
+![Boeing Trading Chart](optimized_trading_chart_BA.png)
+*Boeing Price Chart with Buy/Sell Signals*
 
 #### Overall Performance
 - **Average Return**: 195.50%
@@ -260,6 +272,8 @@ This project implements a comprehensive financial sentiment analysis system usin
 - **Actual Model Predictions**: Used real ProbeTrain predictions with synthetic SAE fallback
 
 ### Technical Implementation
+- **Backtesting Platform**: **VectorBT** for high-performance portfolio simulation and signal processing
+- **Performance Analytics**: **QuantStats** for comprehensive financial metrics and risk analysis
 - **GPU Safety**: Implemented ThreadPoolExecutor to prevent CUDA deadlocks
 - **Memory Management**: Added proper GPU memory cleanup and synchronization
 - **Batch Processing**: Optimized for processing thousands of news headlines efficiently

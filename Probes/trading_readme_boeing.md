@@ -28,6 +28,8 @@ python "6.3. financial_sentiment_backtest_OPTIMIZED.py" --data_file "financial_d
 - **Confidence Threshold**: 0.3
 - **Models**: ProbeTrain + SAE (synthetic fallback)
 - **Signal Logic**: Buy when both models agree on positive sentiment, Sell when both models agree on negative sentiment, No trade when models disagree
+- **Backtesting Platform**: **VectorBT** for portfolio simulation and signal processing
+- **Performance Analytics**: **QuantStats** for comprehensive financial metrics and risk analysis
 
 ## Key Metrics
 - **Agreement Rate**: 26.4% (1,406 out of 5,323 news items generated trading signals)
@@ -41,6 +43,14 @@ python "6.3. financial_sentiment_backtest_OPTIMIZED.py" --data_file "financial_d
 - **High Volatility**: 16.08% volatility
 - **Significant Drawdown**: -51.26% maximum drawdown
 - **Decent Win Rate**: 52.78% of trades were profitable
+
+## Performance Charts
+
+![Boeing QuantStats Analysis](optimized_quantstats_BA.png)
+*Boeing QuantStats Performance Analysis - Returns, Cumulative Returns, and Drawdown*
+
+![Boeing Trading Chart](optimized_trading_chart_BA.png)
+*Boeing Price Chart with Buy/Sell Signals*
 
 ## Comparison with Tesla
 | Metric | **Boeing (BA)** | **Tesla (TSLA)** | **Difference** |
