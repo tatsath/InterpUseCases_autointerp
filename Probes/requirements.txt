@@ -1,6 +1,0 @@
-torch
-transformers
-numpy
-scikit-learn
-joblib
-safetensors
