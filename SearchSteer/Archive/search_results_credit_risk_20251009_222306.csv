@@ -1,0 +1,4 @@
+feature_id,feature_name,similarity,layer,f1_score,search_keyword,timestamp
+279,Feature 279 (Layer 16),0.09544242,16,0.0,credit risk,2025-10-09 22:23:06
+197,Feature 197 (Layer 16),0.08140136,16,0.0,credit risk,2025-10-09 22:23:06
+265,Feature 265 (Layer 16),0.080395564,16,0.0,credit risk,2025-10-09 22:23:06

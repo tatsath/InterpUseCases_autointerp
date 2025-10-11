@@ -1,0 +1,23 @@
+{
+  "329": [
+    {
+      "operator": "less_than",
+      "threshold": 0.1,
+      "message": "If less than 0.1%",
+      "use_percentage": true,
+      "prompt_modification": "Check medical accuracy'"
+    }
+  ],
+  "31": [],
+  "191": [],
+  "236": [],
+  "308": [
+    {
+      "operator": "less_than",
+      "threshold": 0.1,
+      "message": "If less than 0.1%",
+      "use_percentage": true,
+      "prompt_modification": "Check medical details"
+    }
+  ]
+}
